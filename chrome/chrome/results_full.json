@@ -26,7 +26,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "10 secs"
+                        "duration": "12 secs"
                     },
                     "spec1": {
                         "id": "spec1",
@@ -43,7 +43,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.29 sec"
+                        "duration": "0.411 sec"
                     },
                     "spec2": {
                         "id": "spec2",
@@ -60,7 +60,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.245 sec"
+                        "duration": "0.334 sec"
                     },
                     "spec3": {
                         "id": "spec3",
@@ -77,7 +77,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "7 secs"
+                        "duration": "8 secs"
                     },
                     "spec4": {
                         "id": "spec4",
@@ -94,7 +94,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.245 sec"
+                        "duration": "0.339 sec"
                     },
                     "suite3": {
                         "id": "suite3",
@@ -117,7 +117,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.246 sec"
+                                "duration": "0.296 sec"
                             },
                             "spec6": {
                                 "id": "spec6",
@@ -134,7 +134,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.236 sec"
+                                "duration": "0.251 sec"
                             },
                             "spec7": {
                                 "id": "spec7",
@@ -157,7 +157,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.452 sec"
+                                "duration": "0.422 sec"
                             },
                             "spec8": {
                                 "id": "spec8",
@@ -180,24 +180,27 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.418 sec"
+                                "duration": "0.506 sec"
                             },
                             "spec9": {
                                 "id": "spec9",
                                 "description": "should see the American food card displayed at first into the choosing panel",
                                 "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the American food card displayed at first into the choosing panel",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected '' to be 'American'.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:45:47)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": "American",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "2 secs"
+                                "status": "failed",
+                                "duration": "2 secs",
+                                "type": "failed"
                             },
                             "spec10": {
                                 "id": "spec10",
@@ -214,7 +217,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.496 sec"
+                                "duration": "2 secs"
                             },
                             "spec11": {
                                 "id": "spec11",
@@ -237,7 +240,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.32 sec"
+                                "duration": "0.645 sec"
                             },
                             "spec12": {
                                 "id": "spec12",
@@ -260,7 +263,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.367 sec"
+                                "duration": "0.348 sec"
                             },
                             "spec13": {
                                 "id": "spec13",
@@ -277,7 +280,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.216 sec"
+                                "duration": "0.237 sec"
                             },
                             "spec14": {
                                 "id": "spec14",
@@ -294,7 +297,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.573 sec"
+                                "duration": "0.741 sec"
                             },
                             "spec15": {
                                 "id": "spec15",
@@ -311,7 +314,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.237 sec"
+                                "duration": "0.298 sec"
                             },
                             "spec16": {
                                 "id": "spec16",
@@ -328,7 +331,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.363 sec"
+                                "duration": "0.853 sec"
                             },
                             "spec17": {
                                 "id": "spec17",
@@ -345,7 +348,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.19 sec"
+                                "duration": "0.253 sec"
                             },
                             "spec18": {
                                 "id": "spec18",
@@ -362,7 +365,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.357 sec"
+                                "duration": "0.536 sec"
                             },
                             "spec19": {
                                 "id": "spec19",
@@ -379,7 +382,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.224 sec"
+                                "duration": "0.227 sec"
                             },
                             "spec20": {
                                 "id": "spec20",
@@ -396,7 +399,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.519 sec"
+                                "duration": "0.479 sec"
                             },
                             "spec21": {
                                 "id": "spec21",
@@ -413,7 +416,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.415 sec"
+                                "duration": "0.194 sec"
                             },
                             "spec22": {
                                 "id": "spec22",
@@ -430,7 +433,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.418 sec"
+                                "duration": "0.503 sec"
                             },
                             "spec23": {
                                 "id": "spec23",
@@ -447,7 +450,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.169 sec"
+                                "duration": "0.208 sec"
                             },
                             "spec24": {
                                 "id": "spec24",
@@ -464,7 +467,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.292 sec"
+                                "duration": "0.605 sec"
                             },
                             "spec25": {
                                 "id": "spec25",
@@ -481,7 +484,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.173 sec"
+                                "duration": "0.26 sec"
                             },
                             "spec26": {
                                 "id": "spec26",
@@ -498,7 +501,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.276 sec"
+                                "duration": "0.583 sec"
                             },
                             "spec27": {
                                 "id": "spec27",
@@ -515,7 +518,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.286 sec"
+                                "duration": "0.31 sec"
                             },
                             "spec28": {
                                 "id": "spec28",
@@ -532,7 +535,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.412 sec"
+                                "duration": "0.689 sec"
                             },
                             "spec29": {
                                 "id": "spec29",
@@ -549,7 +552,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.229 sec"
+                                "duration": "0.421 sec"
                             },
                             "spec30": {
                                 "id": "spec30",
@@ -566,7 +569,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.348 sec"
+                                "duration": "0.638 sec"
                             },
                             "spec31": {
                                 "id": "spec31",
@@ -583,7 +586,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.225 sec"
+                                "duration": "0.339 sec"
                             },
                             "spec32": {
                                 "id": "spec32",
@@ -600,7 +603,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.384 sec"
+                                "duration": "0.714 sec"
                             },
                             "spec33": {
                                 "id": "spec33",
@@ -617,7 +620,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.189 sec"
+                                "duration": "0.306 sec"
                             },
                             "spec34": {
                                 "id": "spec34",
@@ -651,7 +654,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.226 sec"
+                                "duration": "0.29 sec"
                             },
                             "spec36": {
                                 "id": "spec36",
@@ -668,7 +671,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.217 sec"
+                                "duration": "0.328 sec"
                             },
                             "spec37": {
                                 "id": "spec37",
@@ -685,7 +688,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.157 sec"
+                                "duration": "0.263 sec"
                             },
                             "spec38": {
                                 "id": "spec38",
@@ -702,7 +705,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.202 sec"
+                                "duration": "0.386 sec"
                             },
                             "spec39": {
                                 "id": "spec39",
@@ -719,7 +722,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec40": {
                                 "id": "spec40",
@@ -736,7 +739,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.191 sec"
+                                "duration": "0.199 sec"
                             },
                             "spec41": {
                                 "id": "spec41",
@@ -787,7 +790,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "2 secs"
                             },
                             "spec44": {
                                 "id": "spec44",
@@ -804,7 +807,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.225 sec"
+                                "duration": "0.193 sec"
                             },
                             "spec45": {
                                 "id": "spec45",
@@ -821,7 +824,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.203 sec"
+                                "duration": "0.159 sec"
                             },
                             "spec46": {
                                 "id": "spec46",
@@ -838,7 +841,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "7 secs"
+                                "duration": "5 secs"
                             },
                             "spec47": {
                                 "id": "spec47",
@@ -855,7 +858,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.212 sec"
+                                "duration": "0.227 sec"
                             },
                             "spec48": {
                                 "id": "spec48",
@@ -906,7 +909,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec51": {
                                 "id": "spec51",
@@ -957,7 +960,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec54": {
                                 "id": "spec54",
@@ -974,7 +977,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec55": {
                                 "id": "spec55",
@@ -991,7 +994,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec56": {
                                 "id": "spec56",
@@ -1008,7 +1011,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.16 sec"
+                                "duration": "0.157 sec"
                             },
                             "spec57": {
                                 "id": "spec57",
@@ -1025,7 +1028,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "7 secs"
+                                "duration": "5 secs"
                             },
                             "spec58": {
                                 "id": "spec58",
@@ -1042,7 +1045,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.098 sec"
+                                "duration": "0.131 sec"
                             },
                             "spec59": {
                                 "id": "spec59",
@@ -1059,7 +1062,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec60": {
                                 "id": "spec60",
@@ -1076,7 +1079,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec61": {
                                 "id": "spec61",
@@ -1093,7 +1096,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec62": {
                                 "id": "spec62",
@@ -1110,7 +1113,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec63": {
                                 "id": "spec63",
@@ -1127,7 +1130,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec64": {
                                 "id": "spec64",
@@ -1144,7 +1147,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec65": {
                                 "id": "spec65",
@@ -1161,7 +1164,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec66": {
                                 "id": "spec66",
@@ -1178,7 +1181,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec67": {
                                 "id": "spec67",
@@ -1195,7 +1198,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.122 sec"
+                                "duration": "0.165 sec"
                             },
                             "spec68": {
                                 "id": "spec68",
@@ -1212,7 +1215,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "7 secs"
+                                "duration": "5 secs"
                             },
                             "spec69": {
                                 "id": "spec69",
@@ -1229,7 +1232,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.115 sec"
+                                "duration": "0.13 sec"
                             },
                             "spec70": {
                                 "id": "spec70",
@@ -1270,7 +1273,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "2 secs"
                             },
                             "spec71": {
                                 "id": "spec71",
@@ -1311,7 +1314,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "2 secs"
                             },
                             "spec72": {
                                 "id": "spec72",
@@ -1328,7 +1331,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.106 sec"
+                                "duration": "0.18 sec"
                             },
                             "spec73": {
                                 "id": "spec73",
@@ -1345,7 +1348,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "3 secs"
                             },
                             "spec74": {
                                 "id": "spec74",
@@ -1362,7 +1365,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.103 sec"
+                                "duration": "0.124 sec"
                             },
                             "spec75": {
                                 "id": "spec75",
@@ -1396,7 +1399,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.238 sec"
+                                "duration": "1 sec"
                             },
                             "spec77": {
                                 "id": "spec77",
@@ -1413,7 +1416,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.249 sec"
+                                "duration": "0.264 sec"
                             },
                             "spec78": {
                                 "id": "spec78",
@@ -1430,11 +1433,12 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "3 secs"
                             }
                         },
                         "status": "finished",
-                        "duration": "160.854 sec"
+                        "type": "failed",
+                        "duration": "146.058 sec"
                     },
                     "suite4": {
                         "id": "suite4",
@@ -1474,7 +1478,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.166 sec"
+                                "duration": "0.146 sec"
                             },
                             "spec81": {
                                 "id": "spec81",
@@ -1491,7 +1495,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.064 sec"
+                                "duration": "0.104 sec"
                             },
                             "spec82": {
                                 "id": "spec82",
@@ -1508,7 +1512,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.059 sec"
+                                "duration": "0.112 sec"
                             },
                             "spec83": {
                                 "id": "spec83",
@@ -1542,18 +1546,20 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "1 sec"
                             }
                         },
                         "status": "finished",
-                        "duration": "6.427 sec"
+                        "duration": "4.500 sec"
                     }
                 },
                 "status": "finished",
-                "duration": "185.061 sec"
+                "type": "failed",
+                "duration": "171.642 sec"
             }
         },
         "status": "finished",
-        "duration": "185.061 sec"
+        "type": "failed",
+        "duration": "171.642 sec"
     }
 }
