@@ -1,0 +1,650 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food sanity tests",
+        "fullName": "Food sanity tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "Customizing a new food plan",
+                "fullName": "Food sanity tests Customizing a new food plan",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open the intro page after clicking the My Food button on Food main panel",
+                        "fullName": "Food sanity tests Customizing a new food plan should open the intro page after clicking the My Food button on Food main panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "8 secs"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should display the main panel into the intro screen",
+                        "fullName": "Food sanity tests Customizing a new food plan should display the main panel into the intro screen",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.096 sec"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should display Maria coach image into the intro screen",
+                        "fullName": "Food sanity tests Customizing a new food plan should display Maria coach image into the intro screen",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.104 sec"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should open the home page after clicking the next button from the intro panel",
+                        "fullName": "Food sanity tests Customizing a new food plan should open the home page after clicking the next button from the intro panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "6 secs"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should display the Back button into the home page header",
+                        "fullName": "Food sanity tests Customizing a new food plan should display the Back button into the home page header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.093 sec"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "Choosing between food cards",
+                        "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec5": {
+                                "id": "spec5",
+                                "description": "should see Me starting the dialog into the home page",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see Me starting the dialog into the home page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.101 sec"
+                            },
+                            "spec6": {
+                                "id": "spec6",
+                                "description": "should see coach Maria joining the dialog into the home page",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see coach Maria joining the dialog into the home page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.101 sec"
+                            },
+                            "spec7": {
+                                "id": "spec7",
+                                "description": "should see a disabled Edit button by default at the top of the food choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see a disabled Edit button by default at the top of the food choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.184 sec"
+                            },
+                            "spec8": {
+                                "id": "spec8",
+                                "description": "should see a disabled Done button by default at the bottom of the food choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see a disabled Done button by default at the bottom of the food choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.183 sec"
+                            },
+                            "spec9": {
+                                "id": "spec9",
+                                "description": "should see the American food card displayed at first into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the American food card displayed at first into the choosing panel",
+                                "failedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Expected '' to be 'American'.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:44:47)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": "American",
+                                        "actual": ""
+                                    }
+                                ],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "failed",
+                                "duration": "0.108 sec",
+                                "type": "failed"
+                            },
+                            "spec10": {
+                                "id": "spec10",
+                                "description": "should click the Love button for the American card and see the counter gatting value 1",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Love button for the American card and see the counter gatting value 1",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec"
+                            },
+                            "spec11": {
+                                "id": "spec11",
+                                "description": "should see the Edit button being enabled after passing by the first food card",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Edit button being enabled after passing by the first food card",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.145 sec"
+                            },
+                            "spec12": {
+                                "id": "spec12",
+                                "description": "should see the Done button being enabled after passing by the first food card",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Done button being enabled after passing by the first food card",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.122 sec"
+                            },
+                            "spec13": {
+                                "id": "spec13",
+                                "description": "should see the Asian food second card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Asian food second card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.089 sec"
+                            },
+                            "spec14": {
+                                "id": "spec14",
+                                "description": "should click the Like button for the Asian card and see the counter gatting value 1",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Like button for the Asian card and see the counter gatting value 1",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.281 sec"
+                            },
+                            "spec15": {
+                                "id": "spec15",
+                                "description": "should see the Cajun-Creole food third card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Cajun-Creole food third card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.121 sec"
+                            },
+                            "spec16": {
+                                "id": "spec16",
+                                "description": "should click the Dislike button for the Cajun-Creole card and see the counter gatting value 1",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Dislike button for the Cajun-Creole card and see the counter gatting value 1",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.31 sec"
+                            },
+                            "spec17": {
+                                "id": "spec17",
+                                "description": "should see the French food forth card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the French food forth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.118 sec"
+                            },
+                            "spec18": {
+                                "id": "spec18",
+                                "description": "should click the Love button for the French card and see the counter gatting value 2",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Love button for the French card and see the counter gatting value 2",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.273 sec"
+                            },
+                            "spec19": {
+                                "id": "spec19",
+                                "description": "should see the Indian food fifth card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Indian food fifth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.179 sec"
+                            },
+                            "spec20": {
+                                "id": "spec20",
+                                "description": "should click the Like button for the Indian card and see the counter gatting value 2",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Like button for the Indian card and see the counter gatting value 2",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.27 sec"
+                            },
+                            "spec21": {
+                                "id": "spec21",
+                                "description": "should see the Italian food sixth card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Italian food sixth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.188 sec"
+                            },
+                            "spec22": {
+                                "id": "spec22",
+                                "description": "should click the Dislike button for the Italian card and see the counter gatting value 2",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Dislike button for the Italian card and see the counter gatting value 2",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.275 sec"
+                            },
+                            "spec23": {
+                                "id": "spec23",
+                                "description": "should see the Mediterranean food seventh card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Mediterranean food seventh card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.173 sec"
+                            },
+                            "spec24": {
+                                "id": "spec24",
+                                "description": "should click the Love button for the Mediterranean card and see the counter gatting value 3",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Love button for the Mediterranean card and see the counter gatting value 3",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.288 sec"
+                            },
+                            "spec25": {
+                                "id": "spec25",
+                                "description": "should see the Mexican food eight card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Mexican food eight card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.16 sec"
+                            },
+                            "spec26": {
+                                "id": "spec26",
+                                "description": "should click the Like button for the Mexican card and see the counter gatting value 3",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Like button for the Mexican card and see the counter gatting value 3",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.298 sec"
+                            },
+                            "spec27": {
+                                "id": "spec27",
+                                "description": "should see the Southern/Soul food nineth card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Southern/Soul food nineth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.177 sec"
+                            },
+                            "spec28": {
+                                "id": "spec28",
+                                "description": "should click the Dislike button for the Southern/Soul card and see the counter gatting value 3",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Dislike button for the Southern/Soul card and see the counter gatting value 3",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.287 sec"
+                            },
+                            "spec29": {
+                                "id": "spec29",
+                                "description": "should see the European food tenth card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the European food tenth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.167 sec"
+                            },
+                            "spec30": {
+                                "id": "spec30",
+                                "description": "should click the Love button for the European card and see the counter gatting value 4",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Love button for the European card and see the counter gatting value 4",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.269 sec"
+                            },
+                            "spec31": {
+                                "id": "spec31",
+                                "description": "should see the Spanish/Latin food eleventh card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Spanish/Latin food eleventh card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.147 sec"
+                            },
+                            "spec32": {
+                                "id": "spec32",
+                                "description": "should click the Like button for the Spanish/Latin card and see the counter gatting value 4",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Like button for the Spanish/Latin card and see the counter gatting value 4",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.26 sec"
+                            },
+                            "spec33": {
+                                "id": "spec33",
+                                "description": "should see the Southwestern food twelveth card displayed into the choosing panel",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should see the Southwestern food twelveth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.135 sec"
+                            },
+                            "spec34": {
+                                "id": "spec34",
+                                "description": "should click the Dislike button for the Southwestern card",
+                                "fullName": "Food sanity tests Customizing a new food plan Choosing between food cards should click the Dislike button for the Southwestern card",
+                                "failedExpectations": [],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.144 sec"
+                            }
+                        },
+                        "status": "finished",
+                        "type": "failed",
+                        "duration": "6.553 sec"
+                    }
+                },
+                "status": "finished",
+                "type": "failed",
+                "duration": "20.846 sec"
+            }
+        },
+        "status": "finished",
+        "type": "failed",
+        "duration": "20.846 sec"
+    }
+}
