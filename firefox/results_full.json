@@ -26,7 +26,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "11 secs"
+                        "duration": "7 secs"
                     },
                     "spec1": {
                         "id": "spec1",
@@ -43,7 +43,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.1 sec"
+                        "duration": "0.105 sec"
                     },
                     "spec2": {
                         "id": "spec2",
@@ -60,7 +60,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.09 sec"
+                        "duration": "0.144 sec"
                     },
                     "spec3": {
                         "id": "spec3",
@@ -77,7 +77,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "5 secs"
+                        "duration": "6 secs"
                     },
                     "spec4": {
                         "id": "spec4",
@@ -94,7 +94,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.157 sec"
+                        "duration": "0.097 sec"
                     },
                     "suite3": {
                         "id": "suite3",
@@ -117,7 +117,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.159 sec"
+                                "duration": "0.102 sec"
                             },
                             "spec6": {
                                 "id": "spec6",
@@ -134,7 +134,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.17 sec"
+                                "duration": "0.097 sec"
                             },
                             "spec7": {
                                 "id": "spec7",
@@ -157,7 +157,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.29 sec"
+                                "duration": "0.143 sec"
                             },
                             "spec8": {
                                 "id": "spec8",
@@ -180,7 +180,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.18 sec"
+                                "duration": "0.158 sec"
                             },
                             "spec9": {
                                 "id": "spec9",
@@ -237,7 +237,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.156 sec"
+                                "duration": "0.366 sec"
                             },
                             "spec12": {
                                 "id": "spec12",
@@ -260,7 +260,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.274 sec"
+                                "duration": "0.332 sec"
                             },
                             "spec13": {
                                 "id": "spec13",
@@ -277,7 +277,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.125 sec"
+                                "duration": "0.255 sec"
                             },
                             "spec14": {
                                 "id": "spec14",
@@ -294,7 +294,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.938 sec"
+                                "duration": "1 sec"
                             },
                             "spec15": {
                                 "id": "spec15",
@@ -311,7 +311,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.247 sec"
+                                "duration": "0.49 sec"
                             },
                             "spec16": {
                                 "id": "spec16",
@@ -345,7 +345,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.488 sec"
+                                "duration": "0.353 sec"
                             },
                             "spec18": {
                                 "id": "spec18",
@@ -379,7 +379,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.186 sec"
+                                "duration": "0.458 sec"
                             },
                             "spec20": {
                                 "id": "spec20",
@@ -396,7 +396,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.887 sec"
+                                "duration": "1 sec"
                             },
                             "spec21": {
                                 "id": "spec21",
@@ -413,7 +413,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.25 sec"
+                                "duration": "0.5 sec"
                             },
                             "spec22": {
                                 "id": "spec22",
@@ -430,7 +430,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.889 sec"
+                                "duration": "1 sec"
                             },
                             "spec23": {
                                 "id": "spec23",
@@ -447,7 +447,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.148 sec"
+                                "duration": "0.151 sec"
                             },
                             "spec24": {
                                 "id": "spec24",
@@ -464,7 +464,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.581 sec"
+                                "duration": "1 sec"
                             },
                             "spec25": {
                                 "id": "spec25",
@@ -481,7 +481,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.166 sec"
+                                "duration": "0.181 sec"
                             },
                             "spec26": {
                                 "id": "spec26",
@@ -498,7 +498,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.786 sec"
+                                "duration": "0.682 sec"
                             },
                             "spec27": {
                                 "id": "spec27",
@@ -515,7 +515,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.154 sec"
+                                "duration": "0.153 sec"
                             },
                             "spec28": {
                                 "id": "spec28",
@@ -532,7 +532,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.617 sec"
+                                "duration": "0.499 sec"
                             },
                             "spec29": {
                                 "id": "spec29",
@@ -549,7 +549,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.188 sec"
+                                "duration": "0.121 sec"
                             },
                             "spec30": {
                                 "id": "spec30",
@@ -566,7 +566,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.506 sec"
+                                "duration": "0.572 sec"
                             },
                             "spec31": {
                                 "id": "spec31",
@@ -583,7 +583,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.222 sec"
+                                "duration": "0.165 sec"
                             },
                             "spec32": {
                                 "id": "spec32",
@@ -600,7 +600,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.637 sec"
+                                "duration": "0.657 sec"
                             },
                             "spec33": {
                                 "id": "spec33",
@@ -617,7 +617,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.153 sec"
+                                "duration": "0.139 sec"
                             },
                             "spec34": {
                                 "id": "spec34",
@@ -634,7 +634,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "0.797 sec"
                             },
                             "spec35": {
                                 "id": "spec35",
@@ -651,7 +651,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.537 sec"
+                                "duration": "0.392 sec"
                             },
                             "spec36": {
                                 "id": "spec36",
@@ -668,7 +668,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.368 sec"
+                                "duration": "0.282 sec"
                             },
                             "spec37": {
                                 "id": "spec37",
@@ -685,7 +685,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.328 sec"
+                                "duration": "0.873 sec"
                             },
                             "spec38": {
                                 "id": "spec38",
@@ -702,7 +702,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.323 sec"
+                                "duration": "0.126 sec"
                             },
                             "spec39": {
                                 "id": "spec39",
@@ -736,7 +736,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.076 sec"
+                                "duration": "0.124 sec"
                             },
                             "spec41": {
                                 "id": "spec41",
@@ -753,7 +753,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "2 secs"
+                                "duration": "3 secs"
                             },
                             "spec42": {
                                 "id": "spec42",
@@ -804,7 +804,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.059 sec"
+                                "duration": "0.067 sec"
                             },
                             "spec45": {
                                 "id": "spec45",
@@ -821,7 +821,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.069 sec"
+                                "duration": "0.06 sec"
                             },
                             "spec46": {
                                 "id": "spec46",
@@ -855,7 +855,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.086 sec"
+                                "duration": "0.097 sec"
                             },
                             "spec48": {
                                 "id": "spec48",
@@ -872,7 +872,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "6 secs"
                             },
                             "spec49": {
                                 "id": "spec49",
@@ -1008,7 +1008,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.068 sec"
+                                "duration": "0.07 sec"
                             },
                             "spec57": {
                                 "id": "spec57",
@@ -1042,7 +1042,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.062 sec"
+                                "duration": "0.071 sec"
                             },
                             "spec59": {
                                 "id": "spec59",
@@ -1195,7 +1195,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.211 sec"
+                                "duration": "0.306 sec"
                             },
                             "spec68": {
                                 "id": "spec68",
@@ -1212,7 +1212,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "5 secs"
                             },
                             "spec69": {
                                 "id": "spec69",
@@ -1229,7 +1229,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.145 sec"
+                                "duration": "0.117 sec"
                             },
                             "spec70": {
                                 "id": "spec70",
@@ -1328,7 +1328,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.107 sec"
+                                "duration": "0.113 sec"
                             },
                             "spec73": {
                                 "id": "spec73",
@@ -1362,7 +1362,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.063 sec"
+                                "duration": "0.078 sec"
                             },
                             "spec75": {
                                 "id": "spec75",
@@ -1379,7 +1379,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "4 secs"
                             },
                             "spec76": {
                                 "id": "spec76",
@@ -1396,7 +1396,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.13 sec"
+                                "duration": "0.673 sec"
                             },
                             "spec77": {
                                 "id": "spec77",
@@ -1413,7 +1413,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.167 sec"
+                                "duration": "0.104 sec"
                             },
                             "spec78": {
                                 "id": "spec78",
@@ -1430,11 +1430,11 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "4 secs"
                             }
                         },
                         "status": "finished",
-                        "duration": "148.196 sec"
+                        "duration": "148.924 sec"
                     },
                     "suite4": {
                         "id": "suite4",
@@ -1457,7 +1457,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.107 sec"
+                                "duration": "0.087 sec"
                             },
                             "spec80": {
                                 "id": "spec80",
@@ -1474,7 +1474,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.083 sec"
+                                "duration": "0.111 sec"
                             },
                             "spec81": {
                                 "id": "spec81",
@@ -1491,7 +1491,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.075 sec"
+                                "duration": "0.126 sec"
                             },
                             "spec82": {
                                 "id": "spec82",
@@ -1529,7 +1529,7 @@
                             }
                         },
                         "status": "finished",
-                        "duration": "2.344 sec"
+                        "duration": "2.403 sec"
                     },
                     "suite5": {
                         "id": "suite5",
@@ -1552,7 +1552,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.712 sec"
+                                "duration": "2 secs"
                             },
                             "spec85": {
                                 "id": "spec85",
@@ -1579,142 +1579,168 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.93 sec"
+                                "duration": "2 secs"
                             },
                             "spec87": {
                                 "id": "spec87",
                                 "description": "should see the danger icons displayed for email and password inputs",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should see the danger icons displayed for email and password inputs",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:374:78)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     },
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:375:81)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.429 sec"
+                                "status": "failed",
+                                "duration": "0.285 sec",
+                                "type": "failed"
                             },
                             "spec88": {
                                 "id": "spec88",
                                 "description": "should see the alert error messages for email and password inputs",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should see the alert error messages for email and password inputs",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:378:80)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     },
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:379:83)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.217 sec"
+                                "status": "failed",
+                                "duration": "1 sec",
+                                "type": "failed"
                             },
                             "spec89": {
                                 "id": "spec89",
                                 "description": "should see the age agreement alert error message displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should see the age agreement alert error message displayed",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //div[@class=\"error\"]/small[1])",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //div[@class=\"error\"]/small[1])\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.isDisplayed()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.isDisplayed (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:2110:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:382:69)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should see the age agreement alert error message displayed\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:381:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:357:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.096 sec"
+                                "status": "failed",
+                                "duration": "0.559 sec",
+                                "type": "failed"
                             },
                             "spec90": {
                                 "id": "spec90",
                                 "description": "should use invalid email and see the proper alert message displayed for email input",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should use invalid email and see the proper alert message displayed for email input",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:386:82)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.453 sec"
+                                "status": "failed",
+                                "duration": "2 secs",
+                                "type": "failed"
                             },
                             "spec91": {
                                 "id": "spec91",
                                 "description": "should use valid email and invalid password and see the proper alert message displayed for password input",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should use valid email and invalid password and see the proper alert message displayed for password input",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:392:85)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "3 secs"
+                                "status": "failed",
+                                "duration": "2 secs",
+                                "type": "failed"
                             },
                             "spec92": {
                                 "id": "spec92",
                                 "description": "should successfully sign up using new valid credentials",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should successfully sign up using new valid credentials",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //span[@class=\"block-title\"]/a[2])",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //span[@class=\"block-title\"]/a[2])\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.isDisplayed()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.isDisplayed (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:2110:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:402:55)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should successfully sign up using new valid credentials\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:395:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:357:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "4 secs"
+                                "status": "failed",
+                                "duration": "4 secs",
+                                "type": "failed"
                             },
                             "spec93": {
                                 "id": "spec93",
                                 "description": "should successfully logout after choices were saved and new account was created",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should successfully logout after choices were saved and new account was created",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //span[@class=\"block-title\"]/a[1])",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //span[@class=\"block-title\"]/a[1])\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.click()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.click (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1845:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:405:42)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should successfully logout after choices were saved and new account was created\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:404:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:357:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "1 sec"
+                                "status": "failed",
+                                "duration": "0.557 sec",
+                                "type": "failed"
                             }
                         },
                         "status": "finished",
-                        "duration": "14.837 sec"
+                        "type": "failed",
+                        "duration": "18.401 sec"
                     },
                     "suite6": {
                         "id": "suite6",
@@ -1726,121 +1752,115 @@
                                 "id": "spec94",
                                 "description": "should try to login using no credentials and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using no credentials and see the proper error modal displayed",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.click()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.click (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1845:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:411:38)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should try to login using no credentials and see the proper error modal displayed\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:410:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:409:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "2 secs"
+                                "status": "failed",
+                                "duration": "0.493 sec",
+                                "type": "failed"
                             },
                             "spec95": {
                                 "id": "spec95",
                                 "description": "should try to login using valid email and no password and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using valid email and no password and see the proper error modal displayed",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.click()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.click (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1845:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:417:38)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should try to login using valid email and no password and see the proper error modal displayed\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:415:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:409:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "2 secs"
+                                "status": "failed",
+                                "duration": "2 secs",
+                                "type": "failed"
                             },
                             "spec96": {
                                 "id": "spec96",
                                 "description": "should try to login using invalid credentials and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using invalid credentials and see the proper error modal displayed",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.click()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.click (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1845:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:425:38)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should try to login using invalid credentials and see the proper error modal displayed\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:421:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:409:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "3 secs"
+                                "status": "failed",
+                                "duration": "1 sec",
+                                "type": "failed"
                             },
                             "spec97": {
                                 "id": "spec97",
                                 "description": "should successfully login back using the previously created account",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should successfully login back using the previously created account",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //div[@class=\"container\"]/div[1]/div/div[2]/form/div[3]/button)\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.click()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.click (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1845:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:434:38)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should successfully login back using the previously created account\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:429:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:409:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "6 secs"
+                                "status": "failed",
+                                "duration": "3 secs",
+                                "type": "failed"
                             },
                             "spec98": {
                                 "id": "spec98",
                                 "description": "should complete two successfull login-logout sessions",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should complete two successfull login-logout sessions",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
-                                    },
-                                    {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
-                                    },
-                                    {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
-                                    },
-                                    {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
-                                    },
-                                    {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "matcherName": "",
+                                        "message": "Failed: No element found using locator: By(xpath, //span[@class=\"block-title\"]/a[1])",
+                                        "stack": "NoSuchElementError: No element found using locator: By(xpath, //span[@class=\"block-title\"]/a[1])\n    at WebDriverError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:27:5)\n    at NoSuchElementError (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/error.js:242:5)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/protractor/built/element.js:719:27\n    at ManagedPromise.invokeCallback_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1379:14)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)\nFrom: Task: WebElement.click()\n    at WebDriver.schedule (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:377:17)\n    at WebElementPromise.schedule_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1744:25)\n    at WebElementPromise.click (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/webdriver.js:1845:17)\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:438:42)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\nFrom: Task: Run it(\"should complete two successfull login-logout sessions\") in control flow\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:79:14)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at QueueRunner.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1923:10)\n    at Spec.queueRunnerFactory (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:714:35)\n    at Spec.execute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:371:10)\n    at Object.fn (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2579:37)\n    at attemptAsync (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1980:24)\n    at QueueRunner.run (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1935:9)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1962:16\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:437:13)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:409:9)\n    at addSpecsToSuite (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:867:25)\n    at Env.describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:836:7)\n    at describe (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3576:18)\n    at Suite.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:11:5)",
+                                        "passed": false,
+                                        "expected": "",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "11 secs"
+                                "status": "failed",
+                                "duration": "0.485 sec",
+                                "type": "failed"
                             }
                         },
                         "status": "finished",
-                        "duration": "24.000 sec"
+                        "type": "failed",
+                        "duration": "6.978 sec"
                     }
                 },
                 "status": "finished",
-                "duration": "205.724 sec"
+                "type": "failed",
+                "duration": "190.052 sec"
             }
         },
         "status": "finished",
-        "duration": "205.724 sec"
+        "type": "failed",
+        "duration": "190.052 sec"
     }
 }
