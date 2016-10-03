@@ -26,7 +26,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "10 secs"
+                        "duration": "6 secs"
                     },
                     "spec1": {
                         "id": "spec1",
@@ -43,7 +43,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.158 sec"
+                        "duration": "0.148 sec"
                     },
                     "spec2": {
                         "id": "spec2",
@@ -60,7 +60,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.115 sec"
+                        "duration": "0.125 sec"
                     },
                     "spec3": {
                         "id": "spec3",
@@ -77,7 +77,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "7 secs"
+                        "duration": "5 secs"
                     },
                     "spec4": {
                         "id": "spec4",
@@ -94,7 +94,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.087 sec"
+                        "duration": "0.107 sec"
                     },
                     "suite3": {
                         "id": "suite3",
@@ -117,7 +117,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.108 sec"
+                                "duration": "0.136 sec"
                             },
                             "spec6": {
                                 "id": "spec6",
@@ -134,7 +134,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.121 sec"
+                                "duration": "0.136 sec"
                             },
                             "spec7": {
                                 "id": "spec7",
@@ -157,7 +157,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.184 sec"
+                                "duration": "0.199 sec"
                             },
                             "spec8": {
                                 "id": "spec8",
@@ -180,27 +180,24 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.177 sec"
+                                "duration": "2 secs"
                             },
                             "spec9": {
                                 "id": "spec9",
                                 "description": "should see the American food card displayed at first into the choosing panel",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the American food card displayed at first into the choosing panel",
-                                "failedExpectations": [
+                                "failedExpectations": [],
+                                "passedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Expected '' to be 'American'.",
-                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:48:47)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
-                                        "passed": false,
-                                        "expected": "American",
-                                        "actual": ""
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
                                     }
                                 ],
-                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "failed",
-                                "duration": "4 secs",
-                                "type": "failed"
+                                "status": "passed",
+                                "duration": "4 secs"
                             },
                             "spec10": {
                                 "id": "spec10",
@@ -217,7 +214,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "0.858 sec"
                             },
                             "spec11": {
                                 "id": "spec11",
@@ -240,7 +237,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.244 sec"
+                                "duration": "0.378 sec"
                             },
                             "spec12": {
                                 "id": "spec12",
@@ -263,7 +260,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.199 sec"
+                                "duration": "0.34 sec"
                             },
                             "spec13": {
                                 "id": "spec13",
@@ -280,7 +277,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.143 sec"
+                                "duration": "0.183 sec"
                             },
                             "spec14": {
                                 "id": "spec14",
@@ -297,7 +294,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.461 sec"
+                                "duration": "0.782 sec"
                             },
                             "spec15": {
                                 "id": "spec15",
@@ -314,7 +311,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.161 sec"
+                                "duration": "0.137 sec"
                             },
                             "spec16": {
                                 "id": "spec16",
@@ -331,7 +328,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.439 sec"
+                                "duration": "0.285 sec"
                             },
                             "spec17": {
                                 "id": "spec17",
@@ -348,7 +345,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.158 sec"
+                                "duration": "0.09 sec"
                             },
                             "spec18": {
                                 "id": "spec18",
@@ -365,7 +362,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.314 sec"
+                                "duration": "0.179 sec"
                             },
                             "spec19": {
                                 "id": "spec19",
@@ -382,7 +379,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.183 sec"
+                                "duration": "0.116 sec"
                             },
                             "spec20": {
                                 "id": "spec20",
@@ -399,7 +396,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.315 sec"
+                                "duration": "0.211 sec"
                             },
                             "spec21": {
                                 "id": "spec21",
@@ -416,7 +413,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.246 sec"
+                                "duration": "0.124 sec"
                             },
                             "spec22": {
                                 "id": "spec22",
@@ -433,7 +430,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.403 sec"
+                                "duration": "0.165 sec"
                             },
                             "spec23": {
                                 "id": "spec23",
@@ -450,7 +447,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.17 sec"
+                                "duration": "0.146 sec"
                             },
                             "spec24": {
                                 "id": "spec24",
@@ -467,7 +464,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.368 sec"
+                                "duration": "0.277 sec"
                             },
                             "spec25": {
                                 "id": "spec25",
@@ -484,7 +481,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.179 sec"
+                                "duration": "0.091 sec"
                             },
                             "spec26": {
                                 "id": "spec26",
@@ -501,7 +498,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.365 sec"
+                                "duration": "0.224 sec"
                             },
                             "spec27": {
                                 "id": "spec27",
@@ -518,7 +515,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.208 sec"
+                                "duration": "0.156 sec"
                             },
                             "spec28": {
                                 "id": "spec28",
@@ -535,7 +532,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.339 sec"
+                                "duration": "0.354 sec"
                             },
                             "spec29": {
                                 "id": "spec29",
@@ -552,7 +549,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.157 sec"
+                                "duration": "0.243 sec"
                             },
                             "spec30": {
                                 "id": "spec30",
@@ -569,7 +566,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.277 sec"
+                                "duration": "0.444 sec"
                             },
                             "spec31": {
                                 "id": "spec31",
@@ -586,7 +583,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.17 sec"
+                                "duration": "0.214 sec"
                             },
                             "spec32": {
                                 "id": "spec32",
@@ -603,7 +600,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.311 sec"
+                                "duration": "0.443 sec"
                             },
                             "spec33": {
                                 "id": "spec33",
@@ -620,7 +617,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.182 sec"
+                                "duration": "0.126 sec"
                             },
                             "spec34": {
                                 "id": "spec34",
@@ -637,7 +634,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.884 sec"
+                                "duration": "0.812 sec"
                             },
                             "spec35": {
                                 "id": "spec35",
@@ -654,7 +651,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.199 sec"
+                                "duration": "0.117 sec"
                             },
                             "spec36": {
                                 "id": "spec36",
@@ -671,7 +668,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.208 sec"
+                                "duration": "0.198 sec"
                             },
                             "spec37": {
                                 "id": "spec37",
@@ -688,7 +685,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.233 sec"
+                                "duration": "0.386 sec"
                             },
                             "spec38": {
                                 "id": "spec38",
@@ -705,7 +702,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.227 sec"
+                                "duration": "0.42 sec"
                             },
                             "spec39": {
                                 "id": "spec39",
@@ -739,7 +736,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.108 sec"
+                                "duration": "0.089 sec"
                             },
                             "spec41": {
                                 "id": "spec41",
@@ -807,7 +804,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.077 sec"
+                                "duration": "0.074 sec"
                             },
                             "spec45": {
                                 "id": "spec45",
@@ -858,7 +855,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.097 sec"
+                                "duration": "0.072 sec"
                             },
                             "spec48": {
                                 "id": "spec48",
@@ -998,6 +995,82 @@
                             },
                             "spec56": {
                                 "id": "spec56",
+                                "description": "should search and select \"Fish\" from recommendations dropdown and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should search and select \"Fish\" from recommendations dropdown and see it added into selection list",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.574 sec"
+                            },
+                            "spec57": {
+                                "id": "spec57",
+                                "description": "should remove \"Fish\" from the ingredients list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should remove \"Fish\" from the ingredients list",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toEqual",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "6 secs"
+                            },
+                            "spec58": {
+                                "id": "spec58",
                                 "description": "should see the progress bar pointing 40% before moving to the next choice step",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 40% before moving to the next choice step",
                                 "failedExpectations": [],
@@ -1011,46 +1084,12 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.076 sec"
-                            },
-                            "spec57": {
-                                "id": "spec57",
-                                "description": "should move to the dislikes ingredients section by clicking the Next button",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should move to the dislikes ingredients section by clicking the Next button",
-                                "failedExpectations": [],
-                                "passedExpectations": [
-                                    {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
-                                    }
-                                ],
-                                "pendingReason": "",
-                                "status": "passed",
-                                "duration": "5 secs"
-                            },
-                            "spec58": {
-                                "id": "spec58",
-                                "description": "should see the progress bar pointing 60% while on liked ingredients choices",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 60% while on liked ingredients choices",
-                                "failedExpectations": [],
-                                "passedExpectations": [
-                                    {
-                                        "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
-                                    }
-                                ],
-                                "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.076 sec"
+                                "duration": "0.088 sec"
                             },
                             "spec59": {
                                 "id": "spec59",
-                                "description": "should select Shellfish icon and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should select Shellfish icon and see it added into selection list",
+                                "description": "should move to the dislikes ingredients section by clicking the Next button",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should move to the dislikes ingredients section by clicking the Next button",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1066,8 +1105,8 @@
                             },
                             "spec60": {
                                 "id": "spec60",
-                                "description": "should click Gluten and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Gluten and see it added into selection list",
+                                "description": "should see the progress bar pointing 60% while on liked ingredients choices",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 60% while on liked ingredients choices",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1079,12 +1118,12 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "0.077 sec"
                             },
                             "spec61": {
                                 "id": "spec61",
-                                "description": "should click Nuts and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Nuts and see it added into selection list",
+                                "description": "should select Shellfish icon and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should select Shellfish icon and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1100,8 +1139,8 @@
                             },
                             "spec62": {
                                 "id": "spec62",
-                                "description": "should click Olives and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Olives and see it added into selection list",
+                                "description": "should click Gluten and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Gluten and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1117,8 +1156,8 @@
                             },
                             "spec63": {
                                 "id": "spec63",
-                                "description": "should click Dairy and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Dairy and see it added into selection list",
+                                "description": "should click Nuts and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Nuts and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1134,8 +1173,8 @@
                             },
                             "spec64": {
                                 "id": "spec64",
-                                "description": "should click Eggs and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Eggs and see it added into selection list",
+                                "description": "should click Olives and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Olives and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1151,8 +1190,8 @@
                             },
                             "spec65": {
                                 "id": "spec65",
-                                "description": "should click Pork and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Pork and see it added into selection list",
+                                "description": "should click Dairy and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Dairy and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1168,8 +1207,8 @@
                             },
                             "spec66": {
                                 "id": "spec66",
-                                "description": "should click Green Vegetables and see it added into selection list",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Green Vegetables and see it added into selection list",
+                                "description": "should click Eggs and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Eggs and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1185,8 +1224,8 @@
                             },
                             "spec67": {
                                 "id": "spec67",
-                                "description": "should see the progress bar pointing 60% before moving to the next choice step",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 60% before moving to the next choice step",
+                                "description": "should click Pork and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Pork and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1198,12 +1237,12 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.086 sec"
+                                "duration": "5 secs"
                             },
                             "spec68": {
                                 "id": "spec68",
-                                "description": "should move to the dislikes ingredients section by clicking the Next button",
-                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should move to the dislikes ingredients section by clicking the Next button",
+                                "description": "should click Green Vegetables and see it added into selection list",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click Green Vegetables and see it added into selection list",
                                 "failedExpectations": [],
                                 "passedExpectations": [
                                     {
@@ -1219,6 +1258,40 @@
                             },
                             "spec69": {
                                 "id": "spec69",
+                                "description": "should see the progress bar pointing 60% before moving to the next choice step",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 60% before moving to the next choice step",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.06 sec"
+                            },
+                            "spec70": {
+                                "id": "spec70",
+                                "description": "should move to the dislikes ingredients section by clicking the Next button",
+                                "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should move to the dislikes ingredients section by clicking the Next button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "5 secs"
+                            },
+                            "spec71": {
+                                "id": "spec71",
                                 "description": "should see the progress bar pointing 60% while on condition choices",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 60% while on condition choices",
                                 "failedExpectations": [],
@@ -1232,10 +1305,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.069 sec"
+                                "duration": "0.07 sec"
                             },
-                            "spec70": {
-                                "id": "spec70",
+                            "spec72": {
+                                "id": "spec72",
                                 "description": "should select all conditions and see the icons being active",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should select all conditions and see the icons being active",
                                 "failedExpectations": [],
@@ -1275,8 +1348,8 @@
                                 "status": "passed",
                                 "duration": "1 sec"
                             },
-                            "spec71": {
-                                "id": "spec71",
+                            "spec73": {
+                                "id": "spec73",
                                 "description": "should deselect all conditions and see the icons being inactive",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should deselect all conditions and see the icons being inactive",
                                 "failedExpectations": [],
@@ -1314,10 +1387,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.87 sec"
+                                "duration": "0.757 sec"
                             },
-                            "spec72": {
-                                "id": "spec72",
+                            "spec74": {
+                                "id": "spec74",
                                 "description": "should see the progress bar pointing 80% before moving to the next choice step",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the progress bar pointing 80% before moving to the next choice step",
                                 "failedExpectations": [],
@@ -1331,10 +1404,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.098 sec"
+                                "duration": "0.072 sec"
                             },
-                            "spec73": {
-                                "id": "spec73",
+                            "spec75": {
+                                "id": "spec75",
                                 "description": "should click see and click the none button in order to finish with the selections",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should click see and click the none button in order to finish with the selections",
                                 "failedExpectations": [],
@@ -1350,8 +1423,8 @@
                                 "status": "passed",
                                 "duration": "3 secs"
                             },
-                            "spec74": {
-                                "id": "spec74",
+                            "spec76": {
+                                "id": "spec76",
                                 "description": "should see the modal confirmation for selection ending",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the modal confirmation for selection ending",
                                 "failedExpectations": [],
@@ -1365,10 +1438,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.07 sec"
+                                "duration": "0.077 sec"
                             },
-                            "spec75": {
-                                "id": "spec75",
+                            "spec77": {
+                                "id": "spec77",
                                 "description": "should see the fit box food displayed after pressing done button",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the fit box food displayed after pressing done button",
                                 "failedExpectations": [],
@@ -1382,10 +1455,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "2 secs"
+                                "duration": "3 secs"
                             },
-                            "spec76": {
-                                "id": "spec76",
+                            "spec78": {
+                                "id": "spec78",
                                 "description": "should have the option to save all the choices into the food box modal",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should have the option to save all the choices into the food box modal",
                                 "failedExpectations": [],
@@ -1401,8 +1474,8 @@
                                 "status": "passed",
                                 "duration": "1 sec"
                             },
-                            "spec77": {
-                                "id": "spec77",
+                            "spec79": {
+                                "id": "spec79",
                                 "description": "should have the option to check available receipes into the food box modal",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should have the option to check available receipes into the food box modal",
                                 "failedExpectations": [],
@@ -1416,10 +1489,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.095 sec"
+                                "duration": "0.077 sec"
                             },
-                            "spec78": {
-                                "id": "spec78",
+                            "spec80": {
+                                "id": "spec80",
                                 "description": "should checkout all available recipes corresponding to previous choices and see the food tabs page displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should checkout all available recipes corresponding to previous choices and see the food tabs page displayed",
                                 "failedExpectations": [],
@@ -1433,12 +1506,11 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "1 sec"
                             }
                         },
                         "status": "finished",
-                        "type": "failed",
-                        "duration": "131.113 sec"
+                        "duration": "138.115 sec"
                     },
                     "suite4": {
                         "id": "suite4",
@@ -1446,8 +1518,8 @@
                         "fullName": "Food sanity tests Intro - customizing a new food plan Library - working with food tabs and recipes",
                         "failedExpectations": [],
                         "children": {
-                            "spec79": {
-                                "id": "spec79",
+                            "spec81": {
+                                "id": "spec81",
                                 "description": "should see the Save now button available at the top of the page",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Library - working with food tabs and recipes should see the Save now button available at the top of the page",
                                 "failedExpectations": [],
@@ -1461,10 +1533,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.081 sec"
+                                "duration": "0.082 sec"
                             },
-                            "spec80": {
-                                "id": "spec80",
+                            "spec82": {
+                                "id": "spec82",
                                 "description": "should see the Search box available for searching for available items",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Library - working with food tabs and recipes should see the Search box available for searching for available items",
                                 "failedExpectations": [],
@@ -1478,10 +1550,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.073 sec"
+                                "duration": "0.08 sec"
                             },
-                            "spec81": {
-                                "id": "spec81",
+                            "spec83": {
+                                "id": "spec83",
                                 "description": "should see more than 12 food tabs available within the recipes table",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Library - working with food tabs and recipes should see more than 12 food tabs available within the recipes table",
                                 "failedExpectations": [],
@@ -1495,10 +1567,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.039 sec"
+                                "duration": "0.044 sec"
                             },
-                            "spec82": {
-                                "id": "spec82",
+                            "spec84": {
+                                "id": "spec84",
                                 "description": "should see more than 10 pages available for the recipes table",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Library - working with food tabs and recipes should see more than 10 pages available for the recipes table",
                                 "failedExpectations": [],
@@ -1512,10 +1584,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.048 sec"
+                                "duration": "0.047 sec"
                             },
-                            "spec83": {
-                                "id": "spec83",
+                            "spec85": {
+                                "id": "spec85",
                                 "description": "should search by \"slider\" tag and observe that the pages number decreases",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Library - working with food tabs and recipes should search by \"slider\" tag and observe that the pages number decreases",
                                 "failedExpectations": [],
@@ -1533,7 +1605,7 @@
                             }
                         },
                         "status": "finished",
-                        "duration": "2.241 sec"
+                        "duration": "2.253 sec"
                     },
                     "suite5": {
                         "id": "suite5",
@@ -1541,8 +1613,8 @@
                         "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests",
                         "failedExpectations": [],
                         "children": {
-                            "spec84": {
-                                "id": "spec84",
+                            "spec86": {
+                                "id": "spec86",
                                 "description": "should click the save button and see the sign up form displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should click the save button and see the sign up form displayed",
                                 "failedExpectations": [],
@@ -1556,20 +1628,20 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.71 sec"
+                                "duration": "0.579 sec"
                             },
-                            "spec85": {
-                                "id": "spec85",
+                            "spec87": {
+                                "id": "spec87",
                                 "description": "should click the close button and see the sign up form closed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should click the close button and see the sign up form closed",
                                 "failedExpectations": [],
                                 "passedExpectations": [],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "4 secs"
                             },
-                            "spec86": {
-                                "id": "spec86",
+                            "spec88": {
+                                "id": "spec88",
                                 "description": "should open sign up form again, click the Save progress button without creds and generate all available alerts",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should open sign up form again, click the Save progress button without creds and generate all available alerts",
                                 "failedExpectations": [],
@@ -1583,10 +1655,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.744 sec"
+                                "duration": "0.971 sec"
                             },
-                            "spec87": {
-                                "id": "spec87",
+                            "spec89": {
+                                "id": "spec89",
                                 "description": "should see the danger icons displayed for email and password inputs",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should see the danger icons displayed for email and password inputs",
                                 "failedExpectations": [],
@@ -1606,10 +1678,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.529 sec"
+                                "duration": "0.496 sec"
                             },
-                            "spec88": {
-                                "id": "spec88",
+                            "spec90": {
+                                "id": "spec90",
                                 "description": "should see the alert error messages for email and password inputs",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should see the alert error messages for email and password inputs",
                                 "failedExpectations": [],
@@ -1629,10 +1701,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.228 sec"
+                                "duration": "0.166 sec"
                             },
-                            "spec89": {
-                                "id": "spec89",
+                            "spec91": {
+                                "id": "spec91",
                                 "description": "should see the age agreement alert error message displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should see the age agreement alert error message displayed",
                                 "failedExpectations": [],
@@ -1646,10 +1718,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.116 sec"
+                                "duration": "0.084 sec"
                             },
-                            "spec90": {
-                                "id": "spec90",
+                            "spec92": {
+                                "id": "spec92",
                                 "description": "should use invalid email and see the proper alert message displayed for email input",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should use invalid email and see the proper alert message displayed for email input",
                                 "failedExpectations": [],
@@ -1663,10 +1735,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "0.266 sec"
                             },
-                            "spec91": {
-                                "id": "spec91",
+                            "spec93": {
+                                "id": "spec93",
                                 "description": "should use valid email and invalid password and see the proper alert message displayed for password input",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should use valid email and invalid password and see the proper alert message displayed for password input",
                                 "failedExpectations": [],
@@ -1680,10 +1752,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "0.869 sec"
                             },
-                            "spec92": {
-                                "id": "spec92",
+                            "spec94": {
+                                "id": "spec94",
                                 "description": "should successfully sign up using new valid credentials",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should successfully sign up using new valid credentials",
                                 "failedExpectations": [],
@@ -1697,10 +1769,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "3 secs"
                             },
-                            "spec93": {
-                                "id": "spec93",
+                            "spec95": {
+                                "id": "spec95",
                                 "description": "should successfully logout after choices were saved and new account was created",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Sign Up - positive and negative tests should successfully logout after choices were saved and new account was created",
                                 "failedExpectations": [],
@@ -1714,11 +1786,11 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.836 sec"
+                                "duration": "0.851 sec"
                             }
                         },
                         "status": "finished",
-                        "duration": "14.163 sec"
+                        "duration": "11.282 sec"
                     },
                     "suite6": {
                         "id": "suite6",
@@ -1726,8 +1798,8 @@
                         "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests",
                         "failedExpectations": [],
                         "children": {
-                            "spec94": {
-                                "id": "spec94",
+                            "spec96": {
+                                "id": "spec96",
                                 "description": "should try to login using no credentials and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using no credentials and see the proper error modal displayed",
                                 "failedExpectations": [],
@@ -1743,8 +1815,8 @@
                                 "status": "passed",
                                 "duration": "1 sec"
                             },
-                            "spec95": {
-                                "id": "spec95",
+                            "spec97": {
+                                "id": "spec97",
                                 "description": "should try to login using valid email and no password and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using valid email and no password and see the proper error modal displayed",
                                 "failedExpectations": [],
@@ -1758,10 +1830,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "1 sec"
                             },
-                            "spec96": {
-                                "id": "spec96",
+                            "spec98": {
+                                "id": "spec98",
                                 "description": "should try to login using invalid credentials and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using invalid credentials and see the proper error modal displayed",
                                 "failedExpectations": [],
@@ -1775,10 +1847,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "2 secs"
+                                "duration": "3 secs"
                             },
-                            "spec97": {
-                                "id": "spec97",
+                            "spec99": {
+                                "id": "spec99",
                                 "description": "should successfully login back using the previously created account",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should successfully login back using the previously created account",
                                 "failedExpectations": [],
@@ -1792,10 +1864,10 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "3 secs"
                             },
-                            "spec98": {
-                                "id": "spec98",
+                            "spec100": {
+                                "id": "spec100",
                                 "description": "should complete two successfull login-logout sessions",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should complete two successfull login-logout sessions",
                                 "failedExpectations": [],
@@ -1833,20 +1905,18 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "10 secs"
+                                "duration": "7 secs"
                             }
                         },
                         "status": "finished",
-                        "duration": "20.000 sec"
+                        "duration": "15.000 sec"
                     }
                 },
                 "status": "finished",
-                "type": "failed",
-                "duration": "184.877 sec"
+                "duration": "178.030 sec"
             }
         },
         "status": "finished",
-        "type": "failed",
-        "duration": "184.877 sec"
+        "duration": "178.030 sec"
     }
 }
