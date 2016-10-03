@@ -1,7 +1,7 @@
 {
     "total": 101,
-    "passed": 97,
-    "failed": 4,
+    "passed": 95,
+    "failed": 6,
     "skipped": 0,
     "browser": "firefox"
 }
