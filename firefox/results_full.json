@@ -26,7 +26,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "8 secs"
+                        "duration": "9 secs"
                     },
                     "spec1": {
                         "id": "spec1",
@@ -43,7 +43,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.109 sec"
+                        "duration": "0.114 sec"
                     },
                     "spec2": {
                         "id": "spec2",
@@ -60,7 +60,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.126 sec"
+                        "duration": "0.131 sec"
                     },
                     "spec3": {
                         "id": "spec3",
@@ -94,7 +94,7 @@
                         ],
                         "pendingReason": "",
                         "status": "passed",
-                        "duration": "0.098 sec"
+                        "duration": "0.235 sec"
                     },
                     "suite3": {
                         "id": "suite3",
@@ -117,7 +117,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.129 sec"
+                                "duration": "0.263 sec"
                             },
                             "spec6": {
                                 "id": "spec6",
@@ -134,7 +134,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.124 sec"
+                                "duration": "0.211 sec"
                             },
                             "spec7": {
                                 "id": "spec7",
@@ -157,7 +157,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.166 sec"
+                                "duration": "0.301 sec"
                             },
                             "spec8": {
                                 "id": "spec8",
@@ -214,7 +214,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.934 sec"
+                                "duration": "0.758 sec"
                             },
                             "spec11": {
                                 "id": "spec11",
@@ -237,7 +237,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.285 sec"
+                                "duration": "0.185 sec"
                             },
                             "spec12": {
                                 "id": "spec12",
@@ -260,7 +260,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.251 sec"
+                                "duration": "0.17 sec"
                             },
                             "spec13": {
                                 "id": "spec13",
@@ -277,7 +277,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.198 sec"
+                                "duration": "0.21 sec"
                             },
                             "spec14": {
                                 "id": "spec14",
@@ -294,7 +294,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "35 secs"
                             },
                             "spec15": {
                                 "id": "spec15",
@@ -311,7 +311,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "20 secs"
+                                "duration": "0.278 sec"
                             },
                             "spec16": {
                                 "id": "spec16",
@@ -328,7 +328,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "0.79 sec"
                             },
                             "spec17": {
                                 "id": "spec17",
@@ -345,7 +345,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.167 sec"
+                                "duration": "0.537 sec"
                             },
                             "spec18": {
                                 "id": "spec18",
@@ -362,7 +362,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.821 sec"
+                                "duration": "0.483 sec"
                             },
                             "spec19": {
                                 "id": "spec19",
@@ -379,7 +379,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.188 sec"
+                                "duration": "0.17 sec"
                             },
                             "spec20": {
                                 "id": "spec20",
@@ -396,24 +396,27 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.658 sec"
+                                "duration": "0.42 sec"
                             },
                             "spec21": {
                                 "id": "spec21",
                                 "description": "should see the Italian food sixth card displayed into the choosing panel",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the Italian food sixth card displayed into the choosing panel",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected '' to be 'Italian'.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:92:47)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": "Italian",
+                                        "actual": ""
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.14 sec"
+                                "status": "failed",
+                                "duration": "0.143 sec",
+                                "type": "failed"
                             },
                             "spec22": {
                                 "id": "spec22",
@@ -430,7 +433,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "8 secs"
+                                "duration": "3 secs"
                             },
                             "spec23": {
                                 "id": "spec23",
@@ -447,7 +450,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.348 sec"
+                                "duration": "0.269 sec"
                             },
                             "spec24": {
                                 "id": "spec24",
@@ -464,7 +467,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.625 sec"
+                                "duration": "0.571 sec"
                             },
                             "spec25": {
                                 "id": "spec25",
@@ -481,7 +484,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.205 sec"
+                                "duration": "0.277 sec"
                             },
                             "spec26": {
                                 "id": "spec26",
@@ -498,27 +501,24 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.398 sec"
+                                "duration": "0.715 sec"
                             },
                             "spec27": {
                                 "id": "spec27",
                                 "description": "should see the Southern/Soul food nineth card displayed into the choosing panel",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the Southern/Soul food nineth card displayed into the choosing panel",
-                                "failedExpectations": [
+                                "failedExpectations": [],
+                                "passedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Expected '' to be 'Southern/Soul'.",
-                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:113:47)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
-                                        "passed": false,
-                                        "expected": "Southern/Soul",
-                                        "actual": ""
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
                                     }
                                 ],
-                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "failed",
-                                "duration": "0.163 sec",
-                                "type": "failed"
+                                "status": "passed",
+                                "duration": "0.442 sec"
                             },
                             "spec28": {
                                 "id": "spec28",
@@ -535,27 +535,24 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "9 secs"
                             },
                             "spec29": {
                                 "id": "spec29",
                                 "description": "should see the European food tenth card displayed into the choosing panel",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the European food tenth card displayed into the choosing panel",
-                                "failedExpectations": [
+                                "failedExpectations": [],
+                                "passedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Expected '' to be 'European'.",
-                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:120:47)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
-                                        "passed": false,
-                                        "expected": "European",
-                                        "actual": ""
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
                                     }
                                 ],
-                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "failed",
-                                "duration": "9 secs",
-                                "type": "failed"
+                                "status": "passed",
+                                "duration": "12 secs"
                             },
                             "spec30": {
                                 "id": "spec30",
@@ -572,7 +569,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "17 secs"
+                                "duration": "0.843 sec"
                             },
                             "spec31": {
                                 "id": "spec31",
@@ -589,7 +586,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.605 sec"
+                                "duration": "0.378 sec"
                             },
                             "spec32": {
                                 "id": "spec32",
@@ -606,7 +603,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "2 secs"
+                                "duration": "0.878 sec"
                             },
                             "spec33": {
                                 "id": "spec33",
@@ -623,7 +620,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.155 sec"
+                                "duration": "0.15 sec"
                             },
                             "spec34": {
                                 "id": "spec34",
@@ -640,7 +637,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "11 secs"
+                                "duration": "1 sec"
                             },
                             "spec35": {
                                 "id": "spec35",
@@ -657,7 +654,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.176 sec"
+                                "duration": "0.142 sec"
                             },
                             "spec36": {
                                 "id": "spec36",
@@ -674,7 +671,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "0.157 sec"
                             },
                             "spec37": {
                                 "id": "spec37",
@@ -691,7 +688,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.239 sec"
+                                "duration": "0.288 sec"
                             },
                             "spec38": {
                                 "id": "spec38",
@@ -708,7 +705,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.1 sec"
+                                "duration": "0.532 sec"
                             },
                             "spec39": {
                                 "id": "spec39",
@@ -725,7 +722,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "25 secs"
                             },
                             "spec40": {
                                 "id": "spec40",
@@ -742,7 +739,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.092 sec"
+                                "duration": "1 sec"
                             },
                             "spec41": {
                                 "id": "spec41",
@@ -759,7 +756,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "2 secs"
+                                "duration": "3 secs"
                             },
                             "spec42": {
                                 "id": "spec42",
@@ -776,7 +773,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "18 secs"
                             },
                             "spec43": {
                                 "id": "spec43",
@@ -793,7 +790,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "4 secs"
                             },
                             "spec44": {
                                 "id": "spec44",
@@ -810,7 +807,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.122 sec"
+                                "duration": "20 secs"
                             },
                             "spec45": {
                                 "id": "spec45",
@@ -827,7 +824,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.092 sec"
+                                "duration": "0.485 sec"
                             },
                             "spec46": {
                                 "id": "spec46",
@@ -844,7 +841,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "41 secs"
                             },
                             "spec47": {
                                 "id": "spec47",
@@ -861,7 +858,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.076 sec"
+                                "duration": "20 secs"
                             },
                             "spec48": {
                                 "id": "spec48",
@@ -878,7 +875,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "21 secs"
                             },
                             "spec49": {
                                 "id": "spec49",
@@ -895,7 +892,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "21 secs"
                             },
                             "spec50": {
                                 "id": "spec50",
@@ -912,7 +909,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "21 secs"
                             },
                             "spec51": {
                                 "id": "spec51",
@@ -929,7 +926,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "21 secs"
                             },
                             "spec52": {
                                 "id": "spec52",
@@ -946,7 +943,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "20 secs"
                             },
                             "spec53": {
                                 "id": "spec53",
@@ -963,7 +960,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "21 secs"
                             },
                             "spec54": {
                                 "id": "spec54",
@@ -980,7 +977,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "21 secs"
                             },
                             "spec55": {
                                 "id": "spec55",
@@ -997,7 +994,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "16 secs"
                             },
                             "spec56": {
                                 "id": "spec56",
@@ -1073,7 +1070,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "7 secs"
+                                "duration": "3 mins 2 secs"
                             },
                             "spec58": {
                                 "id": "spec58",
@@ -1090,7 +1087,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.382 sec"
+                                "duration": "0.067 sec"
                             },
                             "spec59": {
                                 "id": "spec59",
@@ -1107,7 +1104,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "59 secs"
                             },
                             "spec60": {
                                 "id": "spec60",
@@ -1124,7 +1121,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.085 sec"
+                                "duration": "20 secs"
                             },
                             "spec61": {
                                 "id": "spec61",
@@ -1141,7 +1138,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "40 secs"
                             },
                             "spec62": {
                                 "id": "spec62",
@@ -1158,7 +1155,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "6 secs"
+                                "duration": "40 secs"
                             },
                             "spec63": {
                                 "id": "spec63",
@@ -1175,7 +1172,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "34 secs"
                             },
                             "spec64": {
                                 "id": "spec64",
@@ -1192,7 +1189,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "40 secs"
                             },
                             "spec65": {
                                 "id": "spec65",
@@ -1209,7 +1206,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "1 min"
                             },
                             "spec66": {
                                 "id": "spec66",
@@ -1226,7 +1223,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "40 secs"
                             },
                             "spec67": {
                                 "id": "spec67",
@@ -1243,7 +1240,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "20 secs"
                             },
                             "spec68": {
                                 "id": "spec68",
@@ -1260,7 +1257,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "53 secs"
                             },
                             "spec69": {
                                 "id": "spec69",
@@ -1277,7 +1274,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.07 sec"
+                                "duration": "20 secs"
                             },
                             "spec70": {
                                 "id": "spec70",
@@ -1294,7 +1291,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "1 min"
                             },
                             "spec71": {
                                 "id": "spec71",
@@ -1311,7 +1308,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.099 sec"
+                                "duration": "2 secs"
                             },
                             "spec72": {
                                 "id": "spec72",
@@ -1352,7 +1349,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "1 min 20 secs"
                             },
                             "spec73": {
                                 "id": "spec73",
@@ -1393,7 +1390,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "1 min 25 secs"
                             },
                             "spec74": {
                                 "id": "spec74",
@@ -1410,7 +1407,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.147 sec"
+                                "duration": "0.062 sec"
                             },
                             "spec75": {
                                 "id": "spec75",
@@ -1427,7 +1424,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "26 secs"
                             },
                             "spec76": {
                                 "id": "spec76",
@@ -1444,58 +1441,67 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.117 sec"
+                                "duration": "20 secs"
                             },
                             "spec77": {
                                 "id": "spec77",
                                 "description": "should see the fit box food displayed after pressing done button",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should see the fit box food displayed after pressing done button",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:331:59)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "3 secs"
+                                "status": "failed",
+                                "duration": "29 secs",
+                                "type": "failed"
                             },
                             "spec78": {
                                 "id": "spec78",
                                 "description": "should have the option to save all the choices into the food box modal",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should have the option to save all the choices into the food box modal",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:334:60)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "2 secs"
+                                "status": "failed",
+                                "duration": "9 secs",
+                                "type": "failed"
                             },
                             "spec79": {
                                 "id": "spec79",
                                 "description": "should have the option to check available receipes into the food box modal",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Home - choosing between food types and behaviors should have the option to check available receipes into the food box modal",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:337:64)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "0.141 sec"
+                                "status": "failed",
+                                "duration": "2 secs",
+                                "type": "failed"
                             },
                             "spec80": {
                                 "id": "spec80",
@@ -1512,12 +1518,12 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "35 secs"
                             }
                         },
                         "status": "finished",
                         "type": "failed",
-                        "duration": "235.498 sec"
+                        "duration": "868.175 sec"
                     },
                     "suite4": {
                         "id": "suite4",
@@ -1540,7 +1546,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.109 sec"
+                                "duration": "25 secs"
                             },
                             "spec82": {
                                 "id": "spec82",
@@ -1557,7 +1563,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.147 sec"
+                                "duration": "20 secs"
                             },
                             "spec83": {
                                 "id": "spec83",
@@ -1574,7 +1580,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.157 sec"
+                                "duration": "40 secs"
                             },
                             "spec84": {
                                 "id": "spec84",
@@ -1591,7 +1597,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.106 sec"
+                                "duration": "20 secs"
                             },
                             "spec85": {
                                 "id": "spec85",
@@ -1608,11 +1614,11 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "3 secs"
+                                "duration": "2 mins 40 secs"
                             }
                         },
                         "status": "finished",
-                        "duration": "3.519 sec"
+                        "duration": "107.000 sec"
                     },
                     "suite5": {
                         "id": "suite5",
@@ -1635,7 +1641,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.852 sec"
+                                "duration": "1 min 20 secs"
                             },
                             "spec87": {
                                 "id": "spec87",
@@ -1645,7 +1651,7 @@
                                 "passedExpectations": [],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "1 min 3 secs"
                             },
                             "spec88": {
                                 "id": "spec88",
@@ -1662,7 +1668,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.814 sec"
+                                "duration": "2 mins 38 secs"
                             },
                             "spec89": {
                                 "id": "spec89",
@@ -1685,7 +1691,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.433 sec"
+                                "duration": "1 min"
                             },
                             "spec90": {
                                 "id": "spec90",
@@ -1708,7 +1714,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.196 sec"
+                                "duration": "1 min 20 secs"
                             },
                             "spec91": {
                                 "id": "spec91",
@@ -1725,7 +1731,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.093 sec"
+                                "duration": "40 secs"
                             },
                             "spec92": {
                                 "id": "spec92",
@@ -1742,7 +1748,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "0.369 sec"
+                                "duration": "1 min 40 secs"
                             },
                             "spec93": {
                                 "id": "spec93",
@@ -1759,7 +1765,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "3 mins 41 secs"
                             },
                             "spec94": {
                                 "id": "spec94",
@@ -1776,7 +1782,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "4 secs"
+                                "duration": "4 mins 49 secs"
                             },
                             "spec95": {
                                 "id": "spec95",
@@ -1793,11 +1799,11 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "1 sec"
+                                "duration": "1 min"
                             }
                         },
                         "status": "finished",
-                        "duration": "12.757 sec"
+                        "duration": "55.000 sec"
                     },
                     "suite6": {
                         "id": "suite6",
@@ -1820,41 +1826,47 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "2 secs"
+                                "duration": "1 min 25 secs"
                             },
                             "spec97": {
                                 "id": "spec97",
                                 "description": "should try to login using valid email and no password and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using valid email and no password and see the proper error modal displayed",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:430:74)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2820:25)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "2 secs"
+                                "status": "failed",
+                                "duration": "2 mins",
+                                "type": "failed"
                             },
                             "spec98": {
                                 "id": "spec98",
                                 "description": "should try to login using invalid credentials and see the proper error modal displayed",
                                 "fullName": "Food sanity tests Intro - customizing a new food plan Login - positive and negative tests should try to login using invalid credentials and see the proper error modal displayed",
-                                "failedExpectations": [],
-                                "passedExpectations": [
+                                "failedExpectations": [
                                     {
                                         "matcherName": "toBe",
-                                        "message": "Passed.",
-                                        "stack": "",
-                                        "passed": true
+                                        "message": "Expected false to be true.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/specs/sanity/sanity_food.js:438:74)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:94:23\n    at new ManagedPromise (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/jasminewd2/index.js:80:18)\n    at TaskQueue.execute_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at asyncRun (/Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:2775:27)\n    at /Users/svuser/.jenkins/workspace/protractor_tests/protractor_auto_tests/node_modules/selenium-webdriver/lib/promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)",
+                                        "passed": false,
+                                        "expected": true,
+                                        "actual": false
                                     }
                                 ],
+                                "passedExpectations": [],
                                 "pendingReason": "",
-                                "status": "passed",
-                                "duration": "3 secs"
+                                "status": "failed",
+                                "duration": "3 mins 40 secs",
+                                "type": "failed"
                             },
                             "spec99": {
                                 "id": "spec99",
@@ -1871,7 +1883,7 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "5 secs"
+                                "duration": "4 mins"
                             },
                             "spec100": {
                                 "id": "spec100",
@@ -1912,20 +1924,21 @@
                                 ],
                                 "pendingReason": "",
                                 "status": "passed",
-                                "duration": "10 secs"
+                                "duration": "6 mins 8 secs"
                             }
                         },
                         "status": "finished",
-                        "duration": "22.000 sec"
+                        "type": "failed",
+                        "duration": "16.000 sec"
                     }
                 },
                 "status": "finished",
                 "type": "failed",
-                "duration": "288.107 sec"
+                "duration": "1061.655 sec"
             }
         },
         "status": "finished",
         "type": "failed",
-        "duration": "288.107 sec"
+        "duration": "1061.655 sec"
     }
 }
