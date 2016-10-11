@@ -1,0 +1,1348 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Action Button tests",
+        "fullName": "Action Button tests",
+        "failedExpectations": [],
+        "children": {
+            "spec0": {
+                "id": "spec0",
+                "description": "should open the action button page without using a promo code and see the alert message displayed",
+                "fullName": "Action Button tests should open the action button page without using a promo code and see the alert message displayed",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "Failed: Failed to find value field (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 118 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'\nSystem info: host: 'DESKTOP-R1F6FUP', ip: '192.168.66.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'\nDriver info: org.openqa.selenium.firefox.MarionetteDriver\nCapabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, count=1, appBuildId=20160922113459, version=49.0.1, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7612, browserVersion=49.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop}]\nSession ID: c0e10f67-1b38-4605-8998-49f0dad5c92e",
+                        "stack": "WebDriverError: Failed to find value field (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 118 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'\nSystem info: host: 'DESKTOP-R1F6FUP', ip: '192.168.66.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'\nDriver info: org.openqa.selenium.firefox.MarionetteDriver\nCapabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, count=1, appBuildId=20160922113459, version=49.0.1, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7612, browserVersion=49.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop}]\nSession ID: c0e10f67-1b38-4605-8998-49f0dad5c92e\n    at WebDriverError (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:10)\n    at Object.checkLegacyResponse (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:639:15)\n    at parseHttpResponse (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\http\\index.js:538:13)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\http\\index.js:472:11\n    at ManagedPromise.invokeCallback_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2820:25\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)\nFrom: Task: Protractor.get(http://localhost/actionbuttons/) - resume bootstrap\n    at WebDriver.schedule (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:377:17)\n    at ProtractorBrowser.executeScript_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\built\\browser.js:211:28)\n    at loadMocks (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\built\\browser.js:551:22)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2775:27\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)\nFrom: Task: Run it(\"should open the action button page without using a promo code and see the alert message displayed\") in control flow\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:79:14)\n    at attemptAsync (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1980:24)\n    at QueueRunner.run (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1935:9)\n    at QueueRunner.execute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1923:10)\n    at Spec.Env.queueRunnerFactory (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:714:35)\n    at Spec.execute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:371:10)\n    at Object.fn (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2579:37)\n    at attemptAsync (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1980:24)\n    at QueueRunner.run (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1935:9)\n    at QueueRunner.execute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1923:10)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\specs\\action_buttons.js:10:5)\n    at addSpecsToSuite (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:867:25)\n    at Env.describe (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:836:7)\n    at jasmineInterface.describe (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:3576:18)\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\action_buttons_tests\\protractor_auto_tests\\specs\\action_buttons.js:9:1)\n    at Module._compile (module.js:409:26)\n    at Object.Module._extensions..js (module.js:416:10)\n    at Module.load (module.js:343:32)\n    at Function.Module._load (module.js:300:12)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "failed",
+                "duration": "2 secs",
+                "type": "failed"
+            },
+            "spec1": {
+                "id": "spec1",
+                "description": "should open the action button page using a promo code",
+                "fullName": "Action Button tests should open the action button page using a promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "2 secs"
+            },
+            "suite2": {
+                "id": "suite2",
+                "description": "Check if each Complete Action Buttons redirect to the correct url",
+                "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url",
+                "failedExpectations": [],
+                "children": {
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should find a correct link for first Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for first Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.074 sec"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should find a correct image for first Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for first Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should find a correct preformated code for first Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for first Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.138 sec"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should find a correct link for second Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for second Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should find a correct image for second Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for second Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should find a correct preformated code for second Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for second Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.1 sec"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should find a correct link for third Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for third Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.046 sec"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should find a correct image for third Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for third Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.073 sec"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should find a correct preformated code for third Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for third Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.117 sec"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should find a correct link for forth Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for forth Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.052 sec"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should find a correct image for forth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for forth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should find a correct preformated code for forth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for forth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.103 sec"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should find a correct link for fifth Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for fifth Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.047 sec"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should find a correct image for fifth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for fifth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.052 sec"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should find a correct preformated code for fifth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for fifth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.107 sec"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should find a correct link for sixth Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for sixth Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.047 sec"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should find a correct image for sixth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for sixth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should find a correct preformated code for sixth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for sixth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.112 sec"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should find a correct link for seventh Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for seventh Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.06 sec"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should find a correct image for seventh Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for seventh Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should find a correct preformated code for seventh Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for seventh Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.11 sec"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should find a correct link for eighth Complete Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct link for eighth Complete Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should find a correct image for eighth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct image for eighth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.138 sec"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should find a correct preformated code for eighth Complete Action Button",
+                        "fullName": "Action Button tests Check if each Complete Action Buttons redirect to the correct url should find a correct preformated code for eighth Complete Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.104 sec"
+                    }
+                },
+                "status": "finished",
+                "duration": "1.837 sec"
+            },
+            "suite3": {
+                "id": "suite3",
+                "description": "Check if each Diabetes Action Button redirect to the correct url",
+                "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url",
+                "failedExpectations": [],
+                "children": {
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should find a correct link for first Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for first Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.051 sec"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should find a correct image for first Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for first Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.063 sec"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should find a correct preformated code for first Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for first Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.101 sec"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should find a correct link for second Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for second Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.056 sec"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should find a correct image for second Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for second Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.057 sec"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should find a correct preformated code for second Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for second Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.119 sec"
+                    },
+                    "spec32": {
+                        "id": "spec32",
+                        "description": "should find a correct link for third Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for third Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec"
+                    },
+                    "spec33": {
+                        "id": "spec33",
+                        "description": "should find a correct image for third Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for third Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec"
+                    },
+                    "spec34": {
+                        "id": "spec34",
+                        "description": "should find a correct preformated code for third Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for third Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.1 sec"
+                    },
+                    "spec35": {
+                        "id": "spec35",
+                        "description": "should find a correct link for forth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for forth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.067 sec"
+                    },
+                    "spec36": {
+                        "id": "spec36",
+                        "description": "should find a correct image for forth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for forth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.044 sec"
+                    },
+                    "spec37": {
+                        "id": "spec37",
+                        "description": "should find a correct preformated code for forth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for forth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.087 sec"
+                    },
+                    "spec38": {
+                        "id": "spec38",
+                        "description": "should find a correct link for fifth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for fifth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.044 sec"
+                    },
+                    "spec39": {
+                        "id": "spec39",
+                        "description": "should find a correct image for fifth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for fifth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.043 sec"
+                    },
+                    "spec40": {
+                        "id": "spec40",
+                        "description": "should find a correct preformated code for fifth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for fifth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec"
+                    },
+                    "spec41": {
+                        "id": "spec41",
+                        "description": "should find a correct link for sixth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for sixth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec"
+                    },
+                    "spec42": {
+                        "id": "spec42",
+                        "description": "should find a correct image for sixth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for sixth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.048 sec"
+                    },
+                    "spec43": {
+                        "id": "spec43",
+                        "description": "should find a correct preformated code for sixth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for sixth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.1 sec"
+                    },
+                    "spec44": {
+                        "id": "spec44",
+                        "description": "should find a correct link for seventh Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for seventh Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.045 sec"
+                    },
+                    "spec45": {
+                        "id": "spec45",
+                        "description": "should find a correct image for seventh Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for seventh Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.044 sec"
+                    },
+                    "spec46": {
+                        "id": "spec46",
+                        "description": "should find a correct preformated code for seventh Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for seventh Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec"
+                    },
+                    "spec47": {
+                        "id": "spec47",
+                        "description": "should find a correct link for eighth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for eighth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.046 sec"
+                    },
+                    "spec48": {
+                        "id": "spec48",
+                        "description": "should find a correct image for eighth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for eighth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.043 sec"
+                    },
+                    "spec49": {
+                        "id": "spec49",
+                        "description": "should find a correct preformated code for eighth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for eighth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.09 sec"
+                    },
+                    "spec50": {
+                        "id": "spec50",
+                        "description": "should find a correct link for ninth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for ninth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.042 sec"
+                    },
+                    "spec51": {
+                        "id": "spec51",
+                        "description": "should find a correct image for ninth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for ninth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.14 sec"
+                    },
+                    "spec52": {
+                        "id": "spec52",
+                        "description": "should find a correct preformated code for ninth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for ninth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.134 sec"
+                    },
+                    "spec53": {
+                        "id": "spec53",
+                        "description": "should find a correct link for tenth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for tenth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.044 sec"
+                    },
+                    "spec54": {
+                        "id": "spec54",
+                        "description": "should find a correct image for tenth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for tenth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.085 sec"
+                    },
+                    "spec55": {
+                        "id": "spec55",
+                        "description": "should find a correct preformated code for tenth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for tenth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.136 sec"
+                    },
+                    "spec56": {
+                        "id": "spec56",
+                        "description": "should find a correct link for eleventh Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for eleventh Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.066 sec"
+                    },
+                    "spec57": {
+                        "id": "spec57",
+                        "description": "should find a correct image for eleventh Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for eleventh Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.067 sec"
+                    },
+                    "spec58": {
+                        "id": "spec58",
+                        "description": "should find a correct preformated code for eleventh Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for eleventh Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.144 sec"
+                    },
+                    "spec59": {
+                        "id": "spec59",
+                        "description": "should find a correct link for twelfth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for twelfth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.085 sec"
+                    },
+                    "spec60": {
+                        "id": "spec60",
+                        "description": "should find a correct image for twelfth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for twelfth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec"
+                    },
+                    "spec61": {
+                        "id": "spec61",
+                        "description": "should find a correct preformated code for twelfth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for twelfth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.116 sec"
+                    },
+                    "spec62": {
+                        "id": "spec62",
+                        "description": "should find a correct link for thirteenth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for thirteenth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.053 sec"
+                    },
+                    "spec63": {
+                        "id": "spec63",
+                        "description": "should find a correct image for thirteenth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for thirteenth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.051 sec"
+                    },
+                    "spec64": {
+                        "id": "spec64",
+                        "description": "should find a correct preformated code for thirteenth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for thirteenth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.103 sec"
+                    },
+                    "spec65": {
+                        "id": "spec65",
+                        "description": "should find a correct link for fourteenth Diabetes Action Button including the promo code",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct link for fourteenth Diabetes Action Button including the promo code",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.068 sec"
+                    },
+                    "spec66": {
+                        "id": "spec66",
+                        "description": "should find a correct image for fourteenth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct image for fourteenth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec"
+                    },
+                    "spec67": {
+                        "id": "spec67",
+                        "description": "should find a correct preformated code for fourteenth Diabetes Action Button",
+                        "fullName": "Action Button tests Check if each Diabetes Action Button redirect to the correct url should find a correct preformated code for fourteenth Diabetes Action Button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.111 sec"
+                    }
+                },
+                "status": "finished",
+                "duration": "3.129 sec"
+            }
+        },
+        "status": "finished",
+        "type": "failed",
+        "duration": "8.966 sec"
+    }
+}
