@@ -1,0 +1,1712 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity sanity tests",
+        "fullName": "Activity sanity tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to customize a new Activity plan:",
+                "fullName": "Activity sanity tests In order to customize a new Activity plan:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should successfully open the activity main page",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should successfully open the activity main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should set the appropriate language for the mini-tools",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should set the appropriate language for the mini-tools",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.001 sec"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should open the intro page after clicking the My Activity button on Activity main panel",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should open the intro page after clicking the My Activity button on Activity main panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should display the main panel into the intro screen",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should display the main panel into the intro screen",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should display Tim coach image into the intro screen",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should display Tim coach image into the intro screen",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.046 sec"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see a Next button available with the correct label for starting the food plan customization",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should see a Next button available with the correct label for starting the food plan customization",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should open the home page after clicking the next button from the intro panel",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should open the home page after clicking the next button from the intro panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "5 secs"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should display the activity level selection panel",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should display the activity level selection panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.043 sec"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should display the Back button into the home page header",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: should display the Back button into the home page header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.045 sec"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "While customizing an Activity plan:",
+                        "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan:",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec9": {
+                                "id": "spec9",
+                                "description": "should see Me starting the dialog into the home page",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see Me starting the dialog into the home page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.049 sec"
+                            },
+                            "spec10": {
+                                "id": "spec10",
+                                "description": "should see coach Tim joining the dialog into the home page",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see coach Tim joining the dialog into the home page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.047 sec"
+                            },
+                            "spec11": {
+                                "id": "spec11",
+                                "description": "should see an enabled Next button at the bottom of the activity level panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see an enabled Next button at the bottom of the activity level panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.041 sec"
+                            },
+                            "spec12": {
+                                "id": "spec12",
+                                "description": "should see the progress bar pointing 11% while on activity level panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 11% while on activity level panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.044 sec"
+                            },
+                            "spec13": {
+                                "id": "spec13",
+                                "description": "should move the activity slider to the max left by clicking the low cook icon",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should move the activity slider to the max left by clicking the low cook icon",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "3 secs"
+                            },
+                            "spec14": {
+                                "id": "spec14",
+                                "description": "should move the activity slider to the max right by clicking the high cook icon",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should move the activity slider to the max right by clicking the high cook icon",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "3 secs"
+                            },
+                            "spec15": {
+                                "id": "spec15",
+                                "description": "should move the activity slider to the middle position",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should move the activity slider to the middle position",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "3 secs"
+                            },
+                            "spec16": {
+                                "id": "spec16",
+                                "description": "should see the progress bar pointing 11% before moving to the next choice step",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 11% before moving to the next choice step",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.049 sec"
+                            },
+                            "spec17": {
+                                "id": "spec17",
+                                "description": "should move to the likes interests section by clicking the Next button",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should move to the likes interests section by clicking the Next button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "6 secs"
+                            },
+                            "spec18": {
+                                "id": "spec18",
+                                "description": "should see the progress bar pointing 22% while on likes interests choices",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 22% while on likes interests choices",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.051 sec"
+                            },
+                            "spec19": {
+                                "id": "spec19",
+                                "description": "should see a disabled Edit button by default at the top of the activity interests panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see a disabled Edit button by default at the top of the activity interests panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.087 sec"
+                            },
+                            "spec20": {
+                                "id": "spec20",
+                                "description": "should see a disabled Done button by default at the bottom of the activity interests panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see a disabled Done button by default at the bottom of the activity interests panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.087 sec"
+                            },
+                            "spec21": {
+                                "id": "spec21",
+                                "description": "should see the Others activity card displayed at first into the choosing panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Others activity card displayed at first into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.073 sec"
+                            },
+                            "spec22": {
+                                "id": "spec22",
+                                "description": "should click the Like button for the Others card and see the counter getting value 1",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Like button for the Others card and see the counter getting value 1",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.704 sec"
+                            },
+                            "spec23": {
+                                "id": "spec23",
+                                "description": "should see the Edit button being enabled after passing by the first activity card",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Edit button being enabled after passing by the first activity card",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.081 sec"
+                            },
+                            "spec24": {
+                                "id": "spec24",
+                                "description": "should see the Done button being enabled after passing by the first activity card",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Done button being enabled after passing by the first activity card",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.088 sec"
+                            },
+                            "spec25": {
+                                "id": "spec25",
+                                "description": "should see the Equipment activity second card displayed into the choosing panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Equipment activity second card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.055 sec"
+                            },
+                            "spec26": {
+                                "id": "spec26",
+                                "description": "should click the Dislike button for the Equipment card and see the counter getting value 1",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Dislike button for the Equipment card and see the counter getting value 1",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.739 sec"
+                            },
+                            "spec27": {
+                                "id": "spec27",
+                                "description": "should see the Impact activity third card displayed into the choosing panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Impact activity third card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.058 sec"
+                            },
+                            "spec28": {
+                                "id": "spec28",
+                                "description": "should click the Like button for the Equipment card and see the counter getting value 2",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Like button for the Equipment card and see the counter getting value 2",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "20 secs"
+                            },
+                            "spec29": {
+                                "id": "spec29",
+                                "description": "should see the Sitting activity forth card displayed into the choosing panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Sitting activity forth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.073 sec"
+                            },
+                            "spec30": {
+                                "id": "spec30",
+                                "description": "should click the Dislike button for the Sitting card and see the counter getting value 2",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Dislike button for the Sitting card and see the counter getting value 2",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "21 secs"
+                            },
+                            "spec31": {
+                                "id": "spec31",
+                                "description": "should see the Water activity fifth card displayed into the choosing panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the Water activity fifth card displayed into the choosing panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.064 sec"
+                            },
+                            "spec32": {
+                                "id": "spec32",
+                                "description": "should click the Like button for the Water card and see the counter getting value 3",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Like button for the Water card and see the counter getting value 3",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "21 secs"
+                            },
+                            "spec33": {
+                                "id": "spec33",
+                                "description": "should have correct summary values for Likes after all choices are done",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should have correct summary values for Likes after all choices are done",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.046 sec"
+                            },
+                            "spec34": {
+                                "id": "spec34",
+                                "description": "should have correct summary values for Dislikes after all choices are done",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should have correct summary values for Dislikes after all choices are done",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.046 sec"
+                            },
+                            "spec35": {
+                                "id": "spec35",
+                                "description": "should see the progress bar pointing 22% before moving to the next choice step",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 22% before moving to the next choice step",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.047 sec"
+                            },
+                            "spec36": {
+                                "id": "spec36",
+                                "description": "should click the Next button and move to the gender selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Next button and move to the gender selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "42 secs"
+                            },
+                            "spec37": {
+                                "id": "spec37",
+                                "description": "should see the progress bar pointing 33% while on gender selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 33% while on gender selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.046 sec"
+                            },
+                            "spec38": {
+                                "id": "spec38",
+                                "description": "should click the female icon on gender selection and then see it active",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the female icon on gender selection and then see it active",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "20 secs"
+                            },
+                            "spec39": {
+                                "id": "spec39",
+                                "description": "should click the male icon on gender selection and then see it active",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the male icon on gender selection and then see it active",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "21 secs"
+                            },
+                            "spec40": {
+                                "id": "spec40",
+                                "description": "should see the progress bar pointing 33% before moving to the next choice step",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 33% before moving to the next choice step",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.042 sec"
+                            },
+                            "spec41": {
+                                "id": "spec41",
+                                "description": "should click the Done button and move to the height selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Done button and move to the height selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 min 3 secs"
+                            },
+                            "spec42": {
+                                "id": "spec42",
+                                "description": "should see the progress bar pointing 44% while on hight selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 44% while on hight selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.042 sec"
+                            },
+                            "spec43": {
+                                "id": "spec43",
+                                "description": "should click the Done button and move to the weight selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Done button and move to the weight selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 min 1 sec"
+                            },
+                            "spec44": {
+                                "id": "spec44",
+                                "description": "should see the progress bar pointing 56% while on weight selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 56% while on weight selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.044 sec"
+                            },
+                            "spec45": {
+                                "id": "spec45",
+                                "description": "should see a disabled Done button by default at the top of the weight selection panel",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see a disabled Done button by default at the top of the weight selection panel",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec"
+                            },
+                            "spec46": {
+                                "id": "spec46",
+                                "description": "should enter 2000 lbs value into the weight selection input and see the Done button disabled",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should enter 2000 lbs value into the weight selection input and see the Done button disabled",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.138 sec"
+                            },
+                            "spec47": {
+                                "id": "spec47",
+                                "description": "should enter 200 lbs value into the weight selection input and see the Done button being enabled",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should enter 200 lbs value into the weight selection input and see the Done button being enabled",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "20 secs"
+                            },
+                            "spec48": {
+                                "id": "spec48",
+                                "description": "should see the progress bar pointing 56% before moving to the next choice step",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 56% before moving to the next choice step",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.042 sec"
+                            },
+                            "spec49": {
+                                "id": "spec49",
+                                "description": "should click the Done button and move to the height selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the Done button and move to the height selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 min 2 secs"
+                            },
+                            "spec50": {
+                                "id": "spec50",
+                                "description": "should see the progress bar pointing 67% while on condition selection",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 67% while on condition selection",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.046 sec"
+                            },
+                            "spec51": {
+                                "id": "spec51",
+                                "description": "should select all conditions and see the icons being active",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should select all conditions and see the icons being active",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.434 sec"
+                            },
+                            "spec52": {
+                                "id": "spec52",
+                                "description": "should deselect all conditions and see the icons being inactive",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should deselect all conditions and see the icons being inactive",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.437 sec"
+                            },
+                            "spec53": {
+                                "id": "spec53",
+                                "description": "should see the progress bar pointing 67% before finishing with condition selections",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the progress bar pointing 67% before finishing with condition selections",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.049 sec"
+                            },
+                            "spec54": {
+                                "id": "spec54",
+                                "description": "should click the none button in order to finish with the selections",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should click the none button in order to finish with the selections",
+                                "failedExpectations": [],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.067 sec"
+                            },
+                            "spec55": {
+                                "id": "spec55",
+                                "description": "should see the modal confirmation for selection ending",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the modal confirmation for selection ending",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "42 secs"
+                            },
+                            "spec56": {
+                                "id": "spec56",
+                                "description": "should see the fit box food displayed after pressing done button",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should see the fit box food displayed after pressing done button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "42 secs"
+                            },
+                            "spec57": {
+                                "id": "spec57",
+                                "description": "should have the option to save all the choices into the activity box modal",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should have the option to save all the choices into the activity box modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "20 secs"
+                            },
+                            "spec58": {
+                                "id": "spec58",
+                                "description": "should have the option to check available activities into the activity box modal",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should have the option to check available activities into the activity box modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "21 secs"
+                            },
+                            "spec59": {
+                                "id": "spec59",
+                                "description": "should checkout all available activities corresponding to previous choices and see the activity tabs page displayed",
+                                "fullName": "Activity sanity tests In order to customize a new Activity plan: While customizing an Activity plan: should checkout all available activities corresponding to previous choices and see the activity tabs page displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "42 secs"
+                            }
+                        },
+                        "status": "finished",
+                        "duration": "354.002 sec"
+                    }
+                },
+                "status": "finished",
+                "duration": "364.235 sec"
+            },
+            "suite4": {
+                "id": "suite4",
+                "description": "(Anonymous) While in library, without being registered:",
+                "fullName": "Activity sanity tests (Anonymous) While in library, without being registered:",
+                "failedExpectations": [],
+                "children": {
+                    "spec60": {
+                        "id": "spec60",
+                        "description": "should see the Save now button available at the top of the page",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see the Save now button available at the top of the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec61": {
+                        "id": "spec61",
+                        "description": "should see the Search box available for searching for available items",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see the Search box available for searching for available items",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec62": {
+                        "id": "spec62",
+                        "description": "should see more than 12 activity tabs available within the table",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see more than 12 activity tabs available within the table",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec63": {
+                        "id": "spec63",
+                        "description": "should see more than 10 pages available for the activities table",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see more than 10 pages available for the activities table",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec64": {
+                        "id": "spec64",
+                        "description": "should search by \"forearm\" tag and observe that the pages number decreases",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should search by \"forearm\" tag and observe that the pages number decreases",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeLessThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 4 secs"
+                    },
+                    "spec65": {
+                        "id": "spec65",
+                        "description": "should clear the filters using the clear link and see all activity tabs available",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should clear the filters using the clear link and see all activity tabs available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs"
+                    },
+                    "spec66": {
+                        "id": "spec66",
+                        "description": "should click All Activities tab and see all library items available",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should click All Activities tab and see all library items available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "42 secs"
+                    },
+                    "spec67": {
+                        "id": "spec67",
+                        "description": "should pick an activity and see its card button changed to picked",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should pick an activity and see its card button changed to picked",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "42 secs"
+                    },
+                    "spec68": {
+                        "id": "spec68",
+                        "description": "should see a counter badge over My Picks tab displaying the correct value after making a pick",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see a counter badge over My Picks tab displaying the correct value after making a pick",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec69": {
+                        "id": "spec69",
+                        "description": "should be able to get the picked card name and save it for my activities verification",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should be able to get the picked card name and save it for my activities verification",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec70": {
+                        "id": "spec70",
+                        "description": "should click the My Picks tab and see a single picked activity displayed",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should click the My Picks tab and see a single picked activity displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 2 secs"
+                    },
+                    "spec71": {
+                        "id": "spec71",
+                        "description": "should display a correct value for the the My Picks tab counter",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should display a correct value for the the My Picks tab counter",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "21 secs"
+                    },
+                    "spec72": {
+                        "id": "spec72",
+                        "description": "should see an approval checkmark available into My Picks section",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see an approval checkmark available into My Picks section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec73": {
+                        "id": "spec73",
+                        "description": "should see a print button available into My Picks section",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see a print button available into My Picks section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "21 secs"
+                    },
+                    "spec74": {
+                        "id": "spec74",
+                        "description": "should see the previously picked recipe displayed into my activities section",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should see the previously picked recipe displayed into my activities section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "21 secs"
+                    },
+                    "spec75": {
+                        "id": "spec75",
+                        "description": "should click the Activity Planner tab and see the doctor approval warning modal displayed",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should click the Activity Planner tab and see the doctor approval warning modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 22 secs"
+                    },
+                    "spec76": {
+                        "id": "spec76",
+                        "description": "should go to the intro page and see if anonymous profile is preserved",
+                        "fullName": "Activity sanity tests (Anonymous) While in library, without being registered: should go to the intro page and see if anonymous profile is preserved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 23 secs"
+                    }
+                },
+                "status": "finished",
+                "duration": "293.000 sec"
+            },
+            "suite5": {
+                "id": "suite5",
+                "description": "For the Registration process:",
+                "fullName": "Activity sanity tests For the Registration process:",
+                "failedExpectations": [],
+                "children": {
+                    "spec77": {
+                        "id": "spec77",
+                        "description": "should click the save button and see the sign up form displayed",
+                        "fullName": "Activity sanity tests For the Registration process: should click the save button and see the sign up form displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "21 secs"
+                    },
+                    "spec78": {
+                        "id": "spec78",
+                        "description": "should click the close button and see the sign up form closed",
+                        "fullName": "Activity sanity tests For the Registration process: should click the close button and see the sign up form closed",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs"
+                    },
+                    "spec79": {
+                        "id": "spec79",
+                        "description": "should open sign up form again, click the Save progress button without creds and generate all available alerts",
+                        "fullName": "Activity sanity tests For the Registration process: should open sign up form again, click the Save progress button without creds and generate all available alerts",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "42 secs"
+                    },
+                    "spec80": {
+                        "id": "spec80",
+                        "description": "should see the danger icons displayed for email and password inputs",
+                        "fullName": "Activity sanity tests For the Registration process: should see the danger icons displayed for email and password inputs",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "20 secs"
+                    },
+                    "spec81": {
+                        "id": "spec81",
+                        "description": "should see the alert error messages for email and password inputs",
+                        "fullName": "Activity sanity tests For the Registration process: should see the alert error messages for email and password inputs",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.099 sec"
+                    },
+                    "spec82": {
+                        "id": "spec82",
+                        "description": "should see the age agreement alert error message displayed",
+                        "fullName": "Activity sanity tests For the Registration process: should see the age agreement alert error message displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.045 sec"
+                    },
+                    "spec83": {
+                        "id": "spec83",
+                        "description": "should use invalid email and see the proper alert message displayed for email input",
+                        "fullName": "Activity sanity tests For the Registration process: should use invalid email and see the proper alert message displayed for email input",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.214 sec"
+                    },
+                    "spec84": {
+                        "id": "spec84",
+                        "description": "should use valid email and invalid password and see the proper alert message displayed for password input",
+                        "fullName": "Activity sanity tests For the Registration process: should use valid email and invalid password and see the proper alert message displayed for password input",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.821 sec"
+                    },
+                    "spec85": {
+                        "id": "spec85",
+                        "description": "should successfully sign up using new valid credentials",
+                        "fullName": "Activity sanity tests For the Registration process: should successfully sign up using new valid credentials",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 5 secs"
+                    },
+                    "spec86": {
+                        "id": "spec86",
+                        "description": "should successfully logout after choices were saved and new account was created",
+                        "fullName": "Activity sanity tests For the Registration process: should successfully logout after choices were saved and new account was created",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "41 secs"
+                    }
+                },
+                "status": "finished",
+                "duration": "130.179 sec"
+            },
+            "suite6": {
+                "id": "suite6",
+                "description": "For the Login process:",
+                "fullName": "Activity sanity tests For the Login process:",
+                "failedExpectations": [],
+                "children": {
+                    "spec87": {
+                        "id": "spec87",
+                        "description": "should try to login using no credentials and see the proper error modal displayed",
+                        "fullName": "Activity sanity tests For the Login process: should try to login using no credentials and see the proper error modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "42 secs"
+                    },
+                    "spec88": {
+                        "id": "spec88",
+                        "description": "should try to login using valid email and no password and see the proper error modal displayed",
+                        "fullName": "Activity sanity tests For the Login process: should try to login using valid email and no password and see the proper error modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 22 secs"
+                    },
+                    "spec89": {
+                        "id": "spec89",
+                        "description": "should try to login using invalid credentials and see the proper error modal displayed",
+                        "fullName": "Activity sanity tests For the Login process: should try to login using invalid credentials and see the proper error modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 24 secs"
+                    },
+                    "spec90": {
+                        "id": "spec90",
+                        "description": "should successfully login back using the previously created account",
+                        "fullName": "Activity sanity tests For the Login process: should successfully login back using the previously created account",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 min 26 secs"
+                    },
+                    "spec91": {
+                        "id": "spec91",
+                        "description": "should complete two successfull login-logout sessions",
+                        "fullName": "Activity sanity tests For the Login process: should complete two successfull login-logout sessions",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 mins 10 secs"
+                    }
+                },
+                "status": "finished",
+                "duration": "48.000 sec"
+            }
+        },
+        "status": "finished",
+        "duration": "835.414 sec"
+    }
+}
