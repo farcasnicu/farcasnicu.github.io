@@ -1,0 +1,286 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Shopping List tests",
+        "fullName": "Food Shopping List tests",
+        "failedExpectations": [
+            {
+                "matcherName": "",
+                "message": "Failed:  (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'\nSystem info: host: 'AstraZenecaMihaleVM10', ip: '192.168.66.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f17041f6-9fc0-45c3-88d0-414d85748bc2",
+                "stack": "WebDriverError:  (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'\nSystem info: host: 'AstraZenecaMihaleVM10', ip: '192.168.66.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f17041f6-9fc0-45c3-88d0-414d85748bc2\n    at WebDriverError (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:10)\n    at Object.checkLegacyResponse (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:639:15)\n    at parseHttpResponse (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\http\\index.js:538:13)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\http\\index.js:472:11\n    at ManagedPromise.invokeCallback_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2820:25\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)\nFrom: Task: WebDriver.executeScript()\n    at WebDriver.schedule (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:377:17)\n    at WebDriver.executeScript (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:526:16)\n    at ProtractorBrowser.to.(anonymous function) [as executeScript] (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\built\\browser.js:62:29)\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\food_shopping_list.js:18:17)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:23\n    at new ManagedPromise (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1082:7)\n    at controlFlowExecute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:80:18)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2775:27\nFrom: Task: Run afterAll in control flow\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:79:14)\n    at attemptAsync (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1916:24)\n    at QueueRunner.run (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1871:9)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1898:16\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1842:9\n    at queueRunnerFactory.onComplete (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2467:17)\n    at QueueRunner.clearStack (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:660:9)\n    at QueueRunner.run (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1881:12)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1898:16\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1842:9\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\food_shopping_list.js:17:5)\n    at addSpecsToSuite (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:833:25)\n    at Env.describe (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:802:7)\n    at jasmineInterface.describe (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasmine\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:3375:18)\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\food_shopping_list.js:16:1)\n    at Module._compile (module.js:409:26)\n    at Object.Module._extensions..js (module.js:416:10)\n    at Module.load (module.js:343:32)\n    at Function.Module._load (module.js:300:12)",
+                "passed": false,
+                "expected": "",
+                "actual": ""
+            }
+        ],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate Shopping list section",
+                "fullName": "Food Shopping List tests In order to validate Shopping list section",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for shopping list tests and remain logged in @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should register a new account for shopping list tests and remain logged in @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the Shopping List button and see the shopping list container being displayed @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should click the Shopping List button and see the shopping list container being displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0.001 sec",
+                        "session": ""
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the correct AZAP number into the Shopping List page footer @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the correct AZAP number into the Shopping List page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the print button into the Shopping List page @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the print button into the Shopping List page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the back button into the Shopping List page @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the back button into the Shopping List page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see the clear list button into the Shopping List page @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the clear list button into the Shopping List page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should go to the home page by clicking the back button into the Shopping List page @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should go to the home page by clicking the back button into the Shopping List page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should successfully open My Recipes tab and see recipes being displayed @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should successfully open My Recipes tab and see recipes being displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should select first recipe within the list and see the recipe info file @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should select first recipe within the list and see the recipe info file @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the Add to the Shopping List button being available into recipe detail page @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the Add to the Shopping List button being available into recipe detail page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should see the default 0 value displayed over the Shopping List button @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the default 0 value displayed over the Shopping List button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should count and save the number of ingredients available into the recipe file @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should count and save the number of ingredients available into the recipe file @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should see all recipe ingredients being selected by default after opening the recipe info page @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see all recipe ingredients being selected by default after opening the recipe info page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should add all ingredients into the list and see the correct number on shopping list button @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should add all ingredients into the list and see the correct number on shopping list button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should click on the shopping list button from recipe file and see all previously added ingredients @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should click on the shopping list button from recipe file and see all previously added ingredients @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should remove first ingredient from the list and see it correctly removed @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should remove first ingredient from the list and see it correctly removed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should remove all ingredients from the list and see the list being empty @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should remove all ingredients from the list and see the list being empty @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should manually type and add an ingredient into the shopping list and see it correctly added @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should manually type and add an ingredient into the shopping list and see it correctly added @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should manually type and add same ingredient twice into the shopping list and see it added only once @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should manually type and add same ingredient twice into the shopping list and see it added only once @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see that previously added ingredient has the correct quantity of 2 @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see that previously added ingredient has the correct quantity of 2 @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should increase the quantity by 1 and then see a total of 3 @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should increase the quantity by 1 and then see a total of 3 @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should decrease the quantity by 2 and then see a total of 1 @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should decrease the quantity by 2 and then see a total of 1 @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should successfully logout while in shopping list page and see the login screen displayed @s",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should successfully logout while in shopping list page and see the login screen displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "pending",
+                        "duration": "0 sec",
+                        "session": ""
+                    }
+                },
+                "status": "finished",
+                "session": "",
+                "duration": "0.001 sec"
+            }
+        },
+        "status": "failed",
+        "session": "aa0eb9b4-08fe-47bc-ad9e-3b6c0e32be0e",
+        "duration": "0.001 sec"
+    }
+}
