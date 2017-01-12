@@ -1,0 +1,1997 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "English Action buttons:",
+        "fullName": "English Action buttons:",
+        "failedExpectations": [],
+        "children": {
+            "spec0": {
+                "id": "spec0",
+                "description": "should open the action buttons english page only and see all eight buttons being available",
+                "fullName": "English Action buttons: should open the action buttons english page only and see all eight buttons being available",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "1 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec1": {
+                "id": "spec1",
+                "description": "should see the promo_code input being available into the english action button page",
+                "fullName": "English Action buttons: should see the promo_code input being available into the english action button page",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.08 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec2": {
+                "id": "spec2",
+                "description": "should see the action buttons english section being displayed",
+                "fullName": "English Action buttons: should see the action buttons english section being displayed",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.084 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec3": {
+                "id": "spec3",
+                "description": "should see find a correct link for first english Action Button",
+                "fullName": "English Action buttons: should see find a correct link for first english Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.081 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec4": {
+                "id": "spec4",
+                "description": "should find a correct image for first Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for first Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.076 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec5": {
+                "id": "spec5",
+                "description": "should find a correct preformated code for first Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for first Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.165 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec6": {
+                "id": "spec6",
+                "description": "should find a correct link for second Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for second Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.078 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec7": {
+                "id": "spec7",
+                "description": "should find a correct image for second Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for second Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.098 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec8": {
+                "id": "spec8",
+                "description": "should find a correct preformated code for second Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for second Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.146 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec9": {
+                "id": "spec9",
+                "description": "should find a correct link for third Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for third Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.081 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec10": {
+                "id": "spec10",
+                "description": "should find a correct image for third Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for third Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.09 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec11": {
+                "id": "spec11",
+                "description": "should find a correct preformated code for third Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for third Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.196 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec12": {
+                "id": "spec12",
+                "description": "should find a correct link for forth Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for forth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.075 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec13": {
+                "id": "spec13",
+                "description": "should find a correct image for forth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for forth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.071 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec14": {
+                "id": "spec14",
+                "description": "should find a correct preformated code for forth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for forth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.143 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec15": {
+                "id": "spec15",
+                "description": "should find a correct link for fifth Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for fifth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.074 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec16": {
+                "id": "spec16",
+                "description": "should find a correct image for fifth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for fifth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.072 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec17": {
+                "id": "spec17",
+                "description": "should find a correct preformated code for fifth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for fifth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.146 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec18": {
+                "id": "spec18",
+                "description": "should find a correct link for sixth Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for sixth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.077 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec19": {
+                "id": "spec19",
+                "description": "should find a correct image for sixth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for sixth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.076 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec20": {
+                "id": "spec20",
+                "description": "should find a correct preformated code for sixth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for sixth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.156 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec21": {
+                "id": "spec21",
+                "description": "should find a correct link for seventh Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for seventh Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.08 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec22": {
+                "id": "spec22",
+                "description": "should find a correct image for seventh Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for seventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.068 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec23": {
+                "id": "spec23",
+                "description": "should find a correct preformated code for seventh Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for seventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.231 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec24": {
+                "id": "spec24",
+                "description": "should find a correct link for eighth Complete Action Button including the promo code",
+                "fullName": "English Action buttons: should find a correct link for eighth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.067 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec25": {
+                "id": "spec25",
+                "description": "should find a correct image for eighth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct image for eighth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.089 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec26": {
+                "id": "spec26",
+                "description": "should find a correct preformated code for eighth Complete Action Button",
+                "fullName": "English Action buttons: should find a correct preformated code for eighth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.139 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            }
+        },
+        "status": "finished",
+        "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f",
+        "duration": "3.739 sec"
+    },
+    "suite2": {
+        "id": "suite2",
+        "description": "Spanish Action buttons:",
+        "fullName": "Spanish Action buttons:",
+        "failedExpectations": [],
+        "children": {
+            "spec27": {
+                "id": "spec27",
+                "description": "should open the action buttons spanish page only and see all eight buttons being available",
+                "fullName": "Spanish Action buttons: should open the action buttons spanish page only and see all eight buttons being available",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.399 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec28": {
+                "id": "spec28",
+                "description": "should see the promo_code input being available into the spanish action button page",
+                "fullName": "Spanish Action buttons: should see the promo_code input being available into the spanish action button page",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.063 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec29": {
+                "id": "spec29",
+                "description": "should see the action buttons spanish section being displayed",
+                "fullName": "Spanish Action buttons: should see the action buttons spanish section being displayed",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.07 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec30": {
+                "id": "spec30",
+                "description": "should see find a correct link for first spanish Action Button",
+                "fullName": "Spanish Action buttons: should see find a correct link for first spanish Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.081 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec31": {
+                "id": "spec31",
+                "description": "should find a correct image for first Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for first Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.077 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec32": {
+                "id": "spec32",
+                "description": "should find a correct preformated code for first Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for first Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.131 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec33": {
+                "id": "spec33",
+                "description": "should find a correct link for second Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for second Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec34": {
+                "id": "spec34",
+                "description": "should find a correct image for second Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for second Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec35": {
+                "id": "spec35",
+                "description": "should find a correct preformated code for second Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for second Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.127 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec36": {
+                "id": "spec36",
+                "description": "should find a correct link for third Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for third Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec37": {
+                "id": "spec37",
+                "description": "should find a correct image for third Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for third Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec38": {
+                "id": "spec38",
+                "description": "should find a correct preformated code for third Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for third Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.127 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec39": {
+                "id": "spec39",
+                "description": "should find a correct link for forth Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for forth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.073 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec40": {
+                "id": "spec40",
+                "description": "should find a correct image for forth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for forth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.06 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec41": {
+                "id": "spec41",
+                "description": "should find a correct preformated code for forth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for forth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.135 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec42": {
+                "id": "spec42",
+                "description": "should find a correct link for fifth Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for fifth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.071 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec43": {
+                "id": "spec43",
+                "description": "should find a correct image for fifth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for fifth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec44": {
+                "id": "spec44",
+                "description": "should find a correct preformated code for fifth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for fifth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.125 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec45": {
+                "id": "spec45",
+                "description": "should find a correct link for sixth Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for sixth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.059 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec46": {
+                "id": "spec46",
+                "description": "should find a correct image for sixth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for sixth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.059 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec47": {
+                "id": "spec47",
+                "description": "should find a correct preformated code for sixth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for sixth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.127 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec48": {
+                "id": "spec48",
+                "description": "should find a correct link for seventh Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for seventh Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.062 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec49": {
+                "id": "spec49",
+                "description": "should find a correct image for seventh Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for seventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.069 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec50": {
+                "id": "spec50",
+                "description": "should find a correct preformated code for seventh Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for seventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.12 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec51": {
+                "id": "spec51",
+                "description": "should find a correct link for eighth Complete Action Button including the promo code",
+                "fullName": "Spanish Action buttons: should find a correct link for eighth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.055 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec52": {
+                "id": "spec52",
+                "description": "should find a correct image for eighth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct image for eighth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.054 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec53": {
+                "id": "spec53",
+                "description": "should find a correct preformated code for eighth Complete Action Button",
+                "fullName": "Spanish Action buttons: should find a correct preformated code for eighth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.123 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            }
+        },
+        "status": "finished",
+        "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f",
+        "duration": "2.557 sec"
+    },
+    "suite3": {
+        "id": "suite3",
+        "description": "Diabetes Action buttons:",
+        "fullName": "Diabetes Action buttons:",
+        "failedExpectations": [],
+        "children": {
+            "spec54": {
+                "id": "spec54",
+                "description": "should open the action buttons spanish page only and see all eight buttons being available",
+                "fullName": "Diabetes Action buttons: should open the action buttons spanish page only and see all eight buttons being available",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.483 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec55": {
+                "id": "spec55",
+                "description": "should see the promo_code input being available into the diabetes action button page",
+                "fullName": "Diabetes Action buttons: should see the promo_code input being available into the diabetes action button page",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.078 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec56": {
+                "id": "spec56",
+                "description": "should see the action buttons diabetes section being displayed",
+                "fullName": "Diabetes Action buttons: should see the action buttons diabetes section being displayed",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.066 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec57": {
+                "id": "spec57",
+                "description": "should see find a correct link for first diabetes Action Button",
+                "fullName": "Diabetes Action buttons: should see find a correct link for first diabetes Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.056 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec58": {
+                "id": "spec58",
+                "description": "should find a correct image for first Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for first Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.054 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec59": {
+                "id": "spec59",
+                "description": "should find a correct preformated code for first Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for first Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.132 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec60": {
+                "id": "spec60",
+                "description": "should find a correct link for second Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for second Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.054 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec61": {
+                "id": "spec61",
+                "description": "should find a correct image for second Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for second Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec62": {
+                "id": "spec62",
+                "description": "should find a correct preformated code for second Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for second Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.126 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec63": {
+                "id": "spec63",
+                "description": "should find a correct link for third Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for third Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.055 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec64": {
+                "id": "spec64",
+                "description": "should find a correct image for third Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for third Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.056 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec65": {
+                "id": "spec65",
+                "description": "should find a correct preformated code for third Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for third Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.122 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec66": {
+                "id": "spec66",
+                "description": "should find a correct link for forth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for forth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.06 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec67": {
+                "id": "spec67",
+                "description": "should find a correct image for forth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for forth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.064 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec68": {
+                "id": "spec68",
+                "description": "should find a correct preformated code for forth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for forth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.138 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec69": {
+                "id": "spec69",
+                "description": "should find a correct link for fifth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for fifth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.057 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec70": {
+                "id": "spec70",
+                "description": "should find a correct image for fifth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for fifth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec71": {
+                "id": "spec71",
+                "description": "should find a correct preformated code for fifth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for fifth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.131 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec72": {
+                "id": "spec72",
+                "description": "should find a correct link for sixth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for sixth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.057 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec73": {
+                "id": "spec73",
+                "description": "should find a correct image for sixth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for sixth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.059 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec74": {
+                "id": "spec74",
+                "description": "should find a correct preformated code for sixth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for sixth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.127 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec75": {
+                "id": "spec75",
+                "description": "should find a correct link for seventh Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for seventh Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.059 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec76": {
+                "id": "spec76",
+                "description": "should find a correct image for seventh Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for seventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.057 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec77": {
+                "id": "spec77",
+                "description": "should find a correct preformated code for seventh Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for seventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.142 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec78": {
+                "id": "spec78",
+                "description": "should find a correct link for eighth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for eighth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.06 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec79": {
+                "id": "spec79",
+                "description": "should find a correct image for eighth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for eighth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.058 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec80": {
+                "id": "spec80",
+                "description": "should find a correct preformated code for eighth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for eighth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.125 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec81": {
+                "id": "spec81",
+                "description": "should find a correct link for ninth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for ninth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.07 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec82": {
+                "id": "spec82",
+                "description": "should find a correct image for ninth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for ninth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.072 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec83": {
+                "id": "spec83",
+                "description": "should find a correct preformated code for ninth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for ninth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.137 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec84": {
+                "id": "spec84",
+                "description": "should find a correct link for tenth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for tenth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.073 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec85": {
+                "id": "spec85",
+                "description": "should find a correct image for tenth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for tenth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.07 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec86": {
+                "id": "spec86",
+                "description": "should find a correct preformated code for tenth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for tenth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.138 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec87": {
+                "id": "spec87",
+                "description": "should find a correct link for eleventh Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for eleventh Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.085 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec88": {
+                "id": "spec88",
+                "description": "should find a correct image for eleventh Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for eleventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.07 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec89": {
+                "id": "spec89",
+                "description": "should find a correct preformated code for eleventh Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for eleventh Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.14 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec90": {
+                "id": "spec90",
+                "description": "should find a correct link for twelfth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for twelfth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.108 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec91": {
+                "id": "spec91",
+                "description": "should find a correct image for twelfth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for twelfth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.068 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec92": {
+                "id": "spec92",
+                "description": "should find a correct preformated code for twelfth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for twelfth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.137 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec93": {
+                "id": "spec93",
+                "description": "should find a correct link for thirteenth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for thirteenth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.064 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec94": {
+                "id": "spec94",
+                "description": "should find a correct image for thirteenth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for thirteenth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.068 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec95": {
+                "id": "spec95",
+                "description": "should find a correct preformated code for thirteenth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for thirteenth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.146 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec96": {
+                "id": "spec96",
+                "description": "should find a correct link for fourteenth Complete Action Button including the promo code",
+                "fullName": "Diabetes Action buttons: should find a correct link for fourteenth Complete Action Button including the promo code",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.066 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec97": {
+                "id": "spec97",
+                "description": "should find a correct image for fourteenth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct image for fourteenth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.079 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            },
+            "spec98": {
+                "id": "spec98",
+                "description": "should find a correct preformated code for fourteenth Complete Action Button",
+                "fullName": "Diabetes Action buttons: should find a correct preformated code for fourteenth Complete Action Button",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toContain",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed",
+                "duration": "0.125 sec",
+                "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f"
+            }
+        },
+        "status": "finished",
+        "session": "dc04d53b-ef75-44e8-90a1-2da7de0dfd6f",
+        "duration": "4.308 sec"
+    }
+}
