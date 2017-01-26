@@ -1,0 +1,363 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Intro Page tests",
+        "fullName": "Food Intro Page tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For validating food intro page:",
+                "fullName": "Food Intro Page tests For validating food intro page:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open a clean instance of the food tool @s",
+                        "fullName": "Food Intro Page tests For validating food intro page: should open a clean instance of the food tool @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should open the food main page when accessed @s",
+                        "fullName": "Food Intro Page tests For validating food intro page: should open the food main page when accessed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should set the appropriate language for the mini-tool @s",
+                        "fullName": "Food Intro Page tests For validating food intro page: should set the appropriate language for the mini-tool @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0 sec",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should open the food intro page when accessed @s",
+                        "fullName": "Food Intro Page tests For validating food intro page: should open the food intro page when accessed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should have a correct href for AstraZeneca link into the page footer",
+                        "fullName": "Food Intro Page tests For validating food intro page: should have a correct href for AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.069 sec",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "Between expected elements in food main page: ",
+                        "fullName": "Food Intro Page tests For validating food intro page: Between expected elements in food main page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec5": {
+                                "id": "spec5",
+                                "description": "should display the fit2me logo",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected elements in food main page:  should display the fit2me logo",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.054 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec6": {
+                                "id": "spec6",
+                                "description": "should display Maria coach image into the intro screen @s",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected elements in food main page:  should display Maria coach image into the intro screen @s",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.071 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec7": {
+                                "id": "spec7",
+                                "description": "should display a Next button available for starting the food plan customization @s",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected elements in food main page:  should display a Next button available for starting the food plan customization @s",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.085 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43",
+                        "duration": "0.210 sec"
+                    },
+                    "suite4": {
+                        "id": "suite4",
+                        "description": "Between expected labels and strings in the intro page: ",
+                        "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec8": {
+                                "id": "spec8",
+                                "description": "should see the correct next button label",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct next button label",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.083 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec9": {
+                                "id": "spec9",
+                                "description": "should see the correct header text",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct header text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.09 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec10": {
+                                "id": "spec10",
+                                "description": "should see the correct title text",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct title text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.089 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec11": {
+                                "id": "spec11",
+                                "description": "should see the correct subtitle text",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct subtitle text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.088 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec12": {
+                                "id": "spec12",
+                                "description": "should see the correct text into the first paragraph",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct text into the first paragraph",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.087 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec13": {
+                                "id": "spec13",
+                                "description": "should see the correct text into the second paragraph",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct text into the second paragraph",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.085 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec14": {
+                                "id": "spec14",
+                                "description": "should see the correct text into the third paragraph",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct text into the third paragraph",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec15": {
+                                "id": "spec15",
+                                "description": "should see the correct AZAP number into the intro page footer @s",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should see the correct AZAP number into the intro page footer @s",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.095 sec",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec16": {
+                                "id": "spec16",
+                                "description": "should open the home page after clicking the next button from the intro panel @s",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should open the home page after clicking the next button from the intro panel @s",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "6 secs",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            },
+                            "spec17": {
+                                "id": "spec17",
+                                "description": "should open the food intro page when accessed",
+                                "fullName": "Food Intro Page tests For validating food intro page: Between expected labels and strings in the intro page:  should open the food intro page when accessed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "2 secs",
+                                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43",
+                        "duration": "8.703 sec"
+                    }
+                },
+                "status": "finished",
+                "session": "32084f67-abea-4a2a-8b24-a9a698df8d43",
+                "duration": "14.982 sec"
+            }
+        },
+        "status": "finished",
+        "session": "32084f67-abea-4a2a-8b24-a9a698df8d43",
+        "duration": "14.982 sec"
+    }
+}
