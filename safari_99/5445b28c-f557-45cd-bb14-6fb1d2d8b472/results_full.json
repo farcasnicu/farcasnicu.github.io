@@ -1,0 +1,630 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity My Account tests",
+        "fullName": "Activity My Account tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate activity my account section: ",
+                "fullName": "Activity My Account tests In order to validate activity my account section: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should successfully create a new account and see the my account link available within home page",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should successfully create a new account and see the my account link available within home page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "50 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the My Account link and see the Account settings section being opened",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should click the My Account link and see the Account settings section being opened",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the Contact ID section being selected by default",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the Contact ID section being selected by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.04 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the Back to Home button being available in the header",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the Back to Home button being available in the header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.047 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the Contact ID nickname input available",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the Contact ID nickname input available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.044 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should have the Contact ID nickname input value equal to 'Me/Yo'",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should have the Contact ID nickname input value equal to 'Me/Yo'",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.042 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should see the Contact ID email input available",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the Contact ID email input available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.04 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should have the correct Contact ID email input value",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should have the correct Contact ID email input value",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.041 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should change the name and see the changes saved",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should change the name and see the changes saved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should change the email and see the changes saved",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should change the email and see the changes saved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should be able to logout and then login back using the new email",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should be able to logout and then login back using the new email",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should redo the changes to contact details",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should redo the changes to contact details",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "5 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should select the Password tab and see the nav tab being active",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should select the Password tab and see the nav tab being active",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should see the old password input available within the page",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the old password input available within the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.037 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should see the new password input available within the page",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the new password input available within the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.038 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should see the confirm password input available within the page",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the confirm password input available within the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.038 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should see a disabled Save button available within the page by default",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see a disabled Save button available within the page by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.08 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should successfully change the old password by using a new one",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should successfully change the old password by using a new one",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "5 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should be able to logout and then login back using the new password",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should be able to logout and then login back using the new password",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should redo the changes to the account password",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should redo the changes to the account password",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should see a forgot password link being available into the password section",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see a forgot password link being available into the password section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should successfully open the forgot password page and see the email input available",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should successfully open the forgot password page and see the email input available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should see a reset password button being disabled by default",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see a reset password button being disabled by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.13 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should see the Back to Home button being available in the header while in forgot password page",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the Back to Home button being available in the header while in forgot password page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.052 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should go back to My Account page using the link available in the header",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should go back to My Account page using the link available in the header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should select the Coach Selection tab and see the nav tab being active",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should select the Coach Selection tab and see the nav tab being active",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should see a Save Coack button available in the coach selection section",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see a Save Coack button available in the coach selection section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.051 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should see the Tim coach being selected by default",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should see the Tim coach being selected by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.061 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should be able to select Amanda coach and see it available in coach preview",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should be able to select Amanda coach and see it available in coach preview",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.212 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should be able to save Amanda as the main coach",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should be able to save Amanda as the main coach",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.882 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should redo the previous coach changes and save Tim as the main coach",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should redo the previous coach changes and save Tim as the main coach",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.583 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should successfully logout while in coach selection and see the login screen displayed",
+                        "fullName": "Activity My Account tests In order to validate activity my account section:  should successfully logout while in coach selection and see the login screen displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.521 sec",
+                        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472"
+                    }
+                },
+                "status": "finished",
+                "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472",
+                "duration": "92.939 sec"
+            }
+        },
+        "status": "finished",
+        "session": "5445b28c-f557-45cd-bb14-6fb1d2d8b472",
+        "duration": "92.939 sec"
+    }
+}
