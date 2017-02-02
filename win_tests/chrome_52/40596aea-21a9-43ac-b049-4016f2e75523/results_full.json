@@ -1,0 +1,282 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Fridge tests",
+        "fullName": "Food Fridge tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate the Fridge functionality: ",
+                "fullName": "Food Fridge tests In order to validate the Fridge functionality: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for fridge tests and remain logged in @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should register a new account for fridge tests and remain logged in @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "41 secs",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should successfully open the fridge section from the main tab @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should successfully open the fridge section from the main tab @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the correct AZAP number into the Fridge page footer @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should see the correct AZAP number into the Fridge page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.095 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should successfully return to the home page by clicking the home button @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should successfully return to the home page by clicking the home button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.919 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should successfully open the fridge section again by clicking the fridge button @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should successfully open the fridge section again by clicking the fridge button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should successfully open the fridge door and see the search input available @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should successfully open the fridge door and see the search input available @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "6 secs",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should search for invalid ingredients and see the validation message displayed under the search input @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should search for invalid ingredients and see the validation message displayed under the search input @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.306 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should search and select \"Wine\" from recommendations dropdown and see it added into fridge list @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should search and select \"Wine\" from recommendations dropdown and see it added into fridge list @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.431 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should toggle between recipes and fridge sections, and see the previously added Wine already stored into the list @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should toggle between recipes and fridge sections, and see the previously added Wine already stored into the list @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should search and select \"Pasta\" from recommendations dropdown and see it added into fridge list @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should search and select \"Pasta\" from recommendations dropdown and see it added into fridge list @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.342 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should remove \"Wine\" from the ingredients list @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should remove \"Wine\" from the ingredients list @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should see the food tabs displayed next to the fridge while having at least one ingredient within the list @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should see the food tabs displayed next to the fridge while having at least one ingredient within the list @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.039 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should remove \"Pasta\" from the ingredients list @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should remove \"Pasta\" from the ingredients list @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should successfully logout while in fridge page and see the login screen displayed @s",
+                        "fullName": "Food Fridge tests In order to validate the Fridge functionality:  should successfully logout while in fridge page and see the login screen displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.708 sec",
+                        "session": "40596aea-21a9-43ac-b049-4016f2e75523"
+                    }
+                },
+                "status": "finished",
+                "session": "40596aea-21a9-43ac-b049-4016f2e75523",
+                "duration": "58.840 sec"
+            }
+        },
+        "status": "finished",
+        "session": "40596aea-21a9-43ac-b049-4016f2e75523",
+        "duration": "58.840 sec"
+    }
+}
