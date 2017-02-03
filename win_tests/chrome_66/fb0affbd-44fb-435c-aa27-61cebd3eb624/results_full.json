@@ -1,0 +1,730 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity Library tests",
+        "fullName": "Activity Library tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "Anonymous - While in library, without being registered:",
+                "fullName": "Activity Library tests Anonymous - While in library, without being registered:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for activity library tests without saving a new account",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should register a new account for activity library tests without saving a new account",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "48 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should see the correct AZAP number into the library home page footer",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the library home page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.098 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the Save now button available at the top of the page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Save now button available at the top of the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the Activities Fit2me card with a button available into the home page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Activities Fit2me card with a button available into the home page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the Activity Planner card with a button available into the home page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Activity Planner card with a button available into the home page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.085 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see the My Victories card with a button available into the home page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the My Victories card with a button available into the home page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.09 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should see the Redo choices button available into the home page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Redo choices button available into the home page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.085 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should successfully go to the Activity Fit2me section",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should successfully go to the Activity Fit2me section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should see the Search box available in order to search for available activities",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Search box available in order to search for available activities",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.084 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the correct AZAP number into the Activities Fit2me page footer",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the Activities Fit2me page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.062 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should see the Redo choices button available into the Activities Fit2me page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Redo choices button available into the Activities Fit2me page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.08 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should see more than 12 activity tabs available within the table",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see more than 12 activity tabs available within the table",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.043 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should see more than 10 pages available for the activities table",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see more than 10 pages available for the activities table",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.045 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should search by \"forearm\" tag and observe that the pages number decreases",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should search by \"forearm\" tag and observe that the pages number decreases",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeLessThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should open first card returned after the search and see the activity detail page being opened",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should open first card returned after the search and see the activity detail page being opened",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should see the minutes input being available in the activity info page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the minutes input being available in the activity info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.081 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should see the Back to Activity button being available in the activity info page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Back to Activity button being available in the activity info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.076 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should see the Back to Home button being available in the activity info page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Back to Home button being available in the activity info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.082 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should see the Print button being available in the activity info page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Print button being available in the activity info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.082 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see the Add To Picks button being available in the activity info page",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the Add To Picks button being available in the activity info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.089 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should return to the recipe file and see the search results being preserved",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should return to the recipe file and see the search results being preserved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should clear the filters using the clear link and see all activity tabs available",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should clear the filters using the clear link and see all activity tabs available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should click All Activities tab and see all library items available",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should click All Activities tab and see all library items available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should see the correct AZAP number into the All Activities page footer",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the All Activities page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.099 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should pick an activity and see its card button changed to picked",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should pick an activity and see its card button changed to picked",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should see a counter badge over My Picks tab displaying the correct value after making a pick",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see a counter badge over My Picks tab displaying the correct value after making a pick",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should be able to get the picked card name and save it for my activities verification",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should be able to get the picked card name and save it for my activities verification",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.149 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should click the My Picks tab and see a single picked activity displayed",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should click the My Picks tab and see a single picked activity displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should see the correct AZAP number into the My Picks page footer",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the My Picks page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.058 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should display a correct value for the the My Picks tab counter",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should display a correct value for the the My Picks tab counter",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.111 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should see an approval checkmark available into My Picks section",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see an approval checkmark available into My Picks section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.114 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should see a print button available into My Picks section",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see a print button available into My Picks section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec32": {
+                        "id": "spec32",
+                        "description": "should see the previously picked recipe displayed into my activities section",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the previously picked recipe displayed into my activities section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.173 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec33": {
+                        "id": "spec33",
+                        "description": "should return to the home page using the Home Page button",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should return to the home page using the Home Page button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.819 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec34": {
+                        "id": "spec34",
+                        "description": "should click the Activity Planner tab and see the doctor approval warning modal displayed",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should click the Activity Planner tab and see the doctor approval warning modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec35": {
+                        "id": "spec35",
+                        "description": "should see the correct AZAP number into the Activity Planner page footer",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the Activity Planner page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec36": {
+                        "id": "spec36",
+                        "description": "should go back to my picks and see the picked activity being displayed",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should go back to my picks and see the picked activity being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec37": {
+                        "id": "spec37",
+                        "description": "should confirm doctor approval for the picked activity",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should confirm doctor approval for the picked activity",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.178 sec",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec38": {
+                        "id": "spec38",
+                        "description": "should return to the activity planner and see the planner modal being displayed",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should return to the activity planner and see the planner modal being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    },
+                    "spec39": {
+                        "id": "spec39",
+                        "description": "should go to the intro page and see if anonymous profile is preserved",
+                        "fullName": "Activity Library tests Anonymous - While in library, without being registered: should go to the intro page and see if anonymous profile is preserved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624"
+                    }
+                },
+                "status": "finished",
+                "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624",
+                "duration": "83.056 sec"
+            }
+        },
+        "status": "finished",
+        "session": "fb0affbd-44fb-435c-aa27-61cebd3eb624",
+        "duration": "83.056 sec"
+    }
+}
