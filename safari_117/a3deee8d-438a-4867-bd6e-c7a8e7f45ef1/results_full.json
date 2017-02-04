@@ -1,0 +1,961 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Landing Page tests",
+        "fullName": "Landing Page tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For validating landing page:",
+                "fullName": "Landing Page tests For validating landing page:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open a clean instance of the food tool",
+                        "fullName": "Landing Page tests For validating landing page: should open a clean instance of the food tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should open the food landing page when accessed",
+                        "fullName": "Landing Page tests For validating landing page: should open the food landing page when accessed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should set the appropriate language for the landing page",
+                        "fullName": "Landing Page tests For validating landing page: should set the appropriate language for the landing page",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.002 sec",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the correct AZAP number on landing page - food",
+                        "fullName": "Landing Page tests For validating landing page: should see the correct AZAP number on landing page - food",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.095 sec",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should open a clean instance of the activity tool",
+                        "fullName": "Landing Page tests For validating landing page: should open a clean instance of the activity tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should open the activity landing page when accessed",
+                        "fullName": "Landing Page tests For validating landing page: should open the activity landing page when accessed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should have a correct href for AstraZeneca link into the page footer",
+                        "fullName": "Landing Page tests For validating landing page: should have a correct href for AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.128 sec",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should set the appropriate language for the mini-tool",
+                        "fullName": "Landing Page tests For validating landing page: should set the appropriate language for the mini-tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.004 sec",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "Between expected elements in activity landing page: ",
+                        "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec8": {
+                                "id": "spec8",
+                                "description": "should display the fit2me logo",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the fit2me logo",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.084 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec9": {
+                                "id": "spec9",
+                                "description": "should display the language button",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the language button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.074 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec10": {
+                                "id": "spec10",
+                                "description": "should display the promo code button",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the promo code button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.072 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec11": {
+                                "id": "spec11",
+                                "description": "should display the promo code text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the promo code text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.068 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec12": {
+                                "id": "spec12",
+                                "description": "should display the login button",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the login button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.098 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec13": {
+                                "id": "spec13",
+                                "description": "should display the -already a member- label",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the -already a member- label",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.081 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec14": {
+                                "id": "spec14",
+                                "description": "should display the page text header",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the page text header",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.116 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec15": {
+                                "id": "spec15",
+                                "description": "should display the simtoms heading text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the simtoms heading text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.098 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec16": {
+                                "id": "spec16",
+                                "description": "should display the activity tool btn",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the activity tool btn",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.118 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec17": {
+                                "id": "spec17",
+                                "description": "should display the food tool btn",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the food tool btn",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.062 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec18": {
+                                "id": "spec18",
+                                "description": "should display the recipes nr under the food tab",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the recipes nr under the food tab",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.122 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec19": {
+                                "id": "spec19",
+                                "description": "should display the activities nr under the activity tab",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the activities nr under the activity tab",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.092 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec20": {
+                                "id": "spec20",
+                                "description": "should display bottom page info text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display bottom page info text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.078 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec21": {
+                                "id": "spec21",
+                                "description": "should display the page footer",
+                                "fullName": "Landing Page tests For validating landing page: Between expected elements in activity landing page:  should display the page footer",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.06 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1",
+                        "duration": "1.223 sec"
+                    },
+                    "suite4": {
+                        "id": "suite4",
+                        "description": "Between expected labels and strings in the landing page: ",
+                        "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec22": {
+                                "id": "spec22",
+                                "description": "should see the correct login button label text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct login button label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.094 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec23": {
+                                "id": "spec23",
+                                "description": "should see the correct language button label text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct language button label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.081 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec24": {
+                                "id": "spec24",
+                                "description": "should see the correct -already a member- label text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct -already a member- label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.063 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec25": {
+                                "id": "spec25",
+                                "description": "should see the correct promo code label text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct promo code label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.062 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec26": {
+                                "id": "spec26",
+                                "description": "should see the correct us customers label text",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct us customers label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.084 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec27": {
+                                "id": "spec27",
+                                "description": "should see the correct text heading displayed in landing page",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct text heading displayed in landing page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.066 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec28": {
+                                "id": "spec28",
+                                "description": "should see the correct label on the my food button",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct label on the my food button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.079 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec29": {
+                                "id": "spec29",
+                                "description": "should see the correct label on the my activity button",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct label on the my activity button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.098 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec30": {
+                                "id": "spec30",
+                                "description": "should see the correct recipes number text displayed",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct recipes number text displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.068 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec31": {
+                                "id": "spec31",
+                                "description": "should see the correct activities number text displayed",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct activities number text displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.106 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec32": {
+                                "id": "spec32",
+                                "description": "should see the correct bottom info text displayed in landing page",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct bottom info text displayed in landing page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.108 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec33": {
+                                "id": "spec33",
+                                "description": "should see the correct footer product info on main page",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct footer product info on main page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.055 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec34": {
+                                "id": "spec34",
+                                "description": "should see the correct footer trademark on main page",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct footer trademark on main page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.049 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec35": {
+                                "id": "spec35",
+                                "description": "should see the correct AZAP number on landing page - activity",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct AZAP number on landing page - activity",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.063 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec36": {
+                                "id": "spec36",
+                                "description": "should see the correct AstraZeneca link into the page footer",
+                                "fullName": "Landing Page tests For validating landing page: Between expected labels and strings in the landing page:  should see the correct AstraZeneca link into the page footer",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.042 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1",
+                        "duration": "1.118 sec"
+                    },
+                    "suite5": {
+                        "id": "suite5",
+                        "description": "In order to check the correct functionality of landing page elements, ",
+                        "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements, ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec37": {
+                                "id": "spec37",
+                                "description": "should see the correct image for the my food tool",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should see the correct image for the my food tool",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.047 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec38": {
+                                "id": "spec38",
+                                "description": "should see the correct image for the my activity tool",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should see the correct image for the my activity tool",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.054 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec39": {
+                                "id": "spec39",
+                                "description": "should open the intro page after clicking the My Activity button on landing page",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should open the intro page after clicking the My Activity button on landing page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec40": {
+                                "id": "spec40",
+                                "description": "should return to the landing page and not see the login button (preferences saved)",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should return to the landing page and not see the login button (preferences saved)",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "2 secs",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec41": {
+                                "id": "spec41",
+                                "description": "should click the fit2me logo and see the discard preferences modal",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should click the fit2me logo and see the discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.609 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec42": {
+                                "id": "spec42",
+                                "description": "should see the Cancel button on discard preferences modal",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should see the Cancel button on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.059 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec43": {
+                                "id": "spec43",
+                                "description": "should see correct Cancel button label on discard preferences modal",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should see correct Cancel button label on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.042 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec44": {
+                                "id": "spec44",
+                                "description": "should see the Discard button on discard preferences modal",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should see the Discard button on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.052 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec45": {
+                                "id": "spec45",
+                                "description": "should see correct Discard button label on discard preferences modal",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should see correct Discard button label on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.047 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec46": {
+                                "id": "spec46",
+                                "description": "should click the Cancel button from preferences modal and have the preferences still saved",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should click the Cancel button from preferences modal and have the preferences still saved",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.473 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec47": {
+                                "id": "spec47",
+                                "description": "should discard preferences and see the login button displayed again on the main page",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should discard preferences and see the login button displayed again on the main page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec48": {
+                                "id": "spec48",
+                                "description": "should open the intro page after clicking the My Food button on landing page",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should open the intro page after clicking the My Food button on landing page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            },
+                            "spec49": {
+                                "id": "spec49",
+                                "description": "should discard preferences and return back to the landing page",
+                                "fullName": "Landing Page tests For validating landing page: In order to check the correct functionality of landing page elements,  should discard preferences and return back to the landing page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec",
+                                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1",
+                        "duration": "7.383 sec"
+                    }
+                },
+                "status": "finished",
+                "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1",
+                "duration": "21.953 sec"
+            }
+        },
+        "status": "finished",
+        "session": "a3deee8d-438a-4867-bd6e-c7a8e7f45ef1",
+        "duration": "21.953 sec"
+    }
+}
