@@ -1,0 +1,833 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Library tests",
+        "fullName": "Food Library tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "Anonymous - While in library, without being registered:",
+                "fullName": "Food Library tests Anonymous - While in library, without being registered:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for food library tests without saving a new account @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should register a new account for food library tests without saving a new account @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "37 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should see the correct AZAP number into the library home page footer @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the library home page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.099 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the Save now button available at the top of the page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Save now button available at the top of the page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the Recipes Fit2me card with a button available into the home page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Recipes Fit2me card with a button available into the home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.105 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the Fridge card with a button available into the home page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Fridge card with a button available into the home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.086 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see the My Planner card with a button available into the home page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the My Planner card with a button available into the home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should see the My Victories card with a button available into the home page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the My Victories card with a button available into the home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.107 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should see the Redo choices button available into the home page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Redo choices button available into the home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.086 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should successfully go to the Recipes Fit2me section @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should successfully go to the Recipes Fit2me section @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the correct AZAP number into the Recipes Fit2me page footer @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the Recipes Fit2me page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should see the Redo choices button available into the Recipes Fit2me page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Redo choices button available into the Recipes Fit2me page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.074 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should see diseases icons available in Recipes Fit2me page @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see diseases icons available in Recipes Fit2me page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.14 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should see more than 12 food tabs available within the recipes table @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see more than 12 food tabs available within the recipes table @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.047 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should see more than 10 pages available for the recipes table @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see more than 10 pages available for the recipes table @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.042 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should search by \"slider\" tag and observe that the pages number decreases @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should search by \"slider\" tag and observe that the pages number decreases @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeLessThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should open first recipe returned after the search and see the recipe detail page being opened",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should open first recipe returned after the search and see the recipe detail page being opened",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should see the shopping list button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the shopping list button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.083 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should see the Back to Recipe button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Back to Recipe button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should see the Back to Home button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Back to Home button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.084 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see the Print button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Print button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.087 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should see the Add To Picks button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Add To Picks button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should see the Add Shopping List button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Add Shopping List button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.084 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should see the Unselect All button being available in the recipe info page",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the Unselect All button being available in the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should return to the recipe file and see the search results being preserved",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should return to the recipe file and see the search results being preserved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should clear the filters using the clear link and see all food tabs available @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should clear the filters using the clear link and see all food tabs available @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should return to the home page using the Home Page button @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should return to the home page using the Home Page button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.9 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should click the Fridge button and see the fridge image displayed @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should click the Fridge button and see the fridge image displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should see the correct AZAP number into the Fridge page footer @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the Fridge page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.093 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should return to the home page using the Home Page button @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should return to the home page using the Home Page button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.748 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should go to the recipes tab and see all recipes nav tab displayed @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should go to the recipes tab and see all recipes nav tab displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should go to the all recipes and see all recipes content displayed @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should go to the all recipes and see all recipes content displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should pick a recipe and see its card button changed to picked @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should pick a recipe and see its card button changed to picked @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec32": {
+                        "id": "spec32",
+                        "description": "should be able to get the picked card name and save it for my pick verification @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should be able to get the picked card name and save it for my pick verification @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.173 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec33": {
+                        "id": "spec33",
+                        "description": "should see a counter badge over my picks tab displaying the correct value after making a pick @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see a counter badge over my picks tab displaying the correct value after making a pick @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.093 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec34": {
+                        "id": "spec34",
+                        "description": "should click the my picks tab and see a single picked recipe displayed @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should click the my picks tab and see a single picked recipe displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec35": {
+                        "id": "spec35",
+                        "description": "should see the correct AZAP number into the My Picks page footer @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the My Picks page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.086 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec36": {
+                        "id": "spec36",
+                        "description": "should display a correct value for the the My Picks tab counter @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should display a correct value for the the My Picks tab counter @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.096 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec37": {
+                        "id": "spec37",
+                        "description": "should see the previously picked recipe displayed into my picks section @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the previously picked recipe displayed into my picks section @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.109 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec38": {
+                        "id": "spec38",
+                        "description": "should go back to the home page while on my picks section @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should go back to the home page while on my picks section @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec39": {
+                        "id": "spec39",
+                        "description": "should click the meal planner tab and see the tips modal being automatically displayed @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should click the meal planner tab and see the tips modal being automatically displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec40": {
+                        "id": "spec40",
+                        "description": "should click the skip button on displayed modal and see an available customize button @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should click the skip button on displayed modal and see an available customize button @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.63 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec41": {
+                        "id": "spec41",
+                        "description": "should see the correct AZAP number into the Meal Planner page footer @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should see the correct AZAP number into the Meal Planner page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.057 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec42": {
+                        "id": "spec42",
+                        "description": "should click the customize button into the meal planner and see the goal modal displayed @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should click the customize button into the meal planner and see the goal modal displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.592 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec43": {
+                        "id": "spec43",
+                        "description": "should insert a valid value into the calories field and save the data @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should insert a valid value into the calories field and save the data @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    },
+                    "spec44": {
+                        "id": "spec44",
+                        "description": "should go to the intro page and see if anonymous profile is preserved @s",
+                        "fullName": "Food Library tests Anonymous - While in library, without being registered: should go to the intro page and see if anonymous profile is preserved @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7"
+                    }
+                },
+                "status": "finished",
+                "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7",
+                "duration": "66.250 sec"
+            }
+        },
+        "status": "finished",
+        "session": "75cf821d-92de-460d-b651-a3f2bc65f0e7",
+        "duration": "66.250 sec"
+    }
+}
