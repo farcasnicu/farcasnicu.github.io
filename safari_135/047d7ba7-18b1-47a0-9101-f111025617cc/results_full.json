@@ -1,0 +1,204 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity Victories tests",
+        "fullName": "Activity Victories tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate My Victories section: ",
+                "fullName": "Activity Victories tests In order to validate My Victories section: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for my victories tests and remain logged in",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should register a new account for my victories tests and remain logged in",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "50 secs",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the My Victories button and see the Victory section being opened",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should click the My Victories button and see the Victory section being opened",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.883 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the correct AZAP number into the My victories page footer",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should see the correct AZAP number into the My victories page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.039 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the calendar toggle displayed into the Victory page",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should see the calendar toggle displayed into the Victory page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.043 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should click the calendar toggle and see the calendar picker into the Victory page",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should click the calendar toggle and see the calendar picker into the Victory page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.371 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see exact eight periods dispayed into the calendar picker",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should see exact eight periods dispayed into the calendar picker",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.222 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should successfully close the calendar picker",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should successfully close the calendar picker",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.384 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should see the print button into the My Victories page",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should see the print button into the My Victories page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.038 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should see the read more link being correctly displayed for Victories paragraph text",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should see the read more link being correctly displayed for Victories paragraph text",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.048 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the read less link being correctly displayed for Victories paragraph text after clicking the Read More link",
+                        "fullName": "Activity Victories tests In order to validate My Victories section:  should see the read less link being correctly displayed for Victories paragraph text after clicking the Read More link",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.39 sec",
+                        "session": "047d7ba7-18b1-47a0-9101-f111025617cc"
+                    }
+                },
+                "status": "finished",
+                "session": "047d7ba7-18b1-47a0-9101-f111025617cc",
+                "duration": "52.418 sec"
+            }
+        },
+        "status": "finished",
+        "session": "047d7ba7-18b1-47a0-9101-f111025617cc",
+        "duration": "52.418 sec"
+    }
+}
