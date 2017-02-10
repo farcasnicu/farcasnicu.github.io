@@ -1,0 +1,149 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Login tests",
+        "fullName": "Food Login tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For the Food login process:",
+                "fullName": "Food Login tests For the Food login process:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register and prepare a new account for the food login tests @s",
+                        "fullName": "Food Login tests For the Food login process: should register and prepare a new account for the food login tests @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "40 secs",
+                        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should try to login using no credentials and see the proper error modal displayed @s",
+                        "fullName": "Food Login tests For the Food login process: should try to login using no credentials and see the proper error modal displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should try to login using valid email and no password and see the proper error modal displayed @s",
+                        "fullName": "Food Login tests For the Food login process: should try to login using valid email and no password and see the proper error modal displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should try to login using invalid credentials and see the proper error modal displayed @s",
+                        "fullName": "Food Login tests For the Food login process: should try to login using invalid credentials and see the proper error modal displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should successfully login back using the previously created account @s",
+                        "fullName": "Food Login tests For the Food login process: should successfully login back using the previously created account @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should complete two successfull login-logout sessions @s",
+                        "fullName": "Food Login tests For the Food login process: should complete two successfull login-logout sessions @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "5 secs",
+                        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5"
+                    }
+                },
+                "status": "finished",
+                "session": "b4b65aea-e35a-46da-8e2b-1419913268f5",
+                "duration": "54.000 sec"
+            }
+        },
+        "status": "finished",
+        "session": "b4b65aea-e35a-46da-8e2b-1419913268f5",
+        "duration": "54.000 sec"
+    }
+}
