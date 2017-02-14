@@ -1,0 +1,477 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Planner tests",
+        "fullName": "Food Planner tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate Food planner section",
+                "fullName": "Food Planner tests In order to validate Food planner section",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should successfully create a new account and see the food planner button available within home page @s",
+                        "fullName": "Food Planner tests In order to validate Food planner section should successfully create a new account and see the food planner button available within home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "44 secs",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the Planner button and see the tips modal being automatically displayed",
+                        "fullName": "Food Planner tests In order to validate Food planner section should click the Planner button and see the tips modal being automatically displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should click the skip button on displayed modal and see an available customize button",
+                        "fullName": "Food Planner tests In order to validate Food planner section should click the skip button on displayed modal and see an available customize button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.603 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the correct AZAP number into the Meal Planner page footer",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the correct AZAP number into the Meal Planner page footer",
+                        "failedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Expected 'Esta información del producto está diseñada para el uso únicamente de consumidores de los EE. UU.\nFit2Me™ es una marca comercial del grupo de empresas de AstraZeneca.\n©2017 AstraZeneca. Todos los derechos reservados. 2067506-3325913 Última actualización 2/17' to contain '2067506-3325913 Última actualización 1/17'.",
+                                "stack": "Error: Failed expectation\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\food_planner.js:28:51)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:23\n    at new ManagedPromise (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1082:7)\n    at controlFlowExecute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:80:18)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2820:25\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                "passed": false,
+                                "expected": "2067506-3325913 Última actualización 1/17",
+                                "actual": "Esta información del producto está diseñada para el uso únicamente de consumidores de los EE. UU.\nFit2Me™ es una marca comercial del grupo de empresas de AstraZeneca.\n©2017 AstraZeneca. Todos los derechos reservados. 2067506-3325913 Última actualización 2/17"
+                            }
+                        ],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "failed",
+                        "duration": "0.096 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5",
+                        "type": "failed"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the correct page title displayed into the meal planner",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the correct page title displayed into the meal planner",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.388 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see the correct coach info text being displayed into the root food planner page",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the correct coach info text being displayed into the root food planner page",
+                        "failedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Expected 'Comer de manera saludable no es algo involuntario. Se requiere de un plan que comienza con la selección de una meta saludable, pero realista. Para empezar, llené algunos de los objetivos clave a continuación basados en los desafíos de salud que mencionó.\nSi su proveedor de salud le ha dado metas a seguir, simplemente pulse el botón Personalizar / Agregar metas a continuación y puede ingresar diferentes objetivos, o puede usar los que le proporcionamos. ¡Usted decide!' to contain 'Si su proveedor de salud le ha dado metas a seguir, simplemente pulse el botón Personalizar / Agregar Objetivos a continuación y puede ingresar diferentes objetivos, o puede usar los que le proporcionamos. ¡Usted decide!'.",
+                                "stack": "Error: Failed expectation\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\food_planner.js:35:62)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:23\n    at new ManagedPromise (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1082:7)\n    at controlFlowExecute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:80:18)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2820:25\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                "passed": false,
+                                "expected": "Si su proveedor de salud le ha dado metas a seguir, simplemente pulse el botón Personalizar / Agregar Objetivos a continuación y puede ingresar diferentes objetivos, o puede usar los que le proporcionamos. ¡Usted decide!",
+                                "actual": "Comer de manera saludable no es algo involuntario. Se requiere de un plan que comienza con la selección de una meta saludable, pero realista. Para empezar, llené algunos de los objetivos clave a continuación basados en los desafíos de salud que mencionó.\nSi su proveedor de salud le ha dado metas a seguir, simplemente pulse el botón Personalizar / Agregar metas a continuación y puede ingresar diferentes objetivos, o puede usar los que le proporcionamos. ¡Usted decide!"
+                            }
+                        ],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "failed",
+                        "duration": "0.18 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5",
+                        "type": "failed"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should see two icons being displayed in the planner page coresponding to selected diseases",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see two icons being displayed in the planner page coresponding to selected diseases",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should see the correct icons being displayed in the planner page coresponding to selected diseases",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the correct icons being displayed in the planner page coresponding to selected diseases",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.098 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should see the correct title for the two icons displayed in the planner page coresponding to selected diseases",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the correct title for the two icons displayed in the planner page coresponding to selected diseases",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.189 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should click the Use these goals button and see the week calendar being displayed",
+                        "fullName": "Food Planner tests In order to validate Food planner section should click the Use these goals button and see the week calendar being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should see the correct coach info text being displayed above the week calendar",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the correct coach info text being displayed above the week calendar",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should see only 7 days displayed into the week calendar into the food planner",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see only 7 days displayed into the week calendar into the food planner",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.061 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should see correct week days being shown into the week calendar",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see correct week days being shown into the week calendar",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.687 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should click the first day from the week calendar and see the food planner control being displayed",
+                        "fullName": "Food Planner tests In order to validate Food planner section should click the first day from the week calendar and see the food planner control being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.7 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should see an Edit button being available into the food planner control section",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see an Edit button being available into the food planner control section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.087 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should find a correct label for the Edit button into the food planner control section",
+                        "fullName": "Food Planner tests In order to validate Food planner section should find a correct label for the Edit button into the food planner control section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.071 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should see the food picker being displayed into the food planner control",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see the food picker being displayed into the food planner control",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should see 4 options into the food picker",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see 4 options into the food picker",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.101 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should see correct labels for the options from the food picker",
+                        "fullName": "Food Planner tests In order to validate Food planner section should see correct labels for the options from the food picker",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.358 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should click the Edit button and see the goal modal being displayed",
+                        "fullName": "Food Planner tests In order to validate Food planner section should click the Edit button and see the goal modal being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should insert a valid value into the calories field and save the data",
+                        "fullName": "Food Planner tests In order to validate Food planner section should insert a valid value into the calories field and save the data",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.646 sec",
+                        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5"
+                    }
+                },
+                "status": "finished",
+                "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5",
+                "type": "failed",
+                "duration": "52.447 sec"
+            }
+        },
+        "status": "finished",
+        "session": "0e4c3154-6ae2-4e66-b069-23dc7aa4a7e5",
+        "type": "failed",
+        "duration": "52.447 sec"
+    }
+}
