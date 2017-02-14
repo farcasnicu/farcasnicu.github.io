@@ -1,0 +1,149 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity Login tests",
+        "fullName": "Activity Login tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For the Activity login tests:",
+                "fullName": "Activity Login tests For the Activity login tests:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register and prepare a new account for the activity login tests",
+                        "fullName": "Activity Login tests For the Activity login tests: should register and prepare a new account for the activity login tests",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "53 secs",
+                        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should try to login using no credentials and see the proper error modal displayed",
+                        "fullName": "Activity Login tests For the Activity login tests: should try to login using no credentials and see the proper error modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should try to login using valid email and no password and see the proper error modal displayed",
+                        "fullName": "Activity Login tests For the Activity login tests: should try to login using valid email and no password and see the proper error modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should try to login using invalid credentials and see the proper error modal displayed",
+                        "fullName": "Activity Login tests For the Activity login tests: should try to login using invalid credentials and see the proper error modal displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should successfully login back using the previously created account",
+                        "fullName": "Activity Login tests For the Activity login tests: should successfully login back using the previously created account",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should complete two successfull login-logout sessions",
+                        "fullName": "Activity Login tests For the Activity login tests: should complete two successfull login-logout sessions",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "7 secs",
+                        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086"
+                    }
+                },
+                "status": "finished",
+                "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086",
+                "duration": "68.000 sec"
+            }
+        },
+        "status": "finished",
+        "session": "d87abdc7-6ee9-48a9-bea9-8f09fed03086",
+        "duration": "68.000 sec"
+    }
+}
