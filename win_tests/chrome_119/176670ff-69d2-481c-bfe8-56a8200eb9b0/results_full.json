@@ -1,0 +1,1734 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity registration tests",
+        "fullName": "Activity registration tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to customize new Activity plan: ",
+                "fullName": "Activity registration tests In order to customize new Activity plan: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open a clean instance of the activity main page",
+                        "fullName": "Activity registration tests In order to customize new Activity plan:  should open a clean instance of the activity main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "5 secs",
+                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should display the activity level selection panel",
+                        "fullName": "Activity registration tests In order to customize new Activity plan:  should display the activity level selection panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should display the Back button into the home page header",
+                        "fullName": "Activity registration tests In order to customize new Activity plan:  should display the Back button into the home page header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec",
+                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "While customizing an Activity plan",
+                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan",
+                        "failedExpectations": [],
+                        "children": {
+                            "suite4": {
+                                "id": "suite4",
+                                "description": "On Activity slider section",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section",
+                                "failedExpectations": [],
+                                "children": {
+                                    "spec3": {
+                                        "id": "spec3",
+                                        "description": "should see Me starting the dialog into the home page",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see Me starting the dialog into the home page",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.1 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec4": {
+                                        "id": "spec4",
+                                        "description": "should see the correct text into Me dialog ",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the correct text into Me dialog ",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toContain",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.095 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec5": {
+                                        "id": "spec5",
+                                        "description": "should see coach Tim joining the dialog into the home page",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see coach Tim joining the dialog into the home page",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.092 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec6": {
+                                        "id": "spec6",
+                                        "description": "should see the correct text into Tim dialog ",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the correct text into Tim dialog ",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toContain",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toContain",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.169 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec7": {
+                                        "id": "spec7",
+                                        "description": "should see an enabled Next button at the bottom of the activity level panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see an enabled Next button at the bottom of the activity level panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.088 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec8": {
+                                        "id": "spec8",
+                                        "description": "should see the corect title text for the slider panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the corect title text for the slider panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.093 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec9": {
+                                        "id": "spec9",
+                                        "description": "should see the corect info-text for the slider panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the corect info-text for the slider panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.093 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec10": {
+                                        "id": "spec10",
+                                        "description": "should see the progress bar pointing 0% while on activity level panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the progress bar pointing 0% while on activity level panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.093 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec11": {
+                                        "id": "spec11",
+                                        "description": "should move the activity slider to the max left by clicking the low cook icon",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should move the activity slider to the max left by clicking the low cook icon",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "2 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec12": {
+                                        "id": "spec12",
+                                        "description": "should see the correct text for slider while on first left position",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the correct text for slider while on first left position",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.094 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec13": {
+                                        "id": "spec13",
+                                        "description": "should move the activity slider to the middle position",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should move the activity slider to the middle position",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "2 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec14": {
+                                        "id": "spec14",
+                                        "description": "should see the correct text for slider while on middle position",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the correct text for slider while on middle position",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.061 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec15": {
+                                        "id": "spec15",
+                                        "description": "should move the activity slider to the max right by clicking the high cook icon",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should move the activity slider to the max right by clicking the high cook icon",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "2 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec16": {
+                                        "id": "spec16",
+                                        "description": "should see the correct text for slider while on maximum right position",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the correct text for slider while on maximum right position",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.059 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec17": {
+                                        "id": "spec17",
+                                        "description": "should see the progress bar pointing 0% before moving to the next choice step",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should see the progress bar pointing 0% before moving to the next choice step",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.062 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec18": {
+                                        "id": "spec18",
+                                        "description": "should move to the likes interests section by clicking the Next button",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity slider section should move to the likes interests section by clicking the Next button",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "5 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    }
+                                },
+                                "status": "finished",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0",
+                                "duration": "12.099 sec"
+                            },
+                            "suite5": {
+                                "id": "suite5",
+                                "description": "On Activity interests section",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section",
+                                "failedExpectations": [],
+                                "children": {
+                                    "spec19": {
+                                        "id": "spec19",
+                                        "description": "should see the correct text into the second Me dialog",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the correct text into the second Me dialog",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.1 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec20": {
+                                        "id": "spec20",
+                                        "description": "should see the correct text into the second Coach dialog",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the correct text into the second Coach dialog",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.097 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec21": {
+                                        "id": "spec21",
+                                        "description": "should still see the Back to Start button available into the page header",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should still see the Back to Start button available into the page header",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.083 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec22": {
+                                        "id": "spec22",
+                                        "description": "should see the progress bar pointing 13% while on likes interests choices",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 13% while on likes interests choices",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.083 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec23": {
+                                        "id": "spec23",
+                                        "description": "should see a disabled Edit button by default at the top of the activity interests panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a disabled Edit button by default at the top of the activity interests panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.151 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec24": {
+                                        "id": "spec24",
+                                        "description": "should see a correctly labbeled Edit button at the top of the activity interests panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a correctly labbeled Edit button at the top of the activity interests panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.08 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec25": {
+                                        "id": "spec25",
+                                        "description": "should see a disabled Done button by default at the bottom of the activity interests panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a disabled Done button by default at the bottom of the activity interests panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.139 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec26": {
+                                        "id": "spec26",
+                                        "description": "should see a correctly labbeled Done button at the bottom of the activity interests panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a correctly labbeled Done button at the bottom of the activity interests panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.064 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec27": {
+                                        "id": "spec27",
+                                        "description": "should see a correct description for Activity cards",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a correct description for Activity cards",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.082 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec28": {
+                                        "id": "spec28",
+                                        "description": "should see the Others activity card displayed at first into the choosing panel with the correct description",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Others activity card displayed at first into the choosing panel with the correct description",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.117 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec29": {
+                                        "id": "spec29",
+                                        "description": "should click the Like button for the Others card and see the counter getting value 1",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Like button for the Others card and see the counter getting value 1",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.781 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec30": {
+                                        "id": "spec30",
+                                        "description": "should see the Edit button being enabled after passing by the first activity card",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Edit button being enabled after passing by the first activity card",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.125 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec31": {
+                                        "id": "spec31",
+                                        "description": "should see the Done button being enabled after passing by the first activity card",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Done button being enabled after passing by the first activity card",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.125 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec32": {
+                                        "id": "spec32",
+                                        "description": "should see the Equipment activity second card displayed into the choosing panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Equipment activity second card displayed into the choosing panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.083 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec33": {
+                                        "id": "spec33",
+                                        "description": "should click the Dislike button for the Equipment card and see the counter getting value 1",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Dislike button for the Equipment card and see the counter getting value 1",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.743 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec34": {
+                                        "id": "spec34",
+                                        "description": "should see the Impact activity third card displayed into the choosing panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Impact activity third card displayed into the choosing panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.082 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec35": {
+                                        "id": "spec35",
+                                        "description": "should click the Like button for the Equipment card and see the counter getting value 2",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Like button for the Equipment card and see the counter getting value 2",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.678 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec36": {
+                                        "id": "spec36",
+                                        "description": "should see the Sitting activity forth card displayed into the choosing panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Sitting activity forth card displayed into the choosing panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.081 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec37": {
+                                        "id": "spec37",
+                                        "description": "should click the Dislike button for the Sitting card and see the counter getting value 2",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Dislike button for the Sitting card and see the counter getting value 2",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.661 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec38": {
+                                        "id": "spec38",
+                                        "description": "should see the Water activity fifth card displayed into the choosing panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the Water activity fifth card displayed into the choosing panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.087 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec39": {
+                                        "id": "spec39",
+                                        "description": "should click the Like button for the Water card and see the counter getting value 3",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Like button for the Water card and see the counter getting value 3",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.706 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec40": {
+                                        "id": "spec40",
+                                        "description": "should have correct summary values for Likes after all choices are done",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should have correct summary values for Likes after all choices are done",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.073 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec41": {
+                                        "id": "spec41",
+                                        "description": "should have correct summary values for Dislikes after all choices are done",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should have correct summary values for Dislikes after all choices are done",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.101 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec42": {
+                                        "id": "spec42",
+                                        "description": "should see an Edit button available for the summary values",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see an Edit button available for the summary values",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.061 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec43": {
+                                        "id": "spec43",
+                                        "description": "should see a correct label for the Edit button in the summary values section",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a correct label for the Edit button in the summary values section",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.078 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec44": {
+                                        "id": "spec44",
+                                        "description": "should click the Edit button and see all the previous five choices available",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Edit button and see all the previous five choices available",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.807 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec45": {
+                                        "id": "spec45",
+                                        "description": "should see a correct info text into the Edit sections area",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a correct info text into the Edit sections area",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.098 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec46": {
+                                        "id": "spec46",
+                                        "description": "should see the correct text for all five previously selected activities",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the correct text for all five previously selected activities",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.582 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec47": {
+                                        "id": "spec47",
+                                        "description": "should see the progress bar pointing 13% before moving to the next choice step",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 13% before moving to the next choice step",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.082 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec48": {
+                                        "id": "spec48",
+                                        "description": "should click the Next button and move to the gender selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Next button and move to the gender selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "5 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec49": {
+                                        "id": "spec49",
+                                        "description": "should see the progress bar pointing 25% while on gender selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 25% while on gender selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.096 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec50": {
+                                        "id": "spec50",
+                                        "description": "should click the female icon on gender selection and then see it active",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the female icon on gender selection and then see it active",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "1 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec51": {
+                                        "id": "spec51",
+                                        "description": "should click the male icon on gender selection and then see it active",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the male icon on gender selection and then see it active",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "1 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec52": {
+                                        "id": "spec52",
+                                        "description": "should see the progress bar pointing 25% before moving to the next choice step",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 25% before moving to the next choice step",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.071 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec53": {
+                                        "id": "spec53",
+                                        "description": "should click the Done button and move to the height selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Done button and move to the height selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "5 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec54": {
+                                        "id": "spec54",
+                                        "description": "should see the progress bar pointing 38% while on hight selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 38% while on hight selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.106 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec55": {
+                                        "id": "spec55",
+                                        "description": "should click the Done button and move to the weight selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Done button and move to the weight selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "5 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec56": {
+                                        "id": "spec56",
+                                        "description": "should see the progress bar pointing 50% while on weight selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 50% while on weight selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.071 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec57": {
+                                        "id": "spec57",
+                                        "description": "should see a disabled Done button by default at the top of the weight selection panel",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see a disabled Done button by default at the top of the weight selection panel",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.118 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec58": {
+                                        "id": "spec58",
+                                        "description": "should enter 2000 lbs value into the weight selection input and see the Done button disabled",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should enter 2000 lbs value into the weight selection input and see the Done button disabled",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.178 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec59": {
+                                        "id": "spec59",
+                                        "description": "should enter 200 lbs value into the weight selection input and see the Done button being enabled",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should enter 200 lbs value into the weight selection input and see the Done button being enabled",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "2 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec60": {
+                                        "id": "spec60",
+                                        "description": "should see the progress bar pointing 50% before moving to the next choice step",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 50% before moving to the next choice step",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.073 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec61": {
+                                        "id": "spec61",
+                                        "description": "should click the Done button and move to the height selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Done button and move to the height selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "5 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec62": {
+                                        "id": "spec62",
+                                        "description": "should see the progress bar pointing 63% while on condition selection",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 63% while on condition selection",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.071 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec63": {
+                                        "id": "spec63",
+                                        "description": "should select all conditions and see the icons being active",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should select all conditions and see the icons being active",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "1 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec64": {
+                                        "id": "spec64",
+                                        "description": "should deselect all conditions and see the icons being inactive",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should deselect all conditions and see the icons being inactive",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.741 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec65": {
+                                        "id": "spec65",
+                                        "description": "should select high cholesterol and high blood pressure conditions before continuing",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should select high cholesterol and high blood pressure conditions before continuing",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            },
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.396 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec66": {
+                                        "id": "spec66",
+                                        "description": "should see the progress bar pointing 63% before finishing with condition selections",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the progress bar pointing 63% before finishing with condition selections",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.057 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec67": {
+                                        "id": "spec67",
+                                        "description": "should click the Done button in order to finish with the selections",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should click the Done button in order to finish with the selections",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.132 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec68": {
+                                        "id": "spec68",
+                                        "description": "should see the modal confirmation for selection ending",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the modal confirmation for selection ending",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "3 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec69": {
+                                        "id": "spec69",
+                                        "description": "should see the fit box food displayed after pressing done button",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the fit box food displayed after pressing done button",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "3 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec70": {
+                                        "id": "spec70",
+                                        "description": "should have the option to save all the choices into the activity box modal",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should have the option to save all the choices into the activity box modal",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "2 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec71": {
+                                        "id": "spec71",
+                                        "description": "should have the option to check available activities into the activity box modal",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should have the option to check available activities into the activity box modal",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.13 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec72": {
+                                        "id": "spec72",
+                                        "description": "should check available activities into the activity box modal and see the ready modal being displayed",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should check available activities into the activity box modal and see the ready modal being displayed",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "2 secs",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec73": {
+                                        "id": "spec73",
+                                        "description": "should see the correct content into the ready modal",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should see the correct content into the ready modal",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "0.086 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    },
+                                    "spec74": {
+                                        "id": "spec74",
+                                        "description": "should dismiss the ready activity modal into the home page",
+                                        "fullName": "Activity registration tests In order to customize new Activity plan:  While customizing an Activity plan On Activity interests section should dismiss the ready activity modal into the home page",
+                                        "failedExpectations": [],
+                                        "passedExpectations": [
+                                            {
+                                                "matcherName": "toBe",
+                                                "message": "Passed.",
+                                                "stack": "",
+                                                "passed": true
+                                            }
+                                        ],
+                                        "pendingReason": "",
+                                        "status": "passed",
+                                        "duration": "1 sec",
+                                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                                    }
+                                },
+                                "status": "finished",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0",
+                                "duration": "45.356 sec"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0",
+                        "duration": "57.455 sec"
+                    },
+                    "suite6": {
+                        "id": "suite6",
+                        "description": "Registration Sign Up - positive and negative tests",
+                        "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec75": {
+                                "id": "spec75",
+                                "description": "should click the save button and see the sign up form displayed",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should click the save button and see the sign up form displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.676 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec76": {
+                                "id": "spec76",
+                                "description": "should click the close button and see the sign up form closed",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should click the close button and see the sign up form closed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.382 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec77": {
+                                "id": "spec77",
+                                "description": "should open sign up form again, click the Save progress button without creds and generate all available alerts",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should open sign up form again, click the Save progress button without creds and generate all available alerts",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.759 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec78": {
+                                "id": "spec78",
+                                "description": "should see the danger icons displayed for email and password inputs",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should see the danger icons displayed for email and password inputs",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.487 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec79": {
+                                "id": "spec79",
+                                "description": "should see the alert error messages for email and password inputs",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should see the alert error messages for email and password inputs",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.17 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec80": {
+                                "id": "spec80",
+                                "description": "should see the age agreement alert error message displayed",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should see the age agreement alert error message displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.083 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec81": {
+                                "id": "spec81",
+                                "description": "should use invalid email and see the proper alert message displayed for email input",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should use invalid email and see the proper alert message displayed for email input",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.223 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec82": {
+                                "id": "spec82",
+                                "description": "should use valid email and invalid password and see the proper alert message displayed for password input",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should use valid email and invalid password and see the proper alert message displayed for password input",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.56 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec83": {
+                                "id": "spec83",
+                                "description": "should successfully sign up using new valid credentials",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should successfully sign up using new valid credentials",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "3 secs",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            },
+                            "spec84": {
+                                "id": "spec84",
+                                "description": "should be redirected to the corrent link after new account was saved",
+                                "fullName": "Activity registration tests In order to customize new Activity plan:  Registration Sign Up - positive and negative tests should be redirected to the corrent link after new account was saved",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.035 sec",
+                                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0",
+                        "duration": "6.375 sec"
+                    }
+                },
+                "status": "finished",
+                "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0",
+                "duration": "72.921 sec"
+            }
+        },
+        "status": "finished",
+        "session": "176670ff-69d2-481c-bfe8-56a8200eb9b0",
+        "duration": "72.921 sec"
+    }
+}

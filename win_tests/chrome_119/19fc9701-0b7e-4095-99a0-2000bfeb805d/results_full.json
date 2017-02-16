@@ -1,0 +1,509 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity Planner tests",
+        "fullName": "Activity Planner tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate Activity planner section",
+                "fullName": "Activity Planner tests In order to validate Activity planner section",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should successfully create a new account and see the food planner button available within home page @s",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should successfully create a new account and see the food planner button available within home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "51 secs",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should pick a single activity and confirm doctor approval for it",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should pick a single activity and confirm doctor approval for it",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "7 secs",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should click the Planner button and see the tips modal being automatically displayed",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should click the Planner button and see the tips modal being automatically displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should click the skip button on displayed modal and see the activity goal modal being displayed",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should click the skip button on displayed modal and see the activity goal modal being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.557 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the correct title being displayed for the activity goal modal",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct title being displayed for the activity goal modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.101 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see the correct text being displayed into the activity goal modal",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct text being displayed into the activity goal modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.169 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should see the correct text button being displayed for the activity goal modal",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct text button being displayed for the activity goal modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.079 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should see the correct input title being displayed for the activity goal modal",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct input title being displayed for the activity goal modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.083 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should see the correct input placeholder being shown for the activity goal modal",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct input placeholder being shown for the activity goal modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.057 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the correct input measure being shown for the activity goal modal",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct input measure being shown for the activity goal modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.114 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should insert a value in minutes as activity goal and save the data",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should insert a value in minutes as activity goal and save the data",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.646 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should see the correct AZAP number into the Activity Planner page footer",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct AZAP number into the Activity Planner page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.091 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should see the correct page title displayed into the activity planner",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct page title displayed into the activity planner",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.095 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should see the correct coach info text being displayed into the activity planner page",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct coach info text being displayed into the activity planner page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should see an edit goals button being displayed into the activity planner page",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see an edit goals button being displayed into the activity planner page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.082 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should see the correct goal stored value being displayed into the activity planner page",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the correct goal stored value being displayed into the activity planner page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.188 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should see only 7 days displayed into the week calendar into the activity planner",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see only 7 days displayed into the week calendar into the activity planner",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.08 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should see correct week days being shown into the week calendar",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see correct week days being shown into the week calendar",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.629 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should click the first day from the week calendar and see the activity planner control being displayed",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should click the first day from the week calendar and see the activity planner control being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.839 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see an add button being displayed into the activity planner control",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see an add button being displayed into the activity planner control",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should the correct text label for the add button",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should the correct text label for the add button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should click the add button and see the activity picker layer being displayed",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should click the add button and see the activity picker layer being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should see a single activity card being available as option into the picker layer",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see a single activity card being available as option into the picker layer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.069 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should see the picked activity only being available as option into the picker layer",
+                        "fullName": "Activity Planner tests In order to validate Activity planner section should see the picked activity only being available as option into the picker layer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.124 sec",
+                        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d"
+                    }
+                },
+                "status": "finished",
+                "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d",
+                "duration": "66.185 sec"
+            }
+        },
+        "status": "finished",
+        "session": "19fc9701-0b7e-4095-99a0-2000bfeb805d",
+        "duration": "66.185 sec"
+    }
+}
