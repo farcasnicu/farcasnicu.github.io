@@ -1,0 +1,800 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Activity Main Page tests",
+        "fullName": "Activity Main Page tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For validating activity main page: ",
+                "fullName": "Activity Main Page tests For validating activity main page: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open a clean instance of the activity tool",
+                        "fullName": "Activity Main Page tests For validating activity main page:  should open a clean instance of the activity tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should successfully open the activity main page when accessed",
+                        "fullName": "Activity Main Page tests For validating activity main page:  should successfully open the activity main page when accessed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should have a correct href for AstraZeneca link into the page footer",
+                        "fullName": "Activity Main Page tests For validating activity main page:  should have a correct href for AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.078 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should set the appropriate language for the activity tool",
+                        "fullName": "Activity Main Page tests For validating activity main page:  should set the appropriate language for the activity tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    }
+                },
+                "status": "finished",
+                "session": "f1448227-c248-4208-8c6b-b95005e06619",
+                "duration": "5.078 sec"
+            },
+            "suite3": {
+                "id": "suite3",
+                "description": "Between expected elements in activity main page: ",
+                "fullName": "Activity Main Page tests Between expected elements in activity main page: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should display the fit2me logo",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the fit2me logo",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.077 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should display the language button",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the language button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.101 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should display the login button",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the login button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.078 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should display the -already a member- label",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the -already a member- label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.087 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should display the welcome header",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the welcome header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.086 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should display the FREE plan details",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the FREE plan details",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should display the activity tool title",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the activity tool title",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.101 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should display the activity tool content",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the activity tool content",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.085 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should display the My Activity tool button",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the My Activity tool button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should display the coach info image",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the coach info image",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should display the usa flag in footer",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the usa flag in footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should display the footer audience",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the footer audience",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.099 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should display the footer copyright",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the footer copyright",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.103 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should display the astrazeneca logo",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the astrazeneca logo",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should display the astrazeneca link",
+                        "fullName": "Activity Main Page tests Between expected elements in activity main page:  should display the astrazeneca link",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.078 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    }
+                },
+                "status": "finished",
+                "session": "f1448227-c248-4208-8c6b-b95005e06619",
+                "duration": "1.365 sec"
+            },
+            "suite4": {
+                "id": "suite4",
+                "description": "Between expected labels and strings in the main page: ",
+                "fullName": "Activity Main Page tests Between expected labels and strings in the main page: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see the correct login button label",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct login button label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.078 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should see the correct language button label",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct language button label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should see the correct -already a member- label",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct -already a member- label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should see the correct us customers label",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct us customers label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.093 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should see the correct activity title displayed",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct activity title displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should see the correct activity subtitle displayed",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct activity subtitle displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should see the correct label on the my activity button",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct label on the my activity button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.109 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should see the correct activity header into the right panel",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct activity header into the right panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should see the correct activity paragraph into the right panel",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct activity paragraph into the right panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.078 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should see the correct footer product info on main page",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct footer product info on main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should see the correct footer trademark on main page",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct footer trademark on main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.084 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should see the correct AZAP number on main page",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct AZAP number on main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.053 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should see the correct AstraZeneca link into the page footer",
+                        "fullName": "Activity Main Page tests Between expected labels and strings in the main page:  should see the correct AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.07 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    }
+                },
+                "status": "finished",
+                "session": "f1448227-c248-4208-8c6b-b95005e06619",
+                "duration": "1.129 sec"
+            },
+            "suite5": {
+                "id": "suite5",
+                "description": "In order to save or clear preferences while in activity main page, ",
+                "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page, ",
+                "failedExpectations": [],
+                "children": {
+                    "spec32": {
+                        "id": "spec32",
+                        "description": "should open the intro page after clicking the My Activity button on activity main panel",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should open the intro page after clicking the My Activity button on activity main panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec33": {
+                        "id": "spec33",
+                        "description": "should return to the main page and not see the login button (preferences saved)",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should return to the main page and not see the login button (preferences saved)",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "5 secs",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec34": {
+                        "id": "spec34",
+                        "description": "should click the fit2me logo and see the discard preferences modal",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should click the fit2me logo and see the discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.713 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec35": {
+                        "id": "spec35",
+                        "description": "should see the Cancel button on discard preferences modal",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should see the Cancel button on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec36": {
+                        "id": "spec36",
+                        "description": "should see correct Cancel button label on discard preferences modal",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should see correct Cancel button label on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.078 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec37": {
+                        "id": "spec37",
+                        "description": "should see the Discard button on discard preferences modal",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should see the Discard button on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.093 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec38": {
+                        "id": "spec38",
+                        "description": "should see correct Discard button label on discard preferences modal",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should see correct Discard button label on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.063 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec39": {
+                        "id": "spec39",
+                        "description": "should click the Cancel button from preferences modal and have the preferences still saved",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should click the Cancel button from preferences modal and have the preferences still saved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.476 sec",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    },
+                    "spec40": {
+                        "id": "spec40",
+                        "description": "should discard preferences and see the login button displayed again on the main page",
+                        "fullName": "Activity Main Page tests In order to save or clear preferences while in activity main page,  should discard preferences and see the login button displayed again on the main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "f1448227-c248-4208-8c6b-b95005e06619"
+                    }
+                },
+                "status": "finished",
+                "session": "f1448227-c248-4208-8c6b-b95005e06619",
+                "duration": "9.517 sec"
+            }
+        },
+        "status": "finished",
+        "session": "f1448227-c248-4208-8c6b-b95005e06619",
+        "duration": "17.089 sec"
+    }
+}
