@@ -1,0 +1,586 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Shopping List tests",
+        "fullName": "Food Shopping List tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate Shopping list section",
+                "fullName": "Food Shopping List tests In order to validate Shopping list section",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for shopping list tests and remain logged in",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should register a new account for shopping list tests and remain logged in",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "41 secs",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the Shopping List button and see the shopping list container being displayed",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should click the Shopping List button and see the shopping list container being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.884 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the correct AZAP number into the Shopping List page footer",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the correct AZAP number into the Shopping List page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.089 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the print button into the Shopping List page",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the print button into the Shopping List page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.085 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the back button into the Shopping List page",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the back button into the Shopping List page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.098 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see the clear list button into the Shopping List page",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the clear list button into the Shopping List page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.099 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should go to the home page by clicking the back button into the Shopping List page",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should go to the home page by clicking the back button into the Shopping List page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.876 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should successfully open My Recipes tab and see recipes being displayed",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should successfully open My Recipes tab and see recipes being displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should select first recipe within the list and see the recipe info file",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should select first recipe within the list and see the recipe info file",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the Add to the Shopping List button being available into recipe detail page",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the Add to the Shopping List button being available into recipe detail page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.095 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should see the default 0 value displayed over the Shopping List button",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see the default 0 value displayed over the Shopping List button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.096 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should count and save the number of ingredients available into the recipe file",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should count and save the number of ingredients available into the recipe file",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.001 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should see all recipe ingredients being selected by default after opening the recipe info page",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see all recipe ingredients being selected by default after opening the recipe info page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.164 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should add all ingredients into the list and see the correct number on shopping list button",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should add all ingredients into the list and see the correct number on shopping list button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should click on the shopping list button from recipe file and see all previously added ingredients",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should click on the shopping list button from recipe file and see all previously added ingredients",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBeTruthy",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBeGreaterThan",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.934 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should remove first ingredient from the list and see it correctly removed",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should remove first ingredient from the list and see it correctly removed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.848 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should remove all ingredients from the list and see the list being empty",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should remove all ingredients from the list and see the list being empty",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.788 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should manually type and add an ingredient into the shopping list and see it correctly added",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should manually type and add an ingredient into the shopping list and see it correctly added",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.625 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should manually type and add same ingredient twice into the shopping list and see it added only once",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should manually type and add same ingredient twice into the shopping list and see it added only once",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.513 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see that previously added ingredient has the correct quantity of 2",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should see that previously added ingredient has the correct quantity of 2",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.087 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should increase the quantity by 1 and then see a total of 3",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should increase the quantity by 1 and then see a total of 3",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.183 sec",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should decrease the quantity by 2 and then see a total of 1",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section should decrease the quantity by 2 and then see a total of 1",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "Between expected labels and strings in the shopping list page: ",
+                        "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec22": {
+                                "id": "spec22",
+                                "description": "should see the correct page title being shown into the shopping list page",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct page title being shown into the shopping list page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.106 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec23": {
+                                "id": "spec23",
+                                "description": "should see the correct paragraph being shown into the shopping list page",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct paragraph being shown into the shopping list page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.159 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec24": {
+                                "id": "spec24",
+                                "description": "should see the correct print button label",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct print button label",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.089 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec25": {
+                                "id": "spec25",
+                                "description": "should see the correct back button label",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct back button label",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.081 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec26": {
+                                "id": "spec26",
+                                "description": "should see the correct Clear Shopping List button label",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct Clear Shopping List button label",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.085 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec27": {
+                                "id": "spec27",
+                                "description": "should see the correct Clear Shopping List button label",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct Clear Shopping List button label",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.087 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec28": {
+                                "id": "spec28",
+                                "description": "should see the correct list header being shown for the shopping list",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should see the correct list header being shown for the shopping list",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.083 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            },
+                            "spec29": {
+                                "id": "spec29",
+                                "description": "should successfully logout while in shopping list page and see the login screen displayed",
+                                "fullName": "Food Shopping List tests In order to validate Shopping list section Between expected labels and strings in the shopping list page:  should successfully logout while in shopping list page and see the login screen displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.677 sec",
+                                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5",
+                        "duration": "1.367 sec"
+                    }
+                },
+                "status": "finished",
+                "session": "7630cf94-65d0-422d-af0a-05b9c29595a5",
+                "duration": "58.832 sec"
+            }
+        },
+        "status": "finished",
+        "session": "7630cf94-65d0-422d-af0a-05b9c29595a5",
+        "duration": "58.832 sec"
+    }
+}
