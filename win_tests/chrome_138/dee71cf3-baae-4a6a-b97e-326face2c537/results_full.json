@@ -1,0 +1,222 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Victories tests",
+        "fullName": "Food Victories tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate My Victories section",
+                "fullName": "Food Victories tests In order to validate My Victories section",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should register a new account for my victories tests and remain logged in @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should register a new account for my victories tests and remain logged in @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "41 secs",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the My Victories button and see the Victory section being opened @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should click the My Victories button and see the Victory section being opened @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the correct AZAP number into the My victories page footer @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should see the correct AZAP number into the My victories page footer @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.111 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the calendar toggle displayed into the Victory page @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should see the calendar toggle displayed into the Victory page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should click the calendar toggle and see the calendar picker into the Victory page @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should click the calendar toggle and see the calendar picker into the Victory page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.522 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should see exact eight periods dispayed into the calendar picker @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should see exact eight periods dispayed into the calendar picker @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toEqual",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.591 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should successfully close the calendar picker @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should successfully close the calendar picker @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should see the print button into the My Victories page @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should see the print button into the My Victories page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.105 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should see the read more link being correctly displayed for Victories paragraph text @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should see the read more link being correctly displayed for Victories paragraph text @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.094 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should see the read less link being correctly displayed for Victories paragraph text after clicking the Read More link @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should see the read less link being correctly displayed for Victories paragraph text after clicking the Read More link @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.503 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should successfully logout while in victories page and see the login screen displayed @s",
+                        "fullName": "Food Victories tests In order to validate My Victories section should successfully logout while in victories page and see the login screen displayed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.697 sec",
+                        "session": "dee71cf3-baae-4a6a-b97e-326face2c537"
+                    }
+                },
+                "status": "finished",
+                "session": "dee71cf3-baae-4a6a-b97e-326face2c537",
+                "duration": "45.711 sec"
+            }
+        },
+        "status": "finished",
+        "session": "dee71cf3-baae-4a6a-b97e-326face2c537",
+        "duration": "45.711 sec"
+    }
+}
