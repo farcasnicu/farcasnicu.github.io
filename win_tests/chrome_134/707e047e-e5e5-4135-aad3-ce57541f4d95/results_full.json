@@ -1,0 +1,630 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food My Account tests",
+        "fullName": "Food My Account tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "In order to validate Food my account section",
+                "fullName": "Food My Account tests In order to validate Food my account section",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should successfully create a new account and see the my account link available within home page @s",
+                        "fullName": "Food My Account tests In order to validate Food my account section should successfully create a new account and see the my account link available within home page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "41 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should click the My Account link and see the Account settings section being opened",
+                        "fullName": "Food My Account tests In order to validate Food my account section should click the My Account link and see the Account settings section being opened",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should see the Contact ID section being selected by default",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the Contact ID section being selected by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.082 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the Back to Home button being available in the header",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the Back to Home button being available in the header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.096 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should see the Contact ID nickname input available",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the Contact ID nickname input available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.079 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should have the Contact ID nickname input value equal to 'Me/Yo' ",
+                        "fullName": "Food My Account tests In order to validate Food my account section should have the Contact ID nickname input value equal to 'Me/Yo' ",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should see the Contact ID email input available",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the Contact ID email input available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.082 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should have the correct Contact ID email input value",
+                        "fullName": "Food My Account tests In order to validate Food my account section should have the correct Contact ID email input value",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.055 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should change the name and see the changes saved",
+                        "fullName": "Food My Account tests In order to validate Food my account section should change the name and see the changes saved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "7 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should change the email and see the changes saved",
+                        "fullName": "Food My Account tests In order to validate Food my account section should change the email and see the changes saved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "6 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should be able to logout and then login back using the new email",
+                        "fullName": "Food My Account tests In order to validate Food my account section should be able to logout and then login back using the new email",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "4 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should redo the changes to contact details",
+                        "fullName": "Food My Account tests In order to validate Food my account section should redo the changes to contact details",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "6 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should select the Password tab and see the nav tab being active",
+                        "fullName": "Food My Account tests In order to validate Food my account section should select the Password tab and see the nav tab being active",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should see the old password input available within the page",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the old password input available within the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.081 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should see the new password input available within the page",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the new password input available within the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.071 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should see the confirm password input available within the page",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the confirm password input available within the page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.073 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should see a disabled Save button available within the page by default",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see a disabled Save button available within the page by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.151 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should successfully change the old password by using a new one",
+                        "fullName": "Food My Account tests In order to validate Food my account section should successfully change the old password by using a new one",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should be able to logout and then login back using the new password",
+                        "fullName": "Food My Account tests In order to validate Food my account section should be able to logout and then login back using the new password",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should redo the changes to the account password",
+                        "fullName": "Food My Account tests In order to validate Food my account section should redo the changes to the account password",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should see a forgot password link being available into the password section",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see a forgot password link being available into the password section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should successfully open the forgot password page and see the email input available",
+                        "fullName": "Food My Account tests In order to validate Food my account section should successfully open the forgot password page and see the email input available",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.843 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should see a reset password button being disabled by default",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see a reset password button being disabled by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.131 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should see the Back to Home button being available in the header while in forgot password page",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the Back to Home button being available in the header while in forgot password page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.089 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should go back to My Account page using the link available in the header",
+                        "fullName": "Food My Account tests In order to validate Food my account section should go back to My Account page using the link available in the header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should select the Coach Selection tab and see the nav tab being active",
+                        "fullName": "Food My Account tests In order to validate Food my account section should select the Coach Selection tab and see the nav tab being active",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should see a Save Coack button available in the coach selection section",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see a Save Coack button available in the coach selection section",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.11 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should see the Maria coach being selected by default",
+                        "fullName": "Food My Account tests In order to validate Food my account section should see the Maria coach being selected by default",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.074 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should be able to select Amanda coach and see it available in coach preview",
+                        "fullName": "Food My Account tests In order to validate Food my account section should be able to select Amanda coach and see it available in coach preview",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.333 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should be able to save Amanda as the main coach",
+                        "fullName": "Food My Account tests In order to validate Food my account section should be able to save Amanda as the main coach",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.992 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should redo the previous coach changes and save Maria as the main coach",
+                        "fullName": "Food My Account tests In order to validate Food my account section should redo the previous coach changes and save Maria as the main coach",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.707 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should successfully logout while in coach selection and see the login screen displayed",
+                        "fullName": "Food My Account tests In order to validate Food my account section should successfully logout while in coach selection and see the login screen displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.658 sec",
+                        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95"
+                    }
+                },
+                "status": "finished",
+                "session": "707e047e-e5e5-4135-aad3-ce57541f4d95",
+                "duration": "81.849 sec"
+            }
+        },
+        "status": "finished",
+        "session": "707e047e-e5e5-4135-aad3-ce57541f4d95",
+        "duration": "81.849 sec"
+    }
+}
