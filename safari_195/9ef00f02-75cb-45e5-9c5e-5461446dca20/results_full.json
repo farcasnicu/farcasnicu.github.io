@@ -1,0 +1,800 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Food Main Page tests",
+        "fullName": "Food Main Page tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For validating food main page:",
+                "fullName": "Food Main Page tests For validating food main page:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open a clean instance of the food tool @s",
+                        "fullName": "Food Main Page tests For validating food main page: should open a clean instance of the food tool @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "8 secs",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should open the food main page when accessed @s",
+                        "fullName": "Food Main Page tests For validating food main page: should open the food main page when accessed @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should have a correct href for AstraZeneca link into the page footer",
+                        "fullName": "Food Main Page tests For validating food main page: should have a correct href for AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.041 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should set the appropriate language for the mini-tool @s",
+                        "fullName": "Food Main Page tests For validating food main page: should set the appropriate language for the mini-tool @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.007 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    }
+                },
+                "status": "finished",
+                "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20",
+                "duration": "10.048 sec"
+            },
+            "suite3": {
+                "id": "suite3",
+                "description": "For validating the presence of all elements into food main page: ",
+                "fullName": "Food Main Page tests For validating the presence of all elements into food main page: ",
+                "failedExpectations": [],
+                "children": {
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should display the fit2me logo",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the fit2me logo",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.042 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should display the language button",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the language button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.05 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should display the login button",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the login button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.045 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should display the -already a member- label",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the -already a member- label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.042 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec8": {
+                        "id": "spec8",
+                        "description": "should display the welcome header",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the welcome header",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.043 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec9": {
+                        "id": "spec9",
+                        "description": "should display the FREE plan details",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the FREE plan details",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.044 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec10": {
+                        "id": "spec10",
+                        "description": "should display the food tool title",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the food tool title",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.04 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec11": {
+                        "id": "spec11",
+                        "description": "should display the food tool content",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the food tool content",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.045 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec12": {
+                        "id": "spec12",
+                        "description": "should display the My Food tool button",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the My Food tool button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec13": {
+                        "id": "spec13",
+                        "description": "should display the coach info image",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the coach info image",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.058 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec14": {
+                        "id": "spec14",
+                        "description": "should display the usa flag in footer",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the usa flag in footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec15": {
+                        "id": "spec15",
+                        "description": "should display the footer audience",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the footer audience",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.061 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec16": {
+                        "id": "spec16",
+                        "description": "should display the footer copyright",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the footer copyright",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.069 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec17": {
+                        "id": "spec17",
+                        "description": "should display the astrazeneca logo",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the astrazeneca logo",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.053 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec18": {
+                        "id": "spec18",
+                        "description": "should display the astrazeneca link",
+                        "fullName": "Food Main Page tests For validating the presence of all elements into food main page:  should display the astrazeneca link",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.055 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    }
+                },
+                "status": "finished",
+                "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20",
+                "duration": "0.745 sec"
+            },
+            "suite4": {
+                "id": "suite4",
+                "description": "Check the labels and strings on the main page",
+                "fullName": "Food Main Page tests Check the labels and strings on the main page",
+                "failedExpectations": [],
+                "children": {
+                    "spec19": {
+                        "id": "spec19",
+                        "description": "should see the correct login button label",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct login button label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.049 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec20": {
+                        "id": "spec20",
+                        "description": "should see the correct language button label",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct language button label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec21": {
+                        "id": "spec21",
+                        "description": "should see the correct -already a member- label",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct -already a member- label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.051 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec22": {
+                        "id": "spec22",
+                        "description": "should see the correct us customers label",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct us customers label",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.039 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec23": {
+                        "id": "spec23",
+                        "description": "should see the correct food title displayed",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct food title displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.039 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec24": {
+                        "id": "spec24",
+                        "description": "should see the correct food subtitle displayed",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct food subtitle displayed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.036 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec25": {
+                        "id": "spec25",
+                        "description": "should see the correct label on the my food button",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct label on the my food button",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.057 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec26": {
+                        "id": "spec26",
+                        "description": "should see the correct food header into the right panel",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct food header into the right panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.061 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec27": {
+                        "id": "spec27",
+                        "description": "should see the correct food paragraph into the right panel",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct food paragraph into the right panel",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.066 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec28": {
+                        "id": "spec28",
+                        "description": "should see the correct footer product info on main page",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct footer product info on main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.054 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec29": {
+                        "id": "spec29",
+                        "description": "should see the correct footer trademark on main page",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct footer trademark on main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.048 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec30": {
+                        "id": "spec30",
+                        "description": "should see the correct AZAP number on main page @s",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct AZAP number on main page @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.042 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec31": {
+                        "id": "spec31",
+                        "description": "should see the correct AstraZeneca link into the page footer",
+                        "fullName": "Food Main Page tests Check the labels and strings on the main page should see the correct AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.064 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    }
+                },
+                "status": "finished",
+                "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20",
+                "duration": "0.660 sec"
+            },
+            "suite5": {
+                "id": "suite5",
+                "description": "Switch between intro and main page in order to save or clear preferences",
+                "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences",
+                "failedExpectations": [],
+                "children": {
+                    "spec32": {
+                        "id": "spec32",
+                        "description": "should open the intro page after clicking the My Food button on food main panel @s",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should open the intro page after clicking the My Food button on food main panel @s",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "1 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec33": {
+                        "id": "spec33",
+                        "description": "should return to the main page and not see the login button (preferences saved)",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should return to the main page and not see the login button (preferences saved)",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "6 secs",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec34": {
+                        "id": "spec34",
+                        "description": "should click the fit2me logo and see the discard preferences modal",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should click the fit2me logo and see the discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.458 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec35": {
+                        "id": "spec35",
+                        "description": "should see the Cancel button on discard preferences modal",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should see the Cancel button on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.073 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec36": {
+                        "id": "spec36",
+                        "description": "should see correct Cancel button label on discard preferences modal",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should see correct Cancel button label on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.105 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec37": {
+                        "id": "spec37",
+                        "description": "should see the Discard button on discard preferences modal",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should see the Discard button on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.069 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec38": {
+                        "id": "spec38",
+                        "description": "should see correct Discard button label on discard preferences modal",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should see correct Discard button label on discard preferences modal",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.088 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec39": {
+                        "id": "spec39",
+                        "description": "should click the Cancel button from preferences modal and have the preferences still saved",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should click the Cancel button from preferences modal and have the preferences still saved",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.627 sec",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    },
+                    "spec40": {
+                        "id": "spec40",
+                        "description": "should discard preferences and see the login button displayed again on the main page",
+                        "fullName": "Food Main Page tests Switch between intro and main page in order to save or clear preferences should discard preferences and see the login button displayed again on the main page",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            },
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20"
+                    }
+                },
+                "status": "finished",
+                "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20",
+                "duration": "10.420 sec"
+            }
+        },
+        "status": "finished",
+        "session": "9ef00f02-75cb-45e5-9c5e-5461446dca20",
+        "duration": "21.873 sec"
+    }
+}
