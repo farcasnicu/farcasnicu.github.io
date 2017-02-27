@@ -1,0 +1,968 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Event Page tests",
+        "fullName": "Event Page tests",
+        "failedExpectations": [],
+        "children": {
+            "suite2": {
+                "id": "suite2",
+                "description": "For validating event page:",
+                "fullName": "Event Page tests For validating event page:",
+                "failedExpectations": [],
+                "children": {
+                    "spec0": {
+                        "id": "spec0",
+                        "description": "should open a clean instance of the food tool",
+                        "fullName": "Event Page tests For validating event page: should open a clean instance of the food tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "3 secs",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec1": {
+                        "id": "spec1",
+                        "description": "should open the food event page when accessed",
+                        "fullName": "Event Page tests For validating event page: should open the food event page when accessed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec2": {
+                        "id": "spec2",
+                        "description": "should set the appropriate language for the event page",
+                        "fullName": "Event Page tests For validating event page: should set the appropriate language for the event page",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec3": {
+                        "id": "spec3",
+                        "description": "should see the correct AZAP number on event page - food",
+                        "fullName": "Event Page tests For validating event page: should see the correct AZAP number on event page - food",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.619 sec",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec4": {
+                        "id": "spec4",
+                        "description": "should open a clean instance of the activity tool",
+                        "fullName": "Event Page tests For validating event page: should open a clean instance of the activity tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec5": {
+                        "id": "spec5",
+                        "description": "should open the activity event page when accessed",
+                        "fullName": "Event Page tests For validating event page: should open the activity event page when accessed",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toBe",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec6": {
+                        "id": "spec6",
+                        "description": "should have a correct href for AstraZeneca link into the page footer",
+                        "fullName": "Event Page tests For validating event page: should have a correct href for AstraZeneca link into the page footer",
+                        "failedExpectations": [],
+                        "passedExpectations": [
+                            {
+                                "matcherName": "toContain",
+                                "message": "Passed.",
+                                "stack": "",
+                                "passed": true
+                            }
+                        ],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "0.07 sec",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "spec7": {
+                        "id": "spec7",
+                        "description": "should set the appropriate language for the mini-tool",
+                        "fullName": "Event Page tests For validating event page: should set the appropriate language for the mini-tool",
+                        "failedExpectations": [],
+                        "passedExpectations": [],
+                        "pendingReason": "",
+                        "status": "passed",
+                        "duration": "2 secs",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                    },
+                    "suite3": {
+                        "id": "suite3",
+                        "description": "Between expected elements in activity event page: ",
+                        "fullName": "Event Page tests For validating event page: Between expected elements in activity event page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec8": {
+                                "id": "spec8",
+                                "description": "should display the fit2me logo",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display the fit2me logo",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.583 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec9": {
+                                "id": "spec9",
+                                "description": "should display the language button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display the language button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.069 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec10": {
+                                "id": "spec10",
+                                "description": "should see the correct us customers label text",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should see the correct us customers label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.082 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec11": {
+                                "id": "spec11",
+                                "description": "should display my food button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display my food button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec12": {
+                                "id": "spec12",
+                                "description": "should display my meal planner button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display my meal planner button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec13": {
+                                "id": "spec13",
+                                "description": "should display my fridge button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display my fridge button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec14": {
+                                "id": "spec14",
+                                "description": "should display my activities button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display my activities button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.085 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec15": {
+                                "id": "spec15",
+                                "description": "should display my activity planner button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display my activity planner button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec16": {
+                                "id": "spec16",
+                                "description": "should display my victories button",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display my victories button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec17": {
+                                "id": "spec17",
+                                "description": "should display the page footer",
+                                "fullName": "Event Page tests For validating event page: Between expected elements in activity event page:  should display the page footer",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.095 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                        "duration": "1.344 sec"
+                    },
+                    "suite4": {
+                        "id": "suite4",
+                        "description": "Between expected labels and strings in the event page: ",
+                        "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page: ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec18": {
+                                "id": "spec18",
+                                "description": "should see the correct language button label text",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct language button label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.071 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec19": {
+                                "id": "spec19",
+                                "description": "should see the correct us customers label text",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct us customers label text",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.071 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec20": {
+                                "id": "spec20",
+                                "description": "should see the correct label on the my food button",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct label on the my food button",
+                                "failedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Expected 'Haga clic aquí para acceder a Mi dieta' to contain 'Haga clic aquí para obtener Mi dieta'.",
+                                        "stack": "Error: Failed expectation\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\event.js:93:54\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\built\\element.js:697:28\n    at ManagedPromise.invokeCallback_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2775:27\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                        "passed": false,
+                                        "expected": "Haga clic aquí para obtener Mi dieta",
+                                        "actual": "Haga clic aquí para acceder a Mi dieta"
+                                    }
+                                ],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "failed",
+                                "duration": "0.077 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                                "type": "failed"
+                            },
+                            "spec21": {
+                                "id": "spec21",
+                                "description": "should see the correct label on the my meal planner button",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct label on the my meal planner button",
+                                "failedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Expected 'Haga clic aquí para acceder a Mi planificador de comidas' to contain 'Haga clic aquí para acceder a Mi planificador de actividades'.",
+                                        "stack": "Error: Failed expectation\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\event.js:98:54\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\built\\element.js:697:28\n    at ManagedPromise.invokeCallback_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2775:27\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                        "passed": false,
+                                        "expected": "Haga clic aquí para acceder a Mi planificador de actividades",
+                                        "actual": "Haga clic aquí para acceder a Mi planificador de comidas"
+                                    }
+                                ],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "failed",
+                                "duration": "0.435 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                                "type": "failed"
+                            },
+                            "spec22": {
+                                "id": "spec22",
+                                "description": "should see the correct label on the my fridge button",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct label on the my fridge button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.396 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec23": {
+                                "id": "spec23",
+                                "description": "should see the correct label on the my activities button",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct label on the my activities button",
+                                "failedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Expected 'Haga clic aquí para acceder a Mis actividades' to contain 'Haga clic aquí para obtener Mis actividades'.",
+                                        "stack": "Error: Failed expectation\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\event.js:108:55\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\built\\element.js:697:28\n    at ManagedPromise.invokeCallback_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2775:27\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                        "passed": false,
+                                        "expected": "Haga clic aquí para obtener Mis actividades",
+                                        "actual": "Haga clic aquí para acceder a Mis actividades"
+                                    }
+                                ],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "failed",
+                                "duration": "0.073 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                                "type": "failed"
+                            },
+                            "spec24": {
+                                "id": "spec24",
+                                "description": "should see the correct label on the my activity planner button",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct label on the my activity planner button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.403 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec25": {
+                                "id": "spec25",
+                                "description": "should see the correct label on the my victories button",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct label on the my victories button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.079 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec26": {
+                                "id": "spec26",
+                                "description": "should see the correct footer product info on main page",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct footer product info on main page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.078 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec27": {
+                                "id": "spec27",
+                                "description": "should see the correct footer trademark on main page",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct footer trademark on main page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.061 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec28": {
+                                "id": "spec28",
+                                "description": "should see the correct AZAP number on event page - activity",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct AZAP number on event page - activity",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.058 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec29": {
+                                "id": "spec29",
+                                "description": "should see the correct AstraZeneca link into the page footer",
+                                "fullName": "Event Page tests For validating event page: Between expected labels and strings in the event page:  should see the correct AstraZeneca link into the page footer",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.071 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                        "type": "failed",
+                        "duration": "1.873 sec"
+                    },
+                    "suite5": {
+                        "id": "suite5",
+                        "description": "In order to check the correct functionality of event page buttons, ",
+                        "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons, ",
+                        "failedExpectations": [],
+                        "children": {
+                            "spec30": {
+                                "id": "spec30",
+                                "description": "should open the intro page after clicking the My activity button on event page",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should open the intro page after clicking the My activity button on event page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "4 secs",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec31": {
+                                "id": "spec31",
+                                "description": "should see the Back To Home button available into Intro screen",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the Back To Home button available into Intro screen",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.103 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec32": {
+                                "id": "spec32",
+                                "description": "should see the correct button text for Back To Home button into intro screen",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the correct button text for Back To Home button into intro screen",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.07 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec33": {
+                                "id": "spec33",
+                                "description": "should see the correct AZAP number into activity intro page opened from event tool",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the correct AZAP number into activity intro page opened from event tool",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.056 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec34": {
+                                "id": "spec34",
+                                "description": "should return to the event page using the Back to Home button",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should return to the event page using the Back to Home button",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec35": {
+                                "id": "spec35",
+                                "description": "should click the fit2me logo and see the discard preferences modal",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should click the fit2me logo and see the discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.743 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec36": {
+                                "id": "spec36",
+                                "description": "should see the Cancel button on discard preferences modal",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the Cancel button on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.094 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec37": {
+                                "id": "spec37",
+                                "description": "should see correct Cancel button label on discard preferences modal",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see correct Cancel button label on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.077 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec38": {
+                                "id": "spec38",
+                                "description": "should see the Discard button on discard preferences modal",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the Discard button on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.086 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec39": {
+                                "id": "spec39",
+                                "description": "should see correct Discard button label on discard preferences modal",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see correct Discard button label on discard preferences modal",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.09 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec40": {
+                                "id": "spec40",
+                                "description": "should click the Cancel button from preferences modal and have the preferences still saved",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should click the Cancel button from preferences modal and have the preferences still saved",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.537 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec41": {
+                                "id": "spec41",
+                                "description": "should discard preferences and see the event page being displayed",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should discard preferences and see the event page being displayed",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "1 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec42": {
+                                "id": "spec42",
+                                "description": "should open the intro page after clicking the My Food button on event page",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should open the intro page after clicking the My Food button on event page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "3 secs",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec43": {
+                                "id": "spec43",
+                                "description": "should see the correct AZAP number into food intro page opened from event tool",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the correct AZAP number into food intro page opened from event tool",
+                                "failedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Expected 'This product information is intended for use by US Consumers only.\nFit2Me™ is a trademark of the AstraZeneca group of companies.\n©2017 AstraZeneca. All rights reserved. 1966104-3202000 Last Updated 1/16' to contain '1990903-3231600 Última actualización 6/1'.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\event.js:190:53)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:23\n    at new ManagedPromise (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1082:7)\n    at controlFlowExecute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:80:18)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2820:25\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                        "passed": false,
+                                        "expected": "1990903-3231600 Última actualización 6/1",
+                                        "actual": "This product information is intended for use by US Consumers only.\nFit2Me™ is a trademark of the AstraZeneca group of companies.\n©2017 AstraZeneca. All rights reserved. 1966104-3202000 Last Updated 1/16"
+                                    }
+                                ],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "failed",
+                                "duration": "0.08 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                                "type": "failed"
+                            },
+                            "spec44": {
+                                "id": "spec44",
+                                "description": "should discard preferences while in my food and return back to the event page",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should discard preferences while in my food and return back to the event page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "2 secs",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec45": {
+                                "id": "spec45",
+                                "description": "should open the victories page after clicking the My Victories button on event tool page",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should open the victories page after clicking the My Victories button on event tool page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "2 secs",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec46": {
+                                "id": "spec46",
+                                "description": "should see the correct AZAP number into victories page opened from event tool",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the correct AZAP number into victories page opened from event tool",
+                                "failedExpectations": [
+                                    {
+                                        "matcherName": "toContain",
+                                        "message": "Expected 'This product information is intended for use by US Consumers only.\nFit2Me™ is a trademark of the AstraZeneca group of companies.\n©2017 AstraZeneca. All rights reserved. 2056405-3311306 Last Updated 2/17' to contain '2067506-3325913 Última actualización 2/17'.",
+                                        "stack": "Error: Failed expectation\n    at Object.<anonymous> (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\specs\\event.js:203:55)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:23\n    at new ManagedPromise (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1082:7)\n    at controlFlowExecute (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:80:18)\n    at TaskQueue.execute_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2820:25\n    at C:\\Users\\svuser\\Desktop\\AZ\\workspace\\new_win_tests\\protractor_auto_tests\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (node.js:369:9)",
+                                        "passed": false,
+                                        "expected": "2067506-3325913 Última actualización 2/17",
+                                        "actual": "This product information is intended for use by US Consumers only.\nFit2Me™ is a trademark of the AstraZeneca group of companies.\n©2017 AstraZeneca. All rights reserved. 2056405-3311306 Last Updated 2/17"
+                                    }
+                                ],
+                                "passedExpectations": [],
+                                "pendingReason": "",
+                                "status": "failed",
+                                "duration": "0.052 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                                "type": "failed"
+                            },
+                            "spec47": {
+                                "id": "spec47",
+                                "description": "should see the Back To Home button available into victories page",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should see the Back To Home button available into victories page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "0.243 sec",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            },
+                            "spec48": {
+                                "id": "spec48",
+                                "description": "should discard preferences while in my victories and return back to the event tool page",
+                                "fullName": "Event Page tests For validating event page: In order to check the correct functionality of event page buttons,  should discard preferences while in my victories and return back to the event tool page",
+                                "failedExpectations": [],
+                                "passedExpectations": [
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    },
+                                    {
+                                        "matcherName": "toBe",
+                                        "message": "Passed.",
+                                        "stack": "",
+                                        "passed": true
+                                    }
+                                ],
+                                "pendingReason": "",
+                                "status": "passed",
+                                "duration": "2 secs",
+                                "session": "82b2419c-56fd-4dc3-a835-23103f94093f"
+                            }
+                        },
+                        "status": "finished",
+                        "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                        "type": "failed",
+                        "duration": "17.231 sec"
+                    }
+                },
+                "status": "finished",
+                "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+                "type": "failed",
+                "duration": "34.137 sec"
+            }
+        },
+        "status": "finished",
+        "session": "82b2419c-56fd-4dc3-a835-23103f94093f",
+        "type": "failed",
+        "duration": "34.137 sec"
+    }
+}
